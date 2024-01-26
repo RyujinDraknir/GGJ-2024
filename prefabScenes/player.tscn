@@ -9,3 +9,6 @@ script = ExtResource("1_qcp51")
 
 [node name="Camera3D" type="Camera3D" parent="Pivot"]
 fov = 90.0
+
+[node name="RayCast3D" type="RayCast3D" parent="Pivot/Camera3D"]
+target_position = Vector3(0, 0, -10)

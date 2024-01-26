@@ -6,6 +6,8 @@ extends CharacterBody3D
 @onready var raycast = $Pivot/Camera3D/RayCast3D
 
 const SENS_SPEED = 3.0
+const ZOOM_SENS_SPEED = 2.0
+const LERP_ZOOM_SENS_SPEED = 2.0
 const LERP_ZOOM_SPEED = 9.0
 
 var zoom : bool = false
@@ -21,11 +23,20 @@ func _process(delta):
 	var zoomSource
 	if zoom:
 		camera.position.z = lerp(camera.position.z,-2.0,delta*LERP_ZOOM_SPEED)
+		#camera.position.y = lerp(camera.position.y, input_dir.y*ZOOM_SENS_SPEED,delta*LERP_ZOOM_SENS_SPEED)
+		#camera.position.x = lerp(camera.position.x, input_dir.x*ZOOM_SENS_SPEED,delta*LERP_ZOOM_SENS_SPEED)
 	else:
 		camera.position.z = lerp(camera.position.z,pivot.position.z,delta*LERP_ZOOM_SPEED)
-	
-	rotate_y(deg_to_rad(-input_dir.x*SENS_SPEED))
-	pivot.rotate_x(deg_to_rad(-input_dir.y*SENS_SPEED))
+		rotate_y(deg_to_rad(-input_dir.x*SENS_SPEED))
+		pivot.rotate_x(deg_to_rad(-input_dir.y*SENS_SPEED))
+		
 	pivot.rotation.x = clamp(pivot.rotation.x,deg_to_rad(0),deg_to_rad(50))
 	
+	if raycast.is_colliding():
+		if raycast.get_collider().is_in_group("scene"):
+			print("scene detected")
+		else:
+			print("not a scene")
+	else:
+		print("not colliding")
 	move_and_slide()

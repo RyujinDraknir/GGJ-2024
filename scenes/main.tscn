@@ -1,9 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://cudcy7o72gnon"]
+[gd_scene load_steps=6 format=3 uid="uid://cudcy7o72gnon"]
 
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_6q6j1"]
-[ext_resource type="Material" uid="uid://v2csvjkix4e5" path="res://textures/blue.tres" id="1_23y78"]
-[ext_resource type="Material" uid="uid://cxg33qag0nkfr" path="res://textures/green.tres" id="2_18jx4"]
-[ext_resource type="Material" uid="uid://dk6nxt0kyxtym" path="res://textures/red.tres" id="3_ewn4h"]
+[ext_resource type="PackedScene" uid="uid://ny33g8w8gito" path="res://prefabScenes/test_wall.tscn" id="1_yoi2q"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vfs8c"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -18,9 +16,6 @@ sky = SubResource("Sky_xxrm4")
 tonemap_mode = 2
 glow_enabled = true
 
-[sub_resource type="QuadMesh" id="QuadMesh_htkxf"]
-size = Vector2(10, 10)
-
 [node name="Main" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
@@ -34,75 +29,47 @@ environment = SubResource("Environment_v5ge6")
 
 [node name="CSGBox3D" type="CSGBox3D" parent="Map"]
 transform = Transform3D(3.39292, 0, 0, 0, 1, 0, 0, 0, 3.91651, -9.46716, 0.5, -6.64925)
+use_collision = true
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="Map/CSGBox3D"]
+transform = Transform3D(-0.983661, -0.444825, -0.048813, -2.70697, 2.19507, -0.101239, 1.3261, 0.0444835, -0.0406466, -0.752622, 0.234083, 0.16155)
+use_collision = true
 
 [node name="CSGBox3D2" type="CSGBox3D" parent="Map"]
 transform = Transform3D(3.39292, 0, 0, 0, 1, 0, 0, 0, 3.91651, 7.83675, 0.5, 16.7035)
+use_collision = true
 
 [node name="CSGBox3D3" type="CSGBox3D" parent="Map"]
-transform = Transform3D(0.375059, 0, -5.04141, 0, 1, 0, 1.41126, 0, 1.33981, 9.084, -0.5, -15.7005)
+transform = Transform3D(0.375059, 0, -5.04141, 0, 1, 0, 1.41126, 0, 1.33981, 9.084, 0.2, -15.7005)
+use_collision = true
 
 [node name="CSGBox3D4" type="CSGBox3D" parent="Map"]
 transform = Transform3D(0.375059, 0, -5.04141, 0, 1, 0, 1.41126, 0, 1.33981, -10.7144, 1.5, 5.43806)
+use_collision = true
 
 [node name="CSGBox3D5" type="CSGBox3D" parent="Map"]
 transform = Transform3D(-0.616706, 0, -3.72264, 0, 1, 0, 0.352705, 0, -6.50904, 1.06497, -3.0563, 0.193069)
+use_collision = true
 
 [node name="CSGBox3D6" type="CSGBox3D" parent="Map"]
 transform = Transform3D(-0.364424, -1.37687, -1.71567, -0.204624, 2.00253, -1.30189, -0.578837, 0.158939, 1.54038, -2.68104, 4.53462, -12.1366)
+use_collision = true
 
 [node name="CSGBox3D7" type="CSGBox3D" parent="Map"]
 transform = Transform3D(-0.364424, -1.37687, -1.71567, -0.204624, 2.00253, -1.30189, -0.578837, 0.158939, 1.54038, -6.95692, 3.06463, 17.6428)
+use_collision = true
 
 [node name="CSGBox3D8" type="CSGBox3D" parent="Map"]
 transform = Transform3D(-3.33749, -1.50926, -0.165619, -2.70697, 2.19507, -0.101239, 5.19371, 0.17422, -0.159193, 13.7869, 6.4157, -0.296326)
-
-[node name="CSGBox3D9" type="CSGBox3D" parent="Map"]
-transform = Transform3D(-3.33749, -1.50926, -0.165619, -2.70697, 2.19507, -0.101239, 5.19371, 0.17422, -0.159193, -12.0207, 3.73408, -6.01653)
+use_collision = true
 
 [node name="CSGBox3D10" type="CSGBox3D" parent="Map"]
 transform = Transform3D(-4.30357, -1.16152, 0.287386, -2.77366, 1.68931, 0.264577, -2.33516, 0.134079, -0.843895, 5.67592, 1.64111, 0.79153)
+use_collision = true
 
 [node name="walls" type="Node3D" parent="Map"]
-transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29)
 
-[node name="up" type="CSGMesh3D" parent="Map/walls"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12)
-material_override = ExtResource("1_23y78")
-mesh = SubResource("QuadMesh_htkxf")
-
-[node name="down" type="CSGMesh3D" parent="Map/walls"]
-transform = Transform3D(-1, 0, 8.9407e-08, 0, 1, 0, -8.9407e-08, 0, -1, 0, 0, 12)
-material_override = ExtResource("1_23y78")
-mesh = SubResource("QuadMesh_htkxf")
-
-[node name="right" type="CSGMesh3D" parent="Map/walls"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 12, 0, 4.76837e-07)
-material_override = ExtResource("3_ewn4h")
-mesh = SubResource("QuadMesh_htkxf")
-
-[node name="left" type="CSGMesh3D" parent="Map/walls"]
-transform = Transform3D(1.33118e-07, 0, 1, 0, 1, 0, -1, 0, 1.33118e-07, -12, 0, -4.76837e-07)
-material_override = ExtResource("3_ewn4h")
-mesh = SubResource("QuadMesh_htkxf")
-
-[node name="upleft" type="CSGMesh3D" parent="Map/walls"]
-transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 8.48528, 0, -8.48528)
-material_override = ExtResource("2_18jx4")
-mesh = SubResource("QuadMesh_htkxf")
-
-[node name="downright" type="CSGMesh3D" parent="Map/walls"]
-transform = Transform3D(-0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, -8.48528, 0, 8.48528)
-material_override = ExtResource("2_18jx4")
-mesh = SubResource("QuadMesh_htkxf")
-
-[node name="downleft" type="CSGMesh3D" parent="Map/walls"]
-transform = Transform3D(-0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 8.48528, 0, 8.48528)
-material_override = ExtResource("2_18jx4")
-mesh = SubResource("QuadMesh_htkxf")
-
-[node name="rightup" type="CSGMesh3D" parent="Map/walls"]
-transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -8.48528, 0, -8.48528)
-material_override = ExtResource("2_18jx4")
-mesh = SubResource("QuadMesh_htkxf")
+[node name="testWall" parent="Map/walls" instance=ExtResource("1_yoi2q")]
 
 [node name="Player" parent="." instance=ExtResource("1_6q6j1")]

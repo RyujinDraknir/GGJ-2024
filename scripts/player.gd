@@ -20,6 +20,11 @@ func _process(delta):
 	if Input.is_action_just_pressed("zoom"):
 		zoom = !zoom
 	
+	if Input.is_action_just_pressed("left"):
+		self.rotation.y += lerp(self.rotation.y,45.0,delta)
+	if Input.is_action_just_pressed("right"):
+		self.rotation.y += lerp(self.rotation.y,-45.0,delta)
+	
 	var zoomSource
 	if zoom:
 		camera.position.z = lerp(camera.position.z,-2.0,delta*LERP_ZOOM_SPEED)
@@ -27,10 +32,10 @@ func _process(delta):
 		#camera.position.x = lerp(camera.position.x, input_dir.x*ZOOM_SENS_SPEED,delta*LERP_ZOOM_SENS_SPEED)
 	else:
 		camera.position.z = lerp(camera.position.z,pivot.position.z,delta*LERP_ZOOM_SPEED)
-		rotate_y(deg_to_rad(-input_dir.x*SENS_SPEED))
-		pivot.rotate_x(deg_to_rad(-input_dir.y*SENS_SPEED))
+		#rotate_y(deg_to_rad(-input_dir.x*SENS_SPEED))
+		#pivot.rotate_x(deg_to_rad(-input_dir.y*SENS_SPEED))
 		
-	pivot.rotation.x = clamp(pivot.rotation.x,deg_to_rad(0),deg_to_rad(50))
+	#pivot.rotation.x = clamp(pivot.rotation.x,deg_to_rad(0),deg_to_rad(50))
 	
 	if raycast.is_colliding():
 		if raycast.get_collider().is_in_group("scene"):

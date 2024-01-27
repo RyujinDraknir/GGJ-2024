@@ -137,8 +137,8 @@ size = Vector3(0.0820618, 0.160919, 0.0734863)
 [node name="Player" parent="." instance=ExtResource("1_6q6j1")]
 
 [node name="TF1_Test" parent="." instance=ExtResource("4_du7um")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -12)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -9)
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
-transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -0.8, -13)
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -0.8, -10)
 texture = ExtResource("3_68vg0")

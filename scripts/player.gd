@@ -80,7 +80,7 @@ func _process(delta):
 	var zoomSource
 	if zoom:
 		#print(camera.position)
-		camera.position.z = lerp(camera.position.z,-10.0,delta*LERP_ZOOM_SPEED)
+		camera.position.z = lerp(camera.position.z,-7.0,delta*LERP_ZOOM_SPEED)
 
 		camera.position.y = lerp(camera.position.y, -lastMousePosition.y, delta*LERP_ZOOM_SENS_SPEED)
 		camera.position.x = lerp(camera.position.x, lastMousePosition.x, delta*LERP_ZOOM_SENS_SPEED)

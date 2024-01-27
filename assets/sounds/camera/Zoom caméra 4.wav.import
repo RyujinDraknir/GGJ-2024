@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bw6swurlbw7fv"
+path="res://.godot/imported/Zoom caméra 4.wav-a51318de0498a9902681c375c0d9dd53.sample"
+
+[deps]
+
+source_file="res://assets/sounds/camera/Zoom caméra 4.wav"
+dest_files=["res://.godot/imported/Zoom caméra 4.wav-a51318de0498a9902681c375c0d9dd53.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

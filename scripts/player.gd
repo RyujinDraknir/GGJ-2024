@@ -2,11 +2,14 @@ extends CharacterBody3D
 
 @onready var pivot = $Pivot
 @onready var camera = $Pivot/Camera3D
+@onready var audio_stream = $Pivot/AudioStreamPlayer
 
 @onready var raycast = $Pivot/Camera3D/RayCast3D
 
 @onready var audiomate_component = $AudiomateComponent
 @onready var state_component = $StateComponent
+
+const BASE_AUDIO_PATH : String = "res://assets/sounds/camera/"
 
 const SENS_SPEED = 3.0
 const ZOOM_SENS_SPEED = 2.0
@@ -57,12 +60,20 @@ func _process(delta):
 		state_component.state_is_good()
 	
 	var canRotate = round(rad_to_deg(targetRotation.y)) == round(pivot.rotation_degrees.y)
+	if canRotate:
+		audio_stream.stop()
 	if canRotate && Input.is_action_just_pressed("left"):
 		targetRotation = pivot.rotation
 		targetRotation.y += deg_to_rad(CAMERA_TURN_ANGLE_DEGREES)
+		var audioIndex = randi_range(1, 4)
+		audio_stream.stream = load(BASE_AUDIO_PATH + "Rail cam " + str(audioIndex) + ".wav")
+		audio_stream.play()
 	if canRotate && Input.is_action_just_pressed("right"):
 		targetRotation = pivot.rotation
 		targetRotation.y -= deg_to_rad(CAMERA_TURN_ANGLE_DEGREES)
+		var audioIndex = randi_range(1, 4)
+		audio_stream.stream = load(BASE_AUDIO_PATH + "Rail cam " + str(audioIndex) + ".wav")
+		audio_stream.play()
 
 	var tween = get_tree().create_tween()
 	tween.tween_property(pivot, "rotation", targetRotation, ROTATION_DURATION)
@@ -71,7 +82,6 @@ func _process(delta):
 	if zoom:
 		#print(camera.position)
 		camera.position.z = lerp(camera.position.z,-15.0,delta*LERP_ZOOM_SPEED)
-
 
 		camera.position.y = lerp(camera.position.y, -lastMousePosition.y, delta*LERP_ZOOM_SENS_SPEED)
 		camera.position.x = lerp(camera.position.x, lastMousePosition.x, delta*LERP_ZOOM_SENS_SPEED)

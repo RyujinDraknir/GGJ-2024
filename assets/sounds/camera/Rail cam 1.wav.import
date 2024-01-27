@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://05wpvt8e2xni"
+path="res://.godot/imported/Rail cam 1.wav-2faa6040ecf1a79c546df982608aff5a.sample"
+
+[deps]
+
+source_file="res://assets/sounds/camera/Rail cam 1.wav"
+dest_files=["res://.godot/imported/Rail cam 1.wav-2faa6040ecf1a79c546df982608aff5a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

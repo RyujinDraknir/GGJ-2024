@@ -9,7 +9,6 @@ func _on_pause_menu_main_menu_pressed():
 	else:
 		print("No main menu scene set in the Scene switcher.")
 
-
 func _on_play_button_pressed():
 	if start_game_scene: 
 		get_tree().change_scene_to_file(start_game_scene)

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://8lyc82ia37ye"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_1t7y8"]
+[ext_resource type="SpriteFrames" uid="uid://d085ha7i7o5tk" path="res://assets/npcs/TF1-Neutre/ft1neutre.tres" id="2_qnewg"]
+
+[node name="tf1neutre" instance=ExtResource("1_1t7y8")]
+sprite_frames = ExtResource("2_qnewg")
+frame_progress = 0.11549
+
+[node name="CSGBox3D" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0619202, 0.28398, 2.98023e-08)

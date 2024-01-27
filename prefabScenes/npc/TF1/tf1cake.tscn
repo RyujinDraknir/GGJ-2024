@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://tvxrwgk78tss"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_xhltu"]
+[ext_resource type="SpriteFrames" uid="uid://bcvu2tao28rc0" path="res://assets/npcs/tf1cake/tf1cake.tres" id="2_kw667"]
+
+[node name="TF1Cake" instance=ExtResource("1_xhltu")]
+sprite_frames = ExtResource("2_kw667")
+frame_progress = 0.946513
+
+[node name="CSGBox3D" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0619202, 0.0261476, 2.98023e-08)

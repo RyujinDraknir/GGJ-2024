@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://b4djowhpfr5vy"]
+
+[ext_resource type="Texture2D" uid="uid://c1kxfkl2yycn5" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00000.png" id="1_smwys"]
+[ext_resource type="Texture2D" uid="uid://bbpry2dpge6gq" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00001.png" id="2_cwqo1"]
+[ext_resource type="Texture2D" uid="uid://dn1o50ki4wdsi" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00002.png" id="3_byqqo"]
+[ext_resource type="Texture2D" uid="uid://d04amktr1kwg1" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00003.png" id="4_dduok"]
+[ext_resource type="Texture2D" uid="uid://n5skhhp1defp" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00004.png" id="5_srg2w"]
+[ext_resource type="Texture2D" uid="uid://cwawo8eo6aewg" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00005.png" id="6_mnw33"]
+[ext_resource type="Texture2D" uid="uid://cl33833q2quo4" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00006.png" id="7_v3q6y"]
+[ext_resource type="Texture2D" uid="uid://xpmke4cwvb70" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00007.png" id="8_7elth"]
+[ext_resource type="Texture2D" uid="uid://cism17ahpuym1" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00008.png" id="9_tg7nn"]
+[ext_resource type="Texture2D" uid="uid://biujhw7qjd3ov" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00009.png" id="10_obsb6"]
+[ext_resource type="Texture2D" uid="uid://bx8g2521qjpq3" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00010.png" id="11_ddfwb"]
+[ext_resource type="Texture2D" uid="uid://btd4aobo48di4" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00011.png" id="12_w2fap"]
+[ext_resource type="Texture2D" uid="uid://bsmrpvgsull0t" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00012.png" id="13_dboo5"]
+[ext_resource type="Texture2D" uid="uid://bc1jsamfb267o" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00013.png" id="14_ewart"]
+[ext_resource type="Texture2D" uid="uid://c8pggpw7ti4xf" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00014.png" id="15_60y57"]
+[ext_resource type="Texture2D" uid="uid://by0h3e8ah002h" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00015.png" id="16_433hy"]
+[ext_resource type="Texture2D" uid="uid://djym62c5uvake" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00016.png" id="17_5gibt"]
+[ext_resource type="Texture2D" uid="uid://d3uf8x8jmqh7f" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00017.png" id="18_4di8w"]
+[ext_resource type="Texture2D" uid="uid://cmv8r2nbm2jo4" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00018.png" id="19_jfan2"]
+[ext_resource type="Texture2D" uid="uid://c63o7nwox7hx" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00019.png" id="20_suonc"]
+[ext_resource type="Texture2D" uid="uid://duu54o3pl4ooj" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00020.png" id="21_umyx1"]
+[ext_resource type="Texture2D" uid="uid://c63y7liw0du7j" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00021.png" id="22_mb61h"]
+[ext_resource type="Texture2D" uid="uid://bqubaupx12pwy" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00022.png" id="23_vg24c"]
+[ext_resource type="Texture2D" uid="uid://bmijwpoltnmlm" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00023.png" id="24_oot04"]
+[ext_resource type="Texture2D" uid="uid://ostmjavbaigt" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00024.png" id="25_5vxq2"]
+[ext_resource type="Texture2D" uid="uid://daul26c7hjexh" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00025.png" id="26_5x7l6"]
+[ext_resource type="Texture2D" uid="uid://dh8wkx6jr0lhc" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00026.png" id="27_6qp3s"]
+[ext_resource type="Texture2D" uid="uid://cxxmel8j4yw0u" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00027.png" id="28_gs10y"]
+[ext_resource type="Texture2D" uid="uid://dpdgp8v6d51sb" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00028.png" id="29_dwxua"]
+[ext_resource type="Texture2D" uid="uid://csjoiifkf4elm" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00029.png" id="30_c3rj0"]
+[ext_resource type="Texture2D" uid="uid://b0ikhd27j3ib0" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00030.png" id="31_oeyf3"]
+[ext_resource type="Texture2D" uid="uid://dt81ysny7edxr" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00031.png" id="32_4uejm"]
+[ext_resource type="Texture2D" uid="uid://d10rqjdcgj4g7" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00032.png" id="33_hhhuw"]
+[ext_resource type="Texture2D" uid="uid://bjphjlmpjctia" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00033.png" id="34_x67qc"]
+[ext_resource type="Texture2D" uid="uid://dig4shol8euic" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00034.png" id="35_hcj3e"]
+[ext_resource type="Texture2D" uid="uid://co21h6ehich4f" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00035.png" id="36_eu045"]
+[ext_resource type="Texture2D" uid="uid://b2n8fb8f2is5o" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00036.png" id="37_hlf0c"]
+[ext_resource type="Texture2D" uid="uid://evsw6tch0ktm" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00037.png" id="38_i5ju4"]
+[ext_resource type="Texture2D" uid="uid://cosj7dydbykqt" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00038.png" id="39_6077u"]
+[ext_resource type="Texture2D" uid="uid://davirgudgc3wq" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00039.png" id="40_laqm7"]
+[ext_resource type="Texture2D" uid="uid://bvckuiyomlqfi" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00040.png" id="41_8sy5x"]
+[ext_resource type="Texture2D" uid="uid://x0q2uufw0e0g" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00041.png" id="42_5sd6i"]
+[ext_resource type="Texture2D" uid="uid://cbvbflt8vnbrl" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00042.png" id="43_xvvu6"]
+[ext_resource type="Texture2D" uid="uid://bvah8t1km0kb6" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00043.png" id="44_583g6"]
+[ext_resource type="Texture2D" uid="uid://7nxcuh60md26" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00044.png" id="45_1s8p4"]
+[ext_resource type="Texture2D" uid="uid://ctr2ymgcpveyx" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00045.png" id="46_fsgw0"]
+[ext_resource type="Texture2D" uid="uid://dkg4dugn7hu7l" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00046.png" id="47_nlr2n"]
+[ext_resource type="Texture2D" uid="uid://cirunqwb3e72d" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00047.png" id="48_755dc"]
+[ext_resource type="Texture2D" uid="uid://da100pysacy7e" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00048.png" id="49_mvgl7"]
+[ext_resource type="Texture2D" uid="uid://c4aylpxxi18t" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00049.png" id="50_8lg02"]
+[ext_resource type="Texture2D" uid="uid://l1xc6t7amvep" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00050.png" id="51_f7r1q"]
+[ext_resource type="Texture2D" uid="uid://cm0j3ohfstfqf" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00051.png" id="52_dgg21"]
+[ext_resource type="Texture2D" uid="uid://c3hkpoktfjpdi" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00052.png" id="53_esh75"]
+[ext_resource type="Texture2D" uid="uid://b2l2n16uqjqu4" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00053.png" id="54_btrok"]
+[ext_resource type="Texture2D" uid="uid://3dngcbkvdxr0" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00054.png" id="55_tb4os"]
+[ext_resource type="Texture2D" uid="uid://cw76d2xl5f7ya" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00055.png" id="56_ge052"]
+[ext_resource type="Texture2D" uid="uid://cd4o3txltvntw" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00056.png" id="57_oofas"]
+[ext_resource type="Texture2D" uid="uid://x0akrndmgho4" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00057.png" id="58_33lk4"]
+[ext_resource type="Texture2D" uid="uid://cq7tx3guxkili" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00058.png" id="59_6bupf"]
+[ext_resource type="Texture2D" uid="uid://dkd6f01b6e7y7" path="res://assets/npcs/Prez-Zombie-Invasion/Zombie-invasion_00059.png" id="60_qawb7"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_smwys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_cwqo1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_byqqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dduok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_srg2w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_mnw33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_v3q6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_7elth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_tg7nn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_obsb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ddfwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_w2fap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_dboo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ewart")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_60y57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_433hy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_5gibt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_4di8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_jfan2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_suonc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_umyx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_mb61h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_vg24c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_oot04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_5vxq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_5x7l6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_6qp3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_gs10y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_dwxua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_c3rj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_oeyf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_4uejm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_hhhuw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_x67qc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_hcj3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_eu045")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_hlf0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_i5ju4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_6077u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_laqm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_8sy5x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_5sd6i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_xvvu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_583g6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_1s8p4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_fsgw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_nlr2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_755dc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_mvgl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_8lg02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_f7r1q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_dgg21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_esh75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_btrok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_tb4os")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_ge052")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_oofas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_33lk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_6bupf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_qawb7")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

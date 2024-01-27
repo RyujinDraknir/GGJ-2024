@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdwbj6c6qb6dv"]
+
+[ext_resource type="PackedScene" uid="uid://ci10nhkj5my3f" path="res://prefabScenes/npc/TF1/meme.tscn" id="1_ksjca"]
+[ext_resource type="SpriteFrames" uid="uid://bmw4xva4m1v8e" path="res://assets/npcs/Zombie-Invasion/zombie_invasion.tres" id="2_leird"]
+
+[node name="ZombieInvasion" instance=ExtResource("1_ksjca")]
+sprite_frames = ExtResource("2_leird")
+frame_progress = 0.86908
+isBad = true

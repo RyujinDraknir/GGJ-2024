@@ -3,8 +3,8 @@
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_6q6j1"]
 [ext_resource type="PackedScene" uid="uid://dviseodvux3xb" path="res://imports/TF1_Test.glb" id="4_du7um"]
 [ext_resource type="PackedScene" uid="uid://cs1h8vpk6q8dg" path="res://imports/Kitchen_Test.glb" id="5_2xt1e"]
-[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc.tscn" id="5_ysyir"]
-[ext_resource type="SpriteFrames" uid="uid://cbc3oe2sdnda6" path="res://assets/images/cuistot-coupé/cuisto_coupe_frames.tres" id="6_ywrlg"]
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="5_ysyir"]
+[ext_resource type="SpriteFrames" uid="uid://cbc3oe2sdnda6" path="res://assets/npcs/cuistot-coupe/cuisto_coupe_frames.tres" id="6_ywrlg"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_m21f4"]
 ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -55,10 +55,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -9)
 [node name="Sprite3D" type="Sprite3D" parent="ShowEvents"]
 script = SubResource("GDScript_3mg7h")
 
-[node name="Npc" parent="." instance=ExtResource("5_ysyir")]
+[node name="cuisto_coupe" parent="." instance=ExtResource("5_ysyir")]
 transform = Transform3D(-0.15, 0, -1.31134e-08, 0, 0.15, 0, 1.31134e-08, 0, -0.15, 0.0396049, -0.646181, 8.9)
 sprite_frames = ExtResource("6_ywrlg")
-autoplay = "default"
+frame_progress = 0.0
 isBad = true
 
 [node name="Kitchen_Test" parent="." instance=ExtResource("5_2xt1e")]

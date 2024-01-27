@@ -11,15 +11,15 @@ extends CharacterBody3D
 
 const BASE_AUDIO_PATH : String = "res://assets/sounds/camera/"
 
-const SENS_SPEED = 3.0
-const ZOOM_SENS_SPEED = 2.0
+#const SENS_SPEED = 3.0
+#const ZOOM_SENS_SPEED = 2.0
 const LERP_ZOOM_SENS_SPEED = 0.5
 const LERP_ZOOM_SPEED = 9.0
 const CAMERA_ROTATION_OPTIONS : int = 8
 const CAMERA_TURN_ANGLE_DEGREES = 360 / CAMERA_ROTATION_OPTIONS
 #duration in seconds
 const ROTATION_DURATION : float = 0.4
-const SCENE_BOUNDARY : float = 500.0
+const SCENE_BOUNDARY : float = 5.0
 const BASE_CAMERA_POS : Vector3 = Vector3(0,0,0)
 
 var targetRotation : Vector3
@@ -27,6 +27,9 @@ var startRotation : Vector3
 var lastMousePosition : Vector2
 var zoom : bool
 var willZoom : bool
+var canZoom : bool = false
+
+var isCameraMoving : bool = false
 
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
@@ -36,13 +39,15 @@ func _ready():
 func _input(event):
 	if event is InputEventMouseMotion and zoom :
 		lastMousePosition = event.relative
-		lastMousePosition = clamp(lastMousePosition, Vector2(-SCENE_BOUNDARY,-SCENE_BOUNDARY), Vector2(SCENE_BOUNDARY,SCENE_BOUNDARY))
+		isCameraMoving = round(lastMousePosition.x) == round(event.relative.x) && round(lastMousePosition.y) == round(event.relative.y)
+		#lastMousePosition = clamp(lastMousePosition, Vector2(-SCENE_BOUNDARY,-SCENE_BOUNDARY), Vector2(SCENE_BOUNDARY,SCENE_BOUNDARY))
 
 func _process(delta):
 	willZoom = Input.is_action_pressed("zoom")
 	if !zoom && willZoom :
 		Input.warp_mouse(Vector2(0,0))
 		lastMousePosition = Vector2(0,0)
+		playAudio(6, "Zoom caméra  ")
 	zoom =  willZoom
 
 	if Input.is_action_just_pressed("add"):
@@ -59,20 +64,21 @@ func _process(delta):
 		state_component.state_is_good()
 	
 	var canRotate = round(rad_to_deg(targetRotation.y)) == round(pivot.rotation_degrees.y)
-	if canRotate:
+	print(isCameraMoving)
+	if (canRotate && canZoom && !isCameraMoving):
 		audio_stream.stop()
+	if(!canZoom) :
+		playAudio(5, "Zoom caméra ")
+	if(isCameraMoving && !audio_stream.playing) :
+		playAudio(4, "Zoom mouv cam ")
 	if canRotate && Input.is_action_just_pressed("left"):
 		targetRotation = pivot.rotation
 		targetRotation.y += deg_to_rad(CAMERA_TURN_ANGLE_DEGREES)
-		var audioIndex = randi_range(1, 4)
-		audio_stream.stream = load(BASE_AUDIO_PATH + "Rail cam " + str(audioIndex) + ".wav")
-		audio_stream.play()
+		playAudio(4, "Rail cam ")
 	if canRotate && Input.is_action_just_pressed("right"):
 		targetRotation = pivot.rotation
 		targetRotation.y -= deg_to_rad(CAMERA_TURN_ANGLE_DEGREES)
-		var audioIndex = randi_range(1, 4)
-		audio_stream.stream = load(BASE_AUDIO_PATH + "Rail cam " + str(audioIndex) + ".wav")
-		audio_stream.play()
+		playAudio(4, "Rail cam ")
 
 	var tween = get_tree().create_tween()
 	tween.tween_property(pivot, "rotation", targetRotation, ROTATION_DURATION)
@@ -84,23 +90,15 @@ func _process(delta):
 
 		camera.position.y = lerp(camera.position.y, -lastMousePosition.y, delta*LERP_ZOOM_SENS_SPEED)
 		camera.position.x = lerp(camera.position.x, lastMousePosition.x, delta*LERP_ZOOM_SENS_SPEED)
+		camera.position.y = clamp(camera.position.y, -1, SCENE_BOUNDARY)
+		camera.position.x = clamp(camera.position.x, -SCENE_BOUNDARY, SCENE_BOUNDARY)
 	else:
 		camera.position = lerp(camera.position,BASE_CAMERA_POS,delta*LERP_ZOOM_SPEED)
-		#print("pas zoomed")
-		#rotate_y(deg_to_rad(-input_dir.x*SENS_SPEED))
-		#pivot.rotate_x(deg_to_rad(-input_dir.y*SENS_SPEED))
+	var cameraZPos = round(camera.position.z)
+	canZoom = (cameraZPos == -10 || cameraZPos == 0) && !cameraZPos > 0
 
-	#pivot.rotation.x = clamp(pivot.rotation.x,deg_to_rad(0),deg_to_rad(50))
-
-	#if raycast.is_colliding():
-		#if raycast.get_collider().is_in_group("scene"):
-			#print("scene detected")
-		#else:
-			#print("not a scene")
-	#else:
-		#print("not colliding")
-	move_and_slide()
-
-enum TypeBarre {
-	Barre, Beurre
-}
+func playAudio(nbOptions : int, fileName : String):
+	audio_stream.stop()
+	var audioIndex = randi_range(1, nbOptions)
+	audio_stream.stream = load(BASE_AUDIO_PATH + fileName + str(audioIndex) + ".wav")
+	audio_stream.play()

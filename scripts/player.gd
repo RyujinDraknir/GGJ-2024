@@ -5,6 +5,9 @@ extends CharacterBody3D
 
 @onready var raycast = $Pivot/Camera3D/RayCast3D
 
+@onready var legality_component = $LegalityComponent
+
+
 const SENS_SPEED = 3.0
 const ZOOM_SENS_SPEED = 2.0
 const LERP_ZOOM_SENS_SPEED = 2.0
@@ -19,6 +22,11 @@ func _process(delta):
 	
 	if Input.is_action_just_pressed("zoom"):
 		zoom = !zoom
+	
+	if Input.is_action_just_pressed("add"):
+		legality_component.add(10)
+	if Input.is_action_just_pressed("subtract"):
+		legality_component.subtract(10)
 	
 	if Input.is_action_just_pressed("left"):
 		self.rotation.y += lerp(self.rotation.y,45.0,delta)

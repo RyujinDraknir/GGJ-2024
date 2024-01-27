@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://caabi8447msyu"]
+[gd_scene load_steps=6 format=3 uid="uid://caabi8447msyu"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_qcp51"]
+[ext_resource type="PackedScene" uid="uid://bpgcs28uus8de" path="res://prefabScenes/player_hud.tscn" id="2_667rt"]
+[ext_resource type="PackedScene" uid="uid://biiyngiixbliu" path="res://prefabScenes/audiomate_component.tscn" id="3_8h2gm"]
+[ext_resource type="Script" path="res://scripts/player_hud.gd" id="3_dgj4a"]
+[ext_resource type="PackedScene" uid="uid://dhufb7areltba" path="res://prefabScenes/legality_component.tscn" id="3_k5xr4"]
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_qcp51")
@@ -12,3 +16,12 @@ fov = 90.0
 
 [node name="RayCast3D" type="RayCast3D" parent="Pivot/Camera3D"]
 target_position = Vector3(0, 0, -100)
+
+[node name="LegalityComponent" parent="." instance=ExtResource("3_k5xr4")]
+start_legality = 50.0
+
+[node name="AudiomateComponent" parent="." instance=ExtResource("3_8h2gm")]
+start_audiomate = 20.0
+
+[node name="PlayerHUD" parent="." instance=ExtResource("2_667rt")]
+script = ExtResource("3_dgj4a")

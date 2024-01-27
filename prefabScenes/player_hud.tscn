@@ -1,4 +1,19 @@
-[gd_scene format=3 uid="uid://bpgcs28uus8de"]
+[gd_scene load_steps=9 format=3 uid="uid://bpgcs28uus8de"]
+
+[ext_resource type="Texture2D" uid="uid://dxwqu6u616c5m" path="res://assets/images/Jauge-légalité.svg" id="1_l4adg"]
+[ext_resource type="Texture2D" uid="uid://k8gubb7sghve" path="res://assets/images/Simple-Frame-Camera.png" id="1_wden5"]
+[ext_resource type="Texture2D" uid="uid://cniq7h7ywscdw" path="res://assets/images/Audimat.png" id="2_fqdoh"]
+[ext_resource type="Texture2D" uid="uid://bb8hfvjkjoliw" path="res://assets/images/Audimat-stonks.svg" id="3_pkt08"]
+[ext_resource type="Texture2D" uid="uid://ctjnd66qmqnji" path="res://assets/images/Audimat-notstonks.svg" id="4_60m7g"]
+[ext_resource type="Texture2D" uid="uid://baufa7x3hmp02" path="res://assets/images/Audimat-neutral.svg" id="5_hl44a"]
+[ext_resource type="Texture2D" uid="uid://d1lbc1crm60f7" path="res://assets/images/Zoom.png" id="7_3j27g"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x0knh"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
 
 [node name="PlayerHUD" type="Control"]
 layout_mode = 3
@@ -10,23 +25,74 @@ grow_vertical = 2
 
 [node name="LegalityProgressBar" type="ProgressBar" parent="."]
 layout_mode = 1
-anchors_preset = 4
+anchors_preset = 8
+anchor_left = 0.5
 anchor_top = 0.5
+anchor_right = 0.5
 anchor_bottom = 0.5
-offset_top = -324.0
-offset_right = 33.0
-offset_bottom = 324.0
+offset_left = -584.0
+offset_top = 336.0
+offset_right = 594.0
+offset_bottom = 389.0
+grow_horizontal = 2
 grow_vertical = 2
-fill_mode = 3
+theme_override_styles/fill = SubResource("StyleBoxFlat_x0knh")
+value = 100.0
+show_percentage = false
+
+[node name="Jauge-légalité" type="Sprite2D" parent="LegalityProgressBar"]
+position = Vector2(590, 26)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_l4adg")
 
 [node name="AudiomateLabel" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
-offset_left = 53.0
-offset_top = -11.5
-offset_right = 93.0
-offset_bottom = 11.5
+offset_left = 1636.0
+offset_top = -359.0
+offset_right = 1740.0
+offset_bottom = -336.0
 grow_vertical = 2
-text = "NULL"
+text = "8000000000"
+
+[node name="Container" type="Container" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="FrameCamera" type="Sprite2D" parent="Container"]
+position = Vector2(-0.499985, 3.8147e-05)
+scale = Vector2(1.50078, 1.5)
+texture = ExtResource("1_wden5")
+
+[node name="Audimat" type="Sprite2D" parent="Container"]
+position = Vector2(721, -347)
+scale = Vector2(1.57407, 1.57407)
+texture = ExtResource("2_fqdoh")
+
+[node name="Audimat-stonks" type="Sprite2D" parent="Container"]
+position = Vector2(787, -348)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("3_pkt08")
+
+[node name="Audimat-notstonks" type="Sprite2D" parent="Container"]
+position = Vector2(787, -348)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("4_60m7g")
+
+[node name="Audimat-neutral" type="Sprite2D" parent="Container"]
+position = Vector2(787, -348)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("5_hl44a")
+
+[node name="Zoom" type="Sprite2D" parent="Container"]
+position = Vector2(-690, 95)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("7_3j27g")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bpgcs28uus8de"]
+[gd_scene load_steps=12 format=3 uid="uid://bpgcs28uus8de"]
 
 [ext_resource type="Texture2D" uid="uid://dxwqu6u616c5m" path="res://assets/images/Jauge-légalité.svg" id="1_l4adg"]
 [ext_resource type="Texture2D" uid="uid://k8gubb7sghve" path="res://assets/images/Simple-Frame-Camera.png" id="1_wden5"]

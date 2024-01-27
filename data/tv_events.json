@@ -1,0 +1,350 @@
+{
+    "Steps" : [
+        {
+            "Id" : 1,
+            "Soucis" : [
+                { 
+                    "Name" : "CUI_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "TF1_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TF1_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "JTD_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "JTD_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "TAS_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TAS_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : null
+                }
+            ]
+        },
+        {
+            "Id" : 2,
+            "Soucis" : [
+                { 
+                    "Name" : "CUI_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "TAS_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "CUI_2 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : {
+                        "Name" : "TAS_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TF1_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : {
+                        "Name" : "CUI_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "JTD_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : {
+                        "Name" : "CUI_2_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TAS_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : null
+                }
+            ]
+        },
+        {
+            "Id" : 3,
+            "Soucis" : [
+                { 
+                    "Name" : "CUI_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "JTD_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TF1_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : null
+                },
+                { 
+                    "Name" : "JTD_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : {
+                        "Name" : "TAS_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TAS_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : {
+                        "Name" : "CUI_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                }
+            ]
+        },
+        {
+            "Id" : 4,
+            "Soucis" : [
+                { 
+                    "Name" : "TF1_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "CUI_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TF1_2 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : {
+                        "Name" : "JTD_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TAS_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : null
+                },
+                { 
+                    "Name" : "TAS_2 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : null
+                }
+            ]
+        },
+        {
+            "Id" : 5,
+            "Soucis" : [
+                { 
+                    "Name" : "CUI_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : null
+                },
+                { 
+                    "Name" : "TF1_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : null
+                },
+                { 
+                    "Name" : "JTD_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : null
+                }
+            ]
+        },
+        {
+            "Id" : 6,
+            "Soucis" : [
+                { 
+                    "Name" : "CUI_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "CUI_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TF1_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "TAS_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "JTD_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "TF1_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                }
+                },
+                { 
+                    "Name" : "TAS_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : null
+                }
+            ]
+        },
+        {
+            "Id" : 7,
+            "Soucis" : [
+                { 
+                    "Name" : "CUI_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : null
+                },
+                { 
+                    "Name" : "TF1_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : null
+                },
+                { 
+                    "Name" : "JTD_1 PLACEHOLDER",
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Solution" : {
+                        "Name" : "CUI_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                },
+                { 
+                    "Name" : "TAS_1 PLACEHOLDER",
+                    "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                    "Sprite_Path" : "",
+                    "Sound_Path" : "",
+                    "Solution" : {
+                        "Name" : "JTD_1_SOL PLACEHOLDER",
+                        "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+                        "Sprite_Path" : "",
+                        "Sound_Path" : ""
+                    }
+                }
+            ]
+        }
+    ],
+    "Catastrophes" : [
+        {
+            "Etape" : 5,
+            "Name" : "CUI_1 PLACEHOLDER",
+            "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+            "Sprite_Path" : "",
+            "Sound_Path" : ""
+        },
+        { 
+            "Etape" : 6,
+            "Name" : "TF1_1 PLACEHOLDER",
+            "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+            "Sprite_Path" : "",
+            "Sound_Path" : ""
+        },
+        {
+            "Etape" : 5,
+            "Name" : "JTD_1 PLACEHOLDER",
+            "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+            "Sprite_Path" : "",
+            "Sound_Path" : ""
+        },
+        {
+            "Etape" :6,
+            "Name" : "TAS_1 PLACEHOLDER",
+            "Coords" : {"x" : 0, "y" : 0, "z" : 0},
+            "Sprite_Path" : "",
+            "Sound_Path" : ""
+        }
+    ]
+}

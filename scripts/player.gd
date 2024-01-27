@@ -25,7 +25,7 @@ const BASE_CAMERA_POS : Vector3 = Vector3(0,0,0)
 var targetRotation : Vector3
 var startRotation : Vector3
 var lastMousePosition : Vector2
-var zoom : bool
+@export var zoom : bool = false
 var willZoom : bool
 var canZoom : bool = false
 
@@ -64,7 +64,7 @@ func _process(delta):
 		state_component.state_is_good()
 	
 	var canRotate = round(rad_to_deg(targetRotation.y)) == round(pivot.rotation_degrees.y)
-	print(isCameraMoving)
+	
 	if (canRotate && canZoom && !isCameraMoving):
 		audio_stream.stop()
 	if(!canZoom) :
@@ -85,7 +85,6 @@ func _process(delta):
 
 	var zoomSource
 	if zoom:
-		#print(camera.position)
 		camera.position.z = lerp(camera.position.z,-7.0,delta*LERP_ZOOM_SPEED)
 
 		camera.position.y = lerp(camera.position.y, -lastMousePosition.y, delta*LERP_ZOOM_SENS_SPEED)

@@ -4,7 +4,7 @@ extends CharacterBody3D
 @onready var camera = $Pivot/Camera3D
 @onready var audio_stream = $Pivot/AudioStreamPlayer
 
-@onready var raycast = $Pivot/Camera3D/RayCast3D
+@onready var raycast = $Pivot/Camera3D/ShapeCast3D
 
 @onready var audiomate_component = $AudiomateComponent
 @onready var state_component = $StateComponent
@@ -49,19 +49,6 @@ func _process(delta):
 		lastMousePosition = Vector2(0,0)
 		playAudio(6, "Zoom caméra  ")
 	zoom =  willZoom
-
-	if Input.is_action_just_pressed("add"):
-		audiomate_component.add(10)
-	if Input.is_action_just_pressed("subtract"):
-		audiomate_component.subtract(10)
-
-
-	if Input.is_action_just_pressed("bad"):
-		state_component.state_is_bad()
-	if Input.is_action_just_pressed("neutral"):
-		state_component.state_is_neutral()
-	if Input.is_action_just_pressed("good"):
-		state_component.state_is_good()
 	
 	var canRotate = round(rad_to_deg(targetRotation.y)) == round(pivot.rotation_degrees.y)
 	
@@ -95,6 +82,15 @@ func _process(delta):
 		camera.position = lerp(camera.position,BASE_CAMERA_POS,delta*LERP_ZOOM_SPEED)
 	var cameraZPos = round(camera.position.z)
 	canZoom = (cameraZPos == -10 || cameraZPos == 0) && !cameraZPos > 0
+	
+	if raycast.is_colliding():
+		if raycast.get_collider(0).is_in_group("npc"):
+			if raycast.get_collider(0).get_parent().isBad:
+				state_component.state_is_bad()
+			elif raycast.get_collider(0).get_parent().isBad != true:
+				state_component.state_is_good()
+	else:
+		state_component.state_is_neutral()
 
 func playAudio(nbOptions : int, fileName : String):
 	audio_stream.stop()

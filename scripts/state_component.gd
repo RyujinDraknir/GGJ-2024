@@ -16,9 +16,9 @@ func _ready():
 	neutral = true
 	good = false
 	
-	audimat_bad = player_hud.get_child(2).get_child(3)
+	audimat_bad = player_hud.get_child(2).get_child(2)
 	audimat_neutral = player_hud.get_child(2).get_child(4)
-	audimat_good = player_hud.get_child(2).get_child(2)
+	audimat_good = player_hud.get_child(2).get_child(3)
 	audimat_bad.hide()
 	audimat_neutral.show()
 	audimat_good.hide()

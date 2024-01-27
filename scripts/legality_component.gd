@@ -4,6 +4,9 @@ class_name LegalityComponent
 signal legality_changed(current_value, max_value)
 signal lose()
 
+@onready var state_component = $"../StateComponent"
+@onready var audiomate_component = $"../AudiomateComponent"
+
 @export var max_legality : float = 100
 @export var start_legality : float = 10
 var current_legality : float
@@ -26,6 +29,16 @@ func subtract(amount):
 		emit_signal("lose")
 		on_lose()
 	emit_signal("legality_changed", current_legality, max_legality)
+
+
+@export var tempvar = 1
+func _process(delta):
+	if state_component.bad:
+		subtract((delta*2)*(audiomate_component.current_audiomate)/tempvar)
+	elif state_component.neutral:
+		subtract((delta*0.5)*(audiomate_component.current_audiomate)/tempvar)
+	elif state_component.good:
+		add((delta*0.5)*(audiomate_component.current_audiomate)/tempvar)
 
 func on_lose():
 	print("you lost")

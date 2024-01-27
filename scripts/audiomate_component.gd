@@ -1,10 +1,9 @@
 extends Node
 class_name AudiomateComponent
 
-signal legality_changed(current_value, max_value)
-signal lose()
+signal audiomate_changed(current_value, max_audiomate)
 
-@export var max_audiomate : float = 100
+@export var max_audiomate : float = 8000000000
 @export var start_audiomate : float = 10
 var current_audiomate : float
 

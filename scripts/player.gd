@@ -5,8 +5,8 @@ extends CharacterBody3D
 
 @onready var raycast = $Pivot/Camera3D/RayCast3D
 
-@onready var legality_component = $LegalityComponent
-
+@onready var audiomate_component = $AudiomateComponent
+@onready var state_component = $StateComponent
 
 const SENS_SPEED = 3.0
 const ZOOM_SENS_SPEED = 2.0
@@ -42,12 +42,20 @@ func _process(delta):
 		Input.warp_mouse(Vector2(0,0))
 		lastMousePosition = Vector2(0,0)
 	zoom =  willZoom
-	
+
 	if Input.is_action_just_pressed("add"):
-		legality_component.add(10)
+		audiomate_component.add(10)
 	if Input.is_action_just_pressed("subtract"):
-		legality_component.subtract(10)
-		
+		audiomate_component.subtract(10)
+
+
+	if Input.is_action_just_pressed("bad"):
+		state_component.state_is_bad()
+	if Input.is_action_just_pressed("neutral"):
+		state_component.state_is_neutral()
+	if Input.is_action_just_pressed("good"):
+		state_component.state_is_good()
+	
 	var canRotate = round(rad_to_deg(targetRotation.y)) == round(pivot.rotation_degrees.y)
 	if canRotate && Input.is_action_just_pressed("left"):
 		targetRotation = pivot.rotation
@@ -55,16 +63,16 @@ func _process(delta):
 	if canRotate && Input.is_action_just_pressed("right"):
 		targetRotation = pivot.rotation
 		targetRotation.y -= deg_to_rad(CAMERA_TURN_ANGLE_DEGREES)
-		
+
 	var tween = get_tree().create_tween()
 	tween.tween_property(pivot, "rotation", targetRotation, ROTATION_DURATION)
-	
+
 	var zoomSource
 	if zoom:
 		#print(camera.position)
 		camera.position.z = lerp(camera.position.z,-15.0,delta*LERP_ZOOM_SPEED)
-		
-		
+
+
 		camera.position.y = lerp(camera.position.y, -lastMousePosition.y, delta*LERP_ZOOM_SENS_SPEED)
 		camera.position.x = lerp(camera.position.x, lastMousePosition.x, delta*LERP_ZOOM_SENS_SPEED)
 	else:
@@ -72,9 +80,9 @@ func _process(delta):
 		#print("pas zoomed")
 		#rotate_y(deg_to_rad(-input_dir.x*SENS_SPEED))
 		#pivot.rotate_x(deg_to_rad(-input_dir.y*SENS_SPEED))
-		
+
 	#pivot.rotation.x = clamp(pivot.rotation.x,deg_to_rad(0),deg_to_rad(50))
-	
+
 	#if raycast.is_colliding():
 		#if raycast.get_collider().is_in_group("scene"):
 			#print("scene detected")

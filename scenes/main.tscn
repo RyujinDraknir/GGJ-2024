@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://cudcy7o72gnon"]
+[gd_scene load_steps=9 format=3 uid="uid://cudcy7o72gnon"]
 
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_6q6j1"]
 [ext_resource type="PackedScene" uid="uid://ny33g8w8gito" path="res://prefabScenes/test_wall.tscn" id="1_yoi2q"]
 [ext_resource type="Material" uid="uid://dk6nxt0kyxtym" path="res://textures/red.tres" id="2_7hgao"]
+[ext_resource type="Texture2D" uid="uid://de0a5tssm3mew" path="res://assets/images/TF1_neutre (1).png" id="3_68vg0"]
 [ext_resource type="PackedScene" uid="uid://dviseodvux3xb" path="res://imports/TF1_Test.glb" id="4_du7um"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vfs8c"]
@@ -132,6 +133,11 @@ transform = Transform3D(3.39292, 0, 0, 0, 1, 0, 0, 0, 3.91651, 0.114001, 0.07260
 material_override = ExtResource("2_7hgao")
 use_collision = true
 size = Vector3(0.0820618, 0.160919, 0.0734863)
+
+[node name="Sprite3D" type="Sprite3D" parent="Map"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.82803)
+pixel_size = 0.0001
+texture = ExtResource("3_68vg0")
 
 [node name="Player" parent="." instance=ExtResource("1_6q6j1")]
 

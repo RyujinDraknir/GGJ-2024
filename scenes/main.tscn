@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://cudcy7o72gnon"]
+[gd_scene load_steps=10 format=3 uid="uid://cudcy7o72gnon"]
 
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_6q6j1"]
 [ext_resource type="PackedScene" uid="uid://ny33g8w8gito" path="res://prefabScenes/test_wall.tscn" id="1_yoi2q"]
 [ext_resource type="Texture2D" uid="uid://de0a5tssm3mew" path="res://assets/images/TF1_neutre (1).png" id="3_68vg0"]
 [ext_resource type="PackedScene" uid="uid://dviseodvux3xb" path="res://imports/TF1_Test.glb" id="4_du7um"]
+[ext_resource type="Script" path="res://scenes/ShowEvent.gd" id="6_h6144"]
 [ext_resource type="SpriteFrames" uid="uid://cbc3oe2sdnda6" path="res://assets/images/cuistot-coupé/cuisto_coupe_frames.tres" id="6_ywrlg"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vfs8c"]
@@ -51,3 +52,8 @@ texture = ExtResource("3_68vg0")
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.4, -0.5, -9.8)
 sprite_frames = ExtResource("6_ywrlg")
 autoplay = "default"
+
+[node name="ShowEvents" type="Node3D" parent="."]
+
+[node name="Sprite3D" type="Sprite3D" parent="ShowEvents"]
+script = ExtResource("6_h6144")

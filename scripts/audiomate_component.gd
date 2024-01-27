@@ -27,10 +27,18 @@ func subtract(amount):
 		current_audiomate = min_audiomate
 	emit_signal("audiomate_changed", current_audiomate, max_audiomate)
 
+var ticksCount : int = 0;
 func _process(delta):
+	ticksCount += 1
+	
+	var toAdd : int = 0
+	if ticksCount >= 10:
+		toAdd = randi_range(10,200)
+		ticksCount = 0
+	
 	if state_component.bad:
-		add(1)
+		add(toAdd)
 	elif state_component.neutral:
-		subtract(1)
+		subtract(round(toAdd/2))
 	elif state_component.good:
-		subtract(2)
+		subtract(toAdd)

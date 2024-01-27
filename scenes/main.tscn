@@ -5,16 +5,15 @@
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc.tscn" id="5_ysyir"]
 [ext_resource type="SpriteFrames" uid="uid://cbc3oe2sdnda6" path="res://assets/images/cuistot-coupé/cuisto_coupe_frames.tres" id="6_ywrlg"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vfs8c"]
-sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_m21f4"]
 ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 
-[sub_resource type="Sky" id="Sky_xxrm4"]
-sky_material = SubResource("ProceduralSkyMaterial_vfs8c")
+[sub_resource type="Sky" id="Sky_6fnkn"]
+sky_material = SubResource("ProceduralSkyMaterial_m21f4")
 
-[sub_resource type="Environment" id="Environment_v5ge6"]
+[sub_resource type="Environment" id="Environment_7rlg8"]
 background_mode = 2
-sky = SubResource("Sky_xxrm4")
+sky = SubResource("Sky_6fnkn")
 tonemap_mode = 2
 glow_enabled = true
 
@@ -35,12 +34,12 @@ func _process(delta):
 
 [node name="Main" type="Node3D"]
 
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_7rlg8")
+
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
 shadow_enabled = true
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_v5ge6")
 
 [node name="Map" type="Node3D" parent="."]
 visible = false

@@ -32,13 +32,20 @@ func subtract(amount):
 
 
 @export var tempvar = 1
+var ticksCount : int = 0;
 func _process(delta):
-	if state_component.bad:
-		subtract((delta*2)*(audiomate_component.current_audiomate)/tempvar)
-	elif state_component.neutral:
-		subtract((delta*0.5)*(audiomate_component.current_audiomate)/tempvar)
-	elif state_component.good:
-		add((delta*0.5)*(audiomate_component.current_audiomate)/tempvar)
+	
+	var temp : int = 1000
+	ticksCount += 1
+	if ticksCount >= 5:
+		ticksCount = 0
+		
+		if state_component.bad:
+			subtract((delta*2)*(audiomate_component.current_audiomate)/temp)
+		elif state_component.neutral:
+			subtract((delta*0.5)*(audiomate_component.current_audiomate)/temp)
+		elif state_component.good:
+			add((delta*0.5)*(audiomate_component.current_audiomate)/temp)
 
 func on_lose():
 	print("you lost")

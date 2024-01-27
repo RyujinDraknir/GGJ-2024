@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bpgcs28uus8de"]
+[gd_scene load_steps=10 format=3 uid="uid://bpgcs28uus8de"]
 
 [ext_resource type="Texture2D" uid="uid://dxwqu6u616c5m" path="res://assets/images/Jauge-légalité.svg" id="1_l4adg"]
 [ext_resource type="Texture2D" uid="uid://k8gubb7sghve" path="res://assets/images/Simple-Frame-Camera.png" id="1_wden5"]
@@ -7,15 +7,14 @@
 [ext_resource type="Texture2D" uid="uid://ctjnd66qmqnji" path="res://assets/images/Audimat-notstonks.svg" id="4_60m7g"]
 [ext_resource type="Texture2D" uid="uid://baufa7x3hmp02" path="res://assets/images/Audimat-neutral.svg" id="5_hl44a"]
 [ext_resource type="Texture2D" uid="uid://d1lbc1crm60f7" path="res://assets/images/Zoom.png" id="7_3j27g"]
-[ext_resource type="Texture2D" uid="uid://lth8j2nn2lx0" path="res://assets/images/Progress Zoom.svg" id="8_g2lwu"]
-[ext_resource type="Script" path="res://prefabScenes/ProgressZoom.gd" id="9_2pojh"]
+[ext_resource type="SpriteFrames" uid="uid://cx3alw5wcikfo" path="res://assets/images/REC/rec.tres" id="8_tc7sd"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x0knh"]
 bg_color = Color(1, 1, 1, 1)
-corner_radius_top_left = 10
-corner_radius_top_right = 10
-corner_radius_bottom_right = 10
-corner_radius_bottom_left = 10
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
 
 [node name="PlayerHUD" type="Control"]
 layout_mode = 3
@@ -99,6 +98,9 @@ position = Vector2(-690, 95)
 scale = Vector2(1.5, 1.5)
 texture = ExtResource("7_3j27g")
 
-[node name="ProgressZoom" type="Sprite2D" parent="Container/Zoom"]
-texture = ExtResource("8_g2lwu")
-script = ExtResource("9_2pojh")
+[node name="rec" type="AnimatedSprite2D" parent="Container"]
+position = Vector2(-735, -398)
+scale = Vector2(0.1, 0.1)
+sprite_frames = ExtResource("8_tc7sd")
+autoplay = "default"
+frame_progress = 0.726038

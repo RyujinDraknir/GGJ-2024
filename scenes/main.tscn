@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://cudcy7o72gnon"]
+[gd_scene load_steps=8 format=3 uid="uid://cudcy7o72gnon"]
 
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_6q6j1"]
 [ext_resource type="PackedScene" uid="uid://ny33g8w8gito" path="res://prefabScenes/test_wall.tscn" id="1_yoi2q"]
 [ext_resource type="Material" uid="uid://dk6nxt0kyxtym" path="res://textures/red.tres" id="2_7hgao"]
+[ext_resource type="PackedScene" uid="uid://dviseodvux3xb" path="res://imports/TF1_Test.glb" id="4_du7um"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vfs8c"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -27,6 +28,7 @@ shadow_enabled = true
 environment = SubResource("Environment_v5ge6")
 
 [node name="Map" type="Node3D" parent="."]
+visible = false
 
 [node name="CSGBox3D" type="CSGBox3D" parent="Map"]
 transform = Transform3D(3.39292, 0, 0, 0, 1, 0, 0, 0, 3.91651, -9.46716, 0.5, -6.64925)
@@ -69,6 +71,7 @@ use_collision = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29)
 
 [node name="testWall" parent="Map/walls" instance=ExtResource("1_yoi2q")]
+visible = false
 
 [node name="CSGBox3D9" type="CSGBox3D" parent="Map"]
 transform = Transform3D(-1.07372, 0, 3.71522, 0, 1, 0, -3.21854, 0, -1.23942, 14.1848, 0.5, -8.81219)
@@ -131,3 +134,6 @@ use_collision = true
 size = Vector3(0.0820618, 0.160919, 0.0734863)
 
 [node name="Player" parent="." instance=ExtResource("1_6q6j1")]
+
+[node name="TF1_Test" parent="." instance=ExtResource("4_du7um")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -12)

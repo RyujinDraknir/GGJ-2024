@@ -10,28 +10,44 @@ extends CharacterBody3D
 
 const SENS_SPEED = 3.0
 const ZOOM_SENS_SPEED = 2.0
-const LERP_ZOOM_SENS_SPEED = 2.0
+const LERP_ZOOM_SENS_SPEED = 0.5
 const LERP_ZOOM_SPEED = 9.0
 const CAMERA_ROTATION_OPTIONS : int = 8
 const CAMERA_TURN_ANGLE_DEGREES = 360 / CAMERA_ROTATION_OPTIONS
 #duration in seconds
 const ROTATION_DURATION : float = 0.4
+const SCENE_BOUNDARY : float = 500.0
+const BASE_CAMERA_POS : Vector3 = Vector3(0,0,0)
 
-var zoom : bool = false
+
 var targetRotation : Vector3
 var startRotation : Vector3
+var lastMousePosition : Vector2
+var zoom : bool
+var willZoom : bool
 
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
+func _ready():
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
+func _input(event):
+	if event is InputEventMouseMotion and zoom :
+		lastMousePosition = event.relative
+		lastMousePosition = clamp(lastMousePosition, Vector2(-SCENE_BOUNDARY,-SCENE_BOUNDARY), Vector2(SCENE_BOUNDARY,SCENE_BOUNDARY))
+
 func _process(delta):
-	var input_dir = Input.get_vector("left", "right", "up", "down")
-	if Input.is_action_just_pressed("zoom"):
-		zoom = !zoom
+	willZoom = Input.is_action_pressed("zoom")
+	if !zoom && willZoom :
+		Input.warp_mouse(Vector2(0,0))
+		lastMousePosition = Vector2(0,0)
+	zoom =  willZoom
 	
 	if Input.is_action_just_pressed("add"):
 		legality_component.add(10)
 	if Input.is_action_just_pressed("subtract"):
 		legality_component.subtract(10)
+		
 	var canRotate = round(rad_to_deg(targetRotation.y)) == round(pivot.rotation_degrees.y)
 	if canRotate && Input.is_action_just_pressed("left"):
 		targetRotation = pivot.rotation
@@ -42,15 +58,18 @@ func _process(delta):
 		
 	var tween = get_tree().create_tween()
 	tween.tween_property(pivot, "rotation", targetRotation, ROTATION_DURATION)
-	#rotation.y = clamp(self.rotation.y, min(baseCRotYDeg, toAngle), max(baseCRotYDeg, toAngle))
 	
 	var zoomSource
 	if zoom:
-		camera.position.z = lerp(camera.position.z,-2.0,delta*LERP_ZOOM_SPEED)
-		#camera.position.y = lerp(camera.position.y, input_dir.y*ZOOM_SENS_SPEED,delta*LERP_ZOOM_SENS_SPEED)
-		#camera.position.x = lerp(camera.position.x, input_dir.x*ZOOM_SENS_SPEED,delta*LERP_ZOOM_SENS_SPEED)
+		#print(camera.position)
+		camera.position.z = lerp(camera.position.z,-15.0,delta*LERP_ZOOM_SPEED)
+		
+		
+		camera.position.y = lerp(camera.position.y, -lastMousePosition.y, delta*LERP_ZOOM_SENS_SPEED)
+		camera.position.x = lerp(camera.position.x, lastMousePosition.x, delta*LERP_ZOOM_SENS_SPEED)
 	else:
-		camera.position.z = lerp(camera.position.z,pivot.position.z,delta*LERP_ZOOM_SPEED)
+		camera.position = lerp(camera.position,BASE_CAMERA_POS,delta*LERP_ZOOM_SPEED)
+		#print("pas zoomed")
 		#rotate_y(deg_to_rad(-input_dir.x*SENS_SPEED))
 		#pivot.rotate_x(deg_to_rad(-input_dir.y*SENS_SPEED))
 		

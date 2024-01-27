@@ -19,7 +19,6 @@ const ROTATION_DURATION : float = 0.4
 const SCENE_BOUNDARY : float = 500.0
 const BASE_CAMERA_POS : Vector3 = Vector3(0,0,0)
 
-
 var targetRotation : Vector3
 var startRotation : Vector3
 var lastMousePosition : Vector2
@@ -70,7 +69,7 @@ func _process(delta):
 	var zoomSource
 	if zoom:
 		#print(camera.position)
-		camera.position.z = lerp(camera.position.z,-15.0,delta*LERP_ZOOM_SPEED)
+		camera.position.z = lerp(camera.position.z,-10.0,delta*LERP_ZOOM_SPEED)
 
 
 		camera.position.y = lerp(camera.position.y, -lastMousePosition.y, delta*LERP_ZOOM_SENS_SPEED)

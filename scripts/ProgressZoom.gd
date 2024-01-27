@@ -17,8 +17,6 @@ func _ready():
 func _process(delta):
 	var player = get_parent().get_parent().get_parent().get_parent();
 	var barPosition : Vector2 = zoomBar.position
-	print("---------------")
-	print(player.zoom)
 	var yTarget = 0;
 	if player.zoom:
 		yTarget = round(-(parentBarHeight/2 * MAX_HEIGHT_POURCENT))

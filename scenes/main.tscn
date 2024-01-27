@@ -1,10 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://cudcy7o72gnon"]
+[gd_scene load_steps=9 format=3 uid="uid://cudcy7o72gnon"]
 
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_6q6j1"]
-[ext_resource type="PackedScene" uid="uid://ny33g8w8gito" path="res://prefabScenes/test_wall.tscn" id="1_yoi2q"]
-[ext_resource type="Texture2D" uid="uid://de0a5tssm3mew" path="res://assets/images/TF1_neutre (1).png" id="3_68vg0"]
 [ext_resource type="PackedScene" uid="uid://dviseodvux3xb" path="res://imports/TF1_Test.glb" id="4_du7um"]
-[ext_resource type="Script" path="res://scenes/ShowEvent.gd" id="6_h6144"]
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc.tscn" id="5_ysyir"]
 [ext_resource type="SpriteFrames" uid="uid://cbc3oe2sdnda6" path="res://assets/images/cuistot-coupé/cuisto_coupe_frames.tres" id="6_ywrlg"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vfs8c"]
@@ -20,6 +18,21 @@ sky = SubResource("Sky_xxrm4")
 tonemap_mode = 2
 glow_enabled = true
 
+[sub_resource type="GDScript" id="GDScript_3mg7h"]
+script/source = "extends Sprite3D
+
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
+
 [node name="Main" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
@@ -32,28 +45,18 @@ environment = SubResource("Environment_v5ge6")
 [node name="Map" type="Node3D" parent="."]
 visible = false
 
-[node name="walls" type="Node3D" parent="Map"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29)
-
-[node name="testWall" parent="Map/walls" instance=ExtResource("1_yoi2q")]
-visible = false
-
 [node name="Player" parent="." instance=ExtResource("1_6q6j1")]
 
 [node name="TF1_Test" parent="." instance=ExtResource("4_du7um")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -9)
 
-[node name="Sprite3D" type="Sprite3D" parent="."]
-transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -0.8, -10)
-visible = false
-texture = ExtResource("3_68vg0")
-
-[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="."]
-transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.4, -0.5, -9.8)
-sprite_frames = ExtResource("6_ywrlg")
-autoplay = "default"
-
 [node name="ShowEvents" type="Node3D" parent="."]
 
 [node name="Sprite3D" type="Sprite3D" parent="ShowEvents"]
-script = ExtResource("6_h6144")
+script = SubResource("GDScript_3mg7h")
+
+[node name="Npc" parent="." instance=ExtResource("5_ysyir")]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.2, -0.5, -10.1)
+sprite_frames = ExtResource("6_ywrlg")
+autoplay = "default"
+isBad = true

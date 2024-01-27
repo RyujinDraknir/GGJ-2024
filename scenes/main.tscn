@@ -134,12 +134,11 @@ material_override = ExtResource("2_7hgao")
 use_collision = true
 size = Vector3(0.0820618, 0.160919, 0.0734863)
 
-[node name="Sprite3D" type="Sprite3D" parent="Map"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.82803)
-pixel_size = 0.0001
-texture = ExtResource("3_68vg0")
-
 [node name="Player" parent="." instance=ExtResource("1_6q6j1")]
 
 [node name="TF1_Test" parent="." instance=ExtResource("4_du7um")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -12)
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -0.8, -13)
+texture = ExtResource("3_68vg0")

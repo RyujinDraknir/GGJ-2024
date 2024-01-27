@@ -5,25 +5,37 @@ extends CharacterBody3D
 
 @onready var raycast = $Pivot/Camera3D/RayCast3D
 
-const SENS_SPEED = 3.0
+const SENS_SPEED = 0.01
 const ZOOM_SENS_SPEED = 2.0
 const LERP_ZOOM_SENS_SPEED = 2.0
 const LERP_ZOOM_SPEED = 9.0
+const CAMERA_ROTATION_OPTIONS : int = 8
+const CAMERA_TURN_ANGLE_DEGREES = 360 / CAMERA_ROTATION_OPTIONS
+#duration in seconds
+const ROTATION_DURATION : float = 0.4
 
 var zoom : bool = false
+var targetRotation : Vector3
+var startRotation : Vector3
 
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 func _process(delta):
 	var input_dir = Input.get_vector("left", "right", "up", "down")
-	
 	if Input.is_action_just_pressed("zoom"):
 		zoom = !zoom
 	
-	if Input.is_action_just_pressed("left"):
-		self.rotation.y += lerp(self.rotation.y,45.0,delta)
-	if Input.is_action_just_pressed("right"):
-		self.rotation.y += lerp(self.rotation.y,-45.0,delta)
+	var canRotate = round(rad_to_deg(targetRotation.y)) == round(pivot.rotation_degrees.y)
+	if canRotate && Input.is_action_just_pressed("left"):
+		targetRotation = pivot.rotation
+		targetRotation.y += deg_to_rad(CAMERA_TURN_ANGLE_DEGREES)
+	if canRotate && Input.is_action_just_pressed("right"):
+		targetRotation = pivot.rotation
+		targetRotation.y -= deg_to_rad(CAMERA_TURN_ANGLE_DEGREES)
+		
+	var tween = get_tree().create_tween()
+	tween.tween_property(pivot, "rotation", targetRotation, ROTATION_DURATION)
+	#rotation.y = clamp(self.rotation.y, min(baseCRotYDeg, toAngle), max(baseCRotYDeg, toAngle))
 	
 	var zoomSource
 	if zoom:
@@ -37,11 +49,15 @@ func _process(delta):
 		
 	#pivot.rotation.x = clamp(pivot.rotation.x,deg_to_rad(0),deg_to_rad(50))
 	
-	if raycast.is_colliding():
-		if raycast.get_collider().is_in_group("scene"):
-			print("scene detected")
-		else:
-			print("not a scene")
-	else:
-		print("not colliding")
+	#if raycast.is_colliding():
+		#if raycast.get_collider().is_in_group("scene"):
+			#print("scene detected")
+		#else:
+			#print("not a scene")
+	#else:
+		#print("not colliding")
 	move_and_slide()
+
+enum TypeBarre {
+	Barre, Beurre
+}

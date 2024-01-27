@@ -13,7 +13,6 @@ script = ExtResource("1_qcp51")
 [node name="Pivot" type="Node3D" parent="."]
 
 [node name="Camera3D" type="Camera3D" parent="Pivot"]
-projection = 1
 fov = 90.0
 near = 0.001
 

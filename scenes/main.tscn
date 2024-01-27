@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://cudcy7o72gnon"]
+[gd_scene load_steps=10 format=3 uid="uid://cudcy7o72gnon"]
 
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_6q6j1"]
 [ext_resource type="PackedScene" uid="uid://dviseodvux3xb" path="res://imports/TF1_Test.glb" id="4_du7um"]
+[ext_resource type="PackedScene" uid="uid://cs1h8vpk6q8dg" path="res://imports/Kitchen_Test.glb" id="5_2xt1e"]
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc.tscn" id="5_ysyir"]
 [ext_resource type="SpriteFrames" uid="uid://cbc3oe2sdnda6" path="res://assets/images/cuistot-coupé/cuisto_coupe_frames.tres" id="6_ywrlg"]
 
@@ -59,3 +60,6 @@ transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.2, -0.5, -10.1)
 sprite_frames = ExtResource("6_ywrlg")
 autoplay = "default"
 isBad = true
+
+[node name="Kitchen_Test" parent="." instance=ExtResource("5_2xt1e")]
+transform = Transform3D(-0.75, 0, -6.55671e-08, 0, 0.75, 0, 6.55671e-08, 0, -0.75, 0, -2, 5.634)

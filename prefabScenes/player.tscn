@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://du251lp8qktqv" path="res://prefabScenes/state_component.tscn" id="4_ablc5"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_nm5an"]
-height = 10.0
+height = 6.0
 radius = 0.7
 
 [node name="Player" type="CharacterBody3D"]
@@ -21,7 +21,7 @@ script = ExtResource("1_qcp51")
 near = 0.001
 
 [node name="ShapeCast3D" type="ShapeCast3D" parent="Pivot/Camera3D"]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, -5)
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, -3)
 shape = SubResource("CylinderShape3D_nm5an")
 target_position = Vector3(0, 0, 0)
 

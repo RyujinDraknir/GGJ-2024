@@ -56,10 +56,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -9)
 script = SubResource("GDScript_3mg7h")
 
 [node name="Npc" parent="." instance=ExtResource("5_ysyir")]
-transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.2, -0.5, -10.1)
+transform = Transform3D(-0.15, 0, -1.31134e-08, 0, 0.15, 0, 1.31134e-08, 0, -0.15, 0.0396049, -0.646181, 8.9)
 sprite_frames = ExtResource("6_ywrlg")
 autoplay = "default"
 isBad = true
 
 [node name="Kitchen_Test" parent="." instance=ExtResource("5_2xt1e")]
-transform = Transform3D(-0.75, 0, -6.55671e-08, 0, 0.75, 0, 6.55671e-08, 0, -0.75, 0, -2, 5.634)
+transform = Transform3D(-0.75, 0, -6.55671e-08, 0, 0.75, 0, 6.55671e-08, 0, -0.75, 0, -2, 8)

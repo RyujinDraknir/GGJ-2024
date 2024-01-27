@@ -1,12 +1,19 @@
-[gd_scene format=3 uid="uid://da8dwo4wi1hlu"]
+[gd_scene load_steps=3 format=3 uid="uid://da8dwo4wi1hlu"]
+
+[ext_resource type="Script" path="res://scripts/main_menu_interface.gd" id="1_ihbnd"]
+[ext_resource type="PackedScene" uid="uid://qrmy1wdjtmfd" path="res://prefabScenes/scene_switcher.tscn" id="2_stlp7"]
 
 [node name="MainMenuInterface" type="Control"]
+process_mode = 3
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_ihbnd")
+
+[node name="SceneSwitcher" parent="." instance=ExtResource("2_stlp7")]
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 1
@@ -23,6 +30,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/separation = 20
 
 [node name="Label" type="Label" parent="Panel/VBoxContainer"]
 layout_mode = 2
@@ -32,8 +40,22 @@ horizontal_alignment = 1
 
 [node name="HSeparator" type="HSeparator" parent="Panel/VBoxContainer"]
 layout_mode = 2
-theme_override_constants/separation = 20
+theme_override_constants/separation = 15
 
-[node name="Button" type="Button" parent="Panel/VBoxContainer"]
+[node name="PlayButton" type="Button" parent="Panel/VBoxContainer"]
+custom_minimum_size = Vector2(350, 0)
 layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 25
 text = "Play"
+
+[node name="QuitButton" type="Button" parent="Panel/VBoxContainer"]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 25
+text = "Quit
+"
+
+[connection signal="pressed" from="Panel/VBoxContainer/PlayButton" to="SceneSwitcher" method="_on_play_button_pressed"]
+[connection signal="pressed" from="Panel/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]

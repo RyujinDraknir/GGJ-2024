@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://qrmy1wdjtmfd"]
+
+[ext_resource type="Script" path="res://scripts/scene_switcher.gd" id="1_me1ff"]
+
+[node name="SceneSwitcher" type="Node"]
+script = ExtResource("1_me1ff")
+main_menu_scene = "res://scenes/main_menu.tscn"
+start_game_scene = "res://scenes/main.tscn"

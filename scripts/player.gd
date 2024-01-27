@@ -5,8 +5,8 @@ extends CharacterBody3D
 
 @onready var raycast = $Pivot/Camera3D/RayCast3D
 
-@onready var legality_component = $LegalityComponent
-
+@onready var audiomate_component = $AudiomateComponent
+@onready var state_component = $StateComponent
 
 const SENS_SPEED = 3.0
 const ZOOM_SENS_SPEED = 2.0
@@ -29,9 +29,18 @@ func _process(delta):
 		zoom = !zoom
 	
 	if Input.is_action_just_pressed("add"):
-		legality_component.add(10)
+		audiomate_component.add(10)
 	if Input.is_action_just_pressed("subtract"):
-		legality_component.subtract(10)
+		audiomate_component.subtract(10)
+	
+	
+	if Input.is_action_just_pressed("bad"):
+		state_component.state_is_bad()
+	if Input.is_action_just_pressed("neutral"):
+		state_component.state_is_neutral()
+	if Input.is_action_just_pressed("good"):
+		state_component.state_is_good()
+	
 	var canRotate = round(rad_to_deg(targetRotation.y)) == round(pivot.rotation_degrees.y)
 	if canRotate && Input.is_action_just_pressed("left"):
 		targetRotation = pivot.rotation

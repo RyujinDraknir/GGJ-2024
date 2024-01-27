@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://caabi8447msyu"]
+[gd_scene load_steps=7 format=3 uid="uid://caabi8447msyu"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_qcp51"]
 [ext_resource type="PackedScene" uid="uid://bpgcs28uus8de" path="res://prefabScenes/player_hud.tscn" id="2_667rt"]
 [ext_resource type="PackedScene" uid="uid://biiyngiixbliu" path="res://prefabScenes/audiomate_component.tscn" id="3_8h2gm"]
 [ext_resource type="Script" path="res://scripts/player_hud.gd" id="3_dgj4a"]
 [ext_resource type="PackedScene" uid="uid://dhufb7areltba" path="res://prefabScenes/legality_component.tscn" id="3_k5xr4"]
+[ext_resource type="PackedScene" uid="uid://du251lp8qktqv" path="res://prefabScenes/state_component.tscn" id="4_ablc5"]
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_qcp51")
@@ -23,6 +24,8 @@ start_legality = 50.0
 
 [node name="AudiomateComponent" parent="." instance=ExtResource("3_8h2gm")]
 start_audiomate = 20.0
+
+[node name="StateComponent" parent="." instance=ExtResource("4_ablc5")]
 
 [node name="PlayerHUD" parent="." instance=ExtResource("2_667rt")]
 script = ExtResource("3_dgj4a")

@@ -4,3 +4,4 @@
 
 [node name="LegalityComponent" type="Node"]
 script = ExtResource("1_vtk73")
+tempvar = 100

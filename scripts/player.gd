@@ -67,6 +67,9 @@ func _process(delta):
 		targetRotation.y -= deg_to_rad(CAMERA_TURN_ANGLE_DEGREES)
 		playAudio(4, "Rail cam ")
 
+	if Input.is_action_just_released("quit"):
+		get_tree().quit()
+
 	var tween = get_tree().create_tween()
 	tween.tween_property(pivot, "rotation", targetRotation, ROTATION_DURATION)
 

@@ -1,18 +1,19 @@
-[gd_scene load_steps=6 format=3 uid="uid://qlqu1mooo6lt"]
+[gd_scene load_steps=7 format=3 uid="uid://qlqu1mooo6lt"]
 
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_g4gwe"]
+[ext_resource type="PackedScene" uid="uid://ngp3vwa5n6fd" path="res://prefabScenes/global_game_jam_fin.tscn" id="2_46rrq"]
 [ext_resource type="Script" path="res://scripts/EventManager.gd" id="2_mht0t"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_mtaq7"]
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4co3b"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 
-[sub_resource type="Sky" id="Sky_pa7hd"]
-sky_material = SubResource("ProceduralSkyMaterial_mtaq7")
+[sub_resource type="Sky" id="Sky_8qlo3"]
+sky_material = SubResource("ProceduralSkyMaterial_4co3b")
 
-[sub_resource type="Environment" id="Environment_pbgh1"]
+[sub_resource type="Environment" id="Environment_1vt6b"]
 background_mode = 2
-sky = SubResource("Sky_pa7hd")
+sky = SubResource("Sky_8qlo3")
 tonemap_mode = 2
 glow_enabled = true
 
@@ -23,12 +24,10 @@ transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -
 shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_pbgh1")
+environment = SubResource("Environment_1vt6b")
 
 [node name="Player" parent="." instance=ExtResource("1_g4gwe")]
-
-[node name="EventManager" type="Node" parent="."]
-script = ExtResource("2_mht0t")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, 0)
 
 [node name="Timer" type="Timer" parent="EventManager"]
 wait_time = 2.0
@@ -37,3 +36,14 @@ one_shot = true
 [node name="Map" type="Node3D" parent="."]
 
 [connection signal="timeout" from="EventManager/Timer" to="EventManager" method="_on_timer_timeout"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0)
+
+[node name="Global_game_jam" parent="Map" instance=ExtResource("2_46rrq")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, -1, 0)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Map"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12, 0)
+size = Vector3(100, 1, 100)
+
+[node name="EventManager" type="Node3D" parent="."]
+script = ExtResource("2_mht0t")

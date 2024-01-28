@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://dw7v5gjjf3sln"]
+[gd_scene load_steps=8 format=3 uid="uid://dw7v5gjjf3sln"]
 
 [ext_resource type="PackedScene" uid="uid://da8dwo4wi1hlu" path="res://prefabScenes/main_menu_interface.tscn" id="1_5qqle"]
 [ext_resource type="Script" path="res://scenes/Camera3D.gd" id="2_ieffg"]
-[ext_resource type="PackedScene" uid="uid://ngp3vwa5n6fd" path="res://prefabScenes/global_game_jam_fin.tscn" id="2_r7hy0"]
+[ext_resource type="PackedScene" path="res://prefabScenes/global_game_jam_fin.tscn" id="2_r7hy0"]
+[ext_resource type="PackedScene" uid="uid://w55hcmkuop4c" path="res://prefabScenes/npc/Cuisine/cui_coupure.tscn" id="4_q08xy"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_g4jsy"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -34,3 +35,6 @@ transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.1, 0)
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 17, 0)
 size = Vector3(100, 1, 100)
+
+[node name="CUI_Coupure" parent="." instance=ExtResource("4_q08xy")]
+transform = Transform3D(-4.37114e-09, 0, -0.1, 0, 0.1, 0, 0.1, 0, -4.37114e-09, 10.8956, 0.922049, -0.0348063)

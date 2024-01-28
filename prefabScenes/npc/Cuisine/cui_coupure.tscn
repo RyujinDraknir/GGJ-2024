@@ -4,6 +4,7 @@
 [ext_resource type="SpriteFrames" uid="uid://nckv7bes8hvc" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/CUI_Coupure.tres" id="2_dkp3v"]
 
 [node name="CUI_Coupure" instance=ExtResource("1_5m6nf")]
+transform = Transform3D(-4.37114e-09, 0, -0.1, 0, 0.1, 0, 0.1, 0, -4.37114e-09, 10, -1, -0.05)
 sprite_frames = ExtResource("2_dkp3v")
 frame = 15
 frame_progress = 0.996047

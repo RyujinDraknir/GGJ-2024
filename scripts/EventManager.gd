@@ -79,7 +79,7 @@ func jsonToTvHappening(json) -> TvHappening:
 func loadPrefab(event : TvEvent) -> void:
 	var issueScene = load(getPrefabPath(event.name))
 	var issueChild = issueScene.instance()
-	issueChild.position = event.position
+	#issueChild.position = event.position
 	npcChilds.append(issueChild)
 	add_child(issueChild)
 

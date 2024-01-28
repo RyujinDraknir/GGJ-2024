@@ -24,6 +24,53 @@ window/stretch/mode="viewport"
 window/stretch/aspect="expand"
 window/vsync/vsync_mode=0
 
+[file_customization]
+
+folder_colors={
+"res://assets/npcs/": "pink",
+"res://assets/npcs/Cuisine/": "purple",
+"res://assets/npcs/Cuisine/CUI_CocktailMolotov/": "green",
+"res://assets/npcs/Cuisine/CUI_Coupure/": "green",
+"res://assets/npcs/Cuisine/CUI_Grenade/": "green",
+"res://assets/npcs/Cuisine/CUI_InverseVulgaire/": "green",
+"res://assets/npcs/Cuisine/CUI_Neutre/": "green",
+"res://assets/npcs/Cuisine/CUI_Rat/": "green",
+"res://assets/npcs/Cuisine/CUI_RecetteAlcool/": "green",
+"res://assets/npcs/Cuisine/CUI_Tarte/": "green",
+"res://assets/npcs/Cuisine/CUI_Tronçonneuse/": "green",
+"res://assets/npcs/Debat/": "orange",
+"res://assets/npcs/Debat/JTD_Baise/": "green",
+"res://assets/npcs/Debat/JTD_MMA/": "green",
+"res://assets/npcs/Debat/JTD_Marionnette/": "green",
+"res://assets/npcs/Debat/JTD_Mickey/": "green",
+"res://assets/npcs/Debat/JTD_Neutre/": "green",
+"res://assets/npcs/Debat/JTD_ScoobyDoo/": "green",
+"res://assets/npcs/Debat/JTD_Vulgaire/": "green",
+"res://assets/npcs/Debat/JTD_ZombieDebat/": "green",
+"res://assets/npcs/TF1/TF1_Booring/": "green",
+"res://assets/npcs/TF1/TF1_Chauves/": "green",
+"res://assets/npcs/TF1/TF1_Claque/": "green",
+"res://assets/npcs/TF1/TF1_Couple/": "green",
+"res://assets/npcs/TF1/TF1_GesteDeplace/": "green",
+"res://assets/npcs/TF1/TF1_Neutre/": "green",
+"res://assets/npcs/TF1/TF1_Soyjak/": "green",
+"res://assets/npcs/TF1/TF1_Telephone/": "green",
+"res://assets/npcs/TF1/TF1_Zombie/": "orange",
+"res://assets/npcs/Talk Show/": "blue",
+"res://assets/npcs/Talk Show/TAS_Claque/": "green",
+"res://assets/npcs/Talk Show/TAS_Corps/": "green",
+"res://assets/npcs/Talk Show/TAS_MagicienFruit/": "green",
+"res://assets/npcs/Talk Show/TAS_Napoleon/": "green",
+"res://assets/npcs/Talk Show/TAS_Neutre/": "green",
+"res://assets/npcs/Talk Show/TAS_PasDeGuest/": "green",
+"res://assets/npcs/Talk Show/TAS_Popeye/": "green",
+"res://assets/npcs/Talk Show/TAS_Reptiliens/": "green",
+"res://prefabScenes/npc/Cuisine/": "purple",
+"res://prefabScenes/npc/Debat/": "orange",
+"res://prefabScenes/npc/TF1/": "pink",
+"res://prefabScenes/npc/Talk Show/": "blue"
+}
+
 [input]
 
 left={

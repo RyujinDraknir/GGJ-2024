@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://2tve28psp535"
+path="res://.godot/imported/TAS_Reptiliens.wav-4c6ddc51c87d31ab30948a7f8e652ba1.sample"
+
+[deps]
+
+source_file="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens.wav"
+dest_files=["res://.godot/imported/TAS_Reptiliens.wav-4c6ddc51c87d31ab30948a7f8e652ba1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bptt2jkvsep2y"
+path="res://.godot/imported/TAS_Claque.wav-bfc161a1ad668438197f79e8472fbcc5.sample"
+
+[deps]
+
+source_file="res://assets/npcs/Talk Show/TAS_Claque/TAS_Claque.wav"
+dest_files=["res://.godot/imported/TAS_Claque.wav-bfc161a1ad668438197f79e8472fbcc5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

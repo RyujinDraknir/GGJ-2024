@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://ci10nhkj5my3f"]
-
-[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_t3isj"]
-
-[node name="meme" instance=ExtResource("1_t3isj")]
-
-[node name="CSGBox3D" parent="." index="0"]
-transform = Transform3D(2.89342, 0, 0, 0, 1.43025, 0, 0, 0, 1, 0.0619202, -0.415436, 2.98023e-08)

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://co0b3dwhjrihj"
+path="res://.godot/imported/TAS_MagicienFruit.wav-742f6b83eb62e29de83917b8dd43679d.sample"
+
+[deps]
+
+source_file="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit.wav"
+dest_files=["res://.godot/imported/TAS_MagicienFruit.wav-742f6b83eb62e29de83917b8dd43679d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

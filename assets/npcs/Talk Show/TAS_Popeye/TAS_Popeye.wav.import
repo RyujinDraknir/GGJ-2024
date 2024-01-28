@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://btu3j23ofuwbp"
+path="res://.godot/imported/TAS_Popeye.wav-7c28dc579c71ad3211811b006ce2a311.sample"
+
+[deps]
+
+source_file="res://assets/npcs/Talk Show/TAS_Popeye/TAS_Popeye.wav"
+dest_files=["res://.godot/imported/TAS_Popeye.wav-7c28dc579c71ad3211811b006ce2a311.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

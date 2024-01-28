@@ -1,9 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://did0gi4clfdy"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_3ps03"]
-[ext_resource type="SpriteFrames" uid="uid://s50qlttnwcky" path="res://assets/npcs/Debat/JTD_Baise/JTD_Baise/new_sprite_frames.tres" id="2_v3tqn"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/Debat/JTD_Baise/JTD_Baise/new_sprite_frames.tres" id="2_v3tqn"]
 
 [node name="JTD_Baise" instance=ExtResource("1_3ps03")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -0.15, 10)
 sprite_frames = ExtResource("2_v3tqn")
 frame = 33
 frame_progress = 0.207491

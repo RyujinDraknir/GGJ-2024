@@ -1,11 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://cfbknxubdmk60"]
+[gd_scene load_steps=3 format=3 uid="uid://bu616lwcfu4ds"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_t1f7q"]
-[ext_resource type="SpriteFrames" uid="uid://dhtc14n3ar4k0" path="res://assets/npcs/Debat/JTD_Mickey/JTD_Mickey/JTD_Mickey.tres" id="2_m3ekn"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/Debat/JTD_Mickey/JTD_Mickey/JTD_Mickey.tres" id="2_m3ekn"]
 
 [node name="JTD_Mickey" instance=ExtResource("1_t1f7q")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -0.4, 10)
 sprite_frames = ExtResource("2_m3ekn")
-frame_progress = 0.0
 isBad = true
 
 [node name="CSGBox3D" parent="." index="0"]

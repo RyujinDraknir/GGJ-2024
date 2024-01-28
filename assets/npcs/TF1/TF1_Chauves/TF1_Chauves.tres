@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://8wsxbk1kip2v"]
+
+[ext_resource type="Texture2D" uid="uid://bu7abrnb2g1k6" path="res://assets/npcs/TF1/TF1_Chauves/TF1_Chauves.png" id="1_xei7w"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xei7w")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

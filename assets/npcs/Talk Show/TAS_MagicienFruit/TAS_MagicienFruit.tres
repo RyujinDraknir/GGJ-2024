@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://bv330yib0am2f"]
+
+[ext_resource type="Texture2D" uid="uid://bwaw4wipvpr64" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00000.png" id="1_tkmgf"]
+[ext_resource type="Texture2D" uid="uid://ylqpjfy4sas6" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00001.png" id="2_rxf14"]
+[ext_resource type="Texture2D" uid="uid://ceyru5mp1sl8g" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00002.png" id="3_7g1h6"]
+[ext_resource type="Texture2D" uid="uid://dga7djnir3fyu" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00003.png" id="4_7s4yr"]
+[ext_resource type="Texture2D" uid="uid://1ixl1n4r4yts" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00004.png" id="5_wpird"]
+[ext_resource type="Texture2D" uid="uid://rddgcaah28qw" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00005.png" id="6_t815v"]
+[ext_resource type="Texture2D" uid="uid://behksoy2xkeo6" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00006.png" id="7_ioqo5"]
+[ext_resource type="Texture2D" uid="uid://btum81mug6o44" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00007.png" id="8_q4soi"]
+[ext_resource type="Texture2D" uid="uid://k4utdtld4w8c" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00008.png" id="9_75nj7"]
+[ext_resource type="Texture2D" uid="uid://d1v025q7iklqs" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00009.png" id="10_bsgto"]
+[ext_resource type="Texture2D" uid="uid://cegelp0o7khhv" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00010.png" id="11_s21e8"]
+[ext_resource type="Texture2D" uid="uid://bq8wg6ht13en7" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00011.png" id="12_mtm3p"]
+[ext_resource type="Texture2D" uid="uid://bfw7fyyubmneg" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00012.png" id="13_5idgt"]
+[ext_resource type="Texture2D" uid="uid://b78tbmeel3hgj" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00013.png" id="14_q1ecq"]
+[ext_resource type="Texture2D" uid="uid://cau31omgr2d8a" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00014.png" id="15_6m6dl"]
+[ext_resource type="Texture2D" uid="uid://ccd3ilc7f5dxq" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00015.png" id="16_emm0y"]
+[ext_resource type="Texture2D" uid="uid://ctpfolndjr8xe" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00016.png" id="17_0luy5"]
+[ext_resource type="Texture2D" uid="uid://bqtifqsgy0ku6" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00017.png" id="18_wh5xc"]
+[ext_resource type="Texture2D" uid="uid://xvw7ydl6fv7w" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00018.png" id="19_r2lb7"]
+[ext_resource type="Texture2D" uid="uid://v7dpy1r3ujbp" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00019.png" id="20_y5ila"]
+[ext_resource type="Texture2D" uid="uid://dibqjhmhgsr3c" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00020.png" id="21_wm41l"]
+[ext_resource type="Texture2D" uid="uid://sxpsh3vdho38" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00021.png" id="22_xhmod"]
+[ext_resource type="Texture2D" uid="uid://ctx3der6qg7fg" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00022.png" id="23_enf3r"]
+[ext_resource type="Texture2D" uid="uid://djeao05834f8m" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00023.png" id="24_21hbq"]
+[ext_resource type="Texture2D" uid="uid://d1aaqiyorqgnx" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00024.png" id="25_ybijp"]
+[ext_resource type="Texture2D" uid="uid://brn4ylutm8ess" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00025.png" id="26_pnhyb"]
+[ext_resource type="Texture2D" uid="uid://d3tfcn5pw3iyq" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00026.png" id="27_abhwo"]
+[ext_resource type="Texture2D" uid="uid://drjppenw8opj0" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00027.png" id="28_jt85o"]
+[ext_resource type="Texture2D" uid="uid://cq77rfcgesmm3" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00028.png" id="29_geal0"]
+[ext_resource type="Texture2D" uid="uid://dhjndkfi325ht" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00029.png" id="30_tu3gw"]
+[ext_resource type="Texture2D" uid="uid://qtob0xpkw44a" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00030.png" id="31_yvhut"]
+[ext_resource type="Texture2D" uid="uid://86p80v2cgq08" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00031.png" id="32_57xuq"]
+[ext_resource type="Texture2D" uid="uid://dn7ltu4rskdo5" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00032.png" id="33_bdpfj"]
+[ext_resource type="Texture2D" uid="uid://cuvf0xwmvdocn" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00033.png" id="34_hw8fj"]
+[ext_resource type="Texture2D" uid="uid://bbtroypfcpvs3" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00034.png" id="35_6kxx2"]
+[ext_resource type="Texture2D" uid="uid://ckmboi2dakkpi" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00035.png" id="36_c3nha"]
+[ext_resource type="Texture2D" uid="uid://cs771gmtqw4jh" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00036.png" id="37_ee603"]
+[ext_resource type="Texture2D" uid="uid://bmyhab3xyvpsv" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00037.png" id="38_uef6s"]
+[ext_resource type="Texture2D" uid="uid://clq2ycei2pfmx" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00038.png" id="39_rlkk5"]
+[ext_resource type="Texture2D" uid="uid://dofoaa56v718l" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00039.png" id="40_71e60"]
+[ext_resource type="Texture2D" uid="uid://d1awxoiwh5wfp" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00040.png" id="41_c35di"]
+[ext_resource type="Texture2D" uid="uid://cuc58gv7slii1" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00041.png" id="42_aq6sm"]
+[ext_resource type="Texture2D" uid="uid://dl0r778tl2xsa" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00042.png" id="43_pa5k4"]
+[ext_resource type="Texture2D" uid="uid://2uxyflocl12i" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00043.png" id="44_yot3w"]
+[ext_resource type="Texture2D" uid="uid://mmyvlkb5luh2" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00044.png" id="45_2wudl"]
+[ext_resource type="Texture2D" uid="uid://bj4xxfetl6uvm" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00045.png" id="46_iwq3t"]
+[ext_resource type="Texture2D" uid="uid://ks0jt5yxy51m" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00046.png" id="47_gqnlo"]
+[ext_resource type="Texture2D" uid="uid://hpcks3mgw1u0" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00047.png" id="48_1w738"]
+[ext_resource type="Texture2D" uid="uid://wj0c7a2bmapf" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00048.png" id="49_tksdv"]
+[ext_resource type="Texture2D" uid="uid://b801m31xfsjyl" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00049.png" id="50_yva1m"]
+[ext_resource type="Texture2D" uid="uid://hf8ch4w4gc4s" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00050.png" id="51_e4cdq"]
+[ext_resource type="Texture2D" uid="uid://8lfcifqp0ejf" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00051.png" id="52_bjlqy"]
+[ext_resource type="Texture2D" uid="uid://dtiydp47nxd7a" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00052.png" id="53_61r8u"]
+[ext_resource type="Texture2D" uid="uid://oxw44r0tcj4s" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00053.png" id="54_uof4a"]
+[ext_resource type="Texture2D" uid="uid://mrg3plrytgm3" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00054.png" id="55_vrqjf"]
+[ext_resource type="Texture2D" uid="uid://h37cygseg3it" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00055.png" id="56_e35hg"]
+[ext_resource type="Texture2D" uid="uid://dryeydoig7f36" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00056.png" id="57_ndely"]
+[ext_resource type="Texture2D" uid="uid://c7m62r2llqyvq" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00057.png" id="58_kqd8w"]
+[ext_resource type="Texture2D" uid="uid://d3pf1ig24cldx" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00058.png" id="59_krweo"]
+[ext_resource type="Texture2D" uid="uid://dnq2v4swef6s2" path="res://assets/npcs/Talk Show/TAS_MagicienFruit/TAS_MagicienFruit/Magician_00059.png" id="60_8veed"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_tkmgf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_rxf14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7g1h6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7s4yr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wpird")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_t815v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ioqo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_q4soi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_75nj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bsgto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_s21e8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_mtm3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_5idgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_q1ecq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_6m6dl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_emm0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_0luy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wh5xc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_r2lb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_y5ila")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_wm41l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_xhmod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_enf3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_21hbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ybijp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_pnhyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_abhwo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_jt85o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_geal0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_tu3gw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_yvhut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_57xuq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_bdpfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_hw8fj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_6kxx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_c3nha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ee603")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_uef6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_rlkk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_71e60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_c35di")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_aq6sm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_pa5k4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_yot3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_2wudl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_iwq3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_gqnlo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_1w738")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_tksdv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_yva1m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_e4cdq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_bjlqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_61r8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_uof4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_vrqjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_e35hg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_ndely")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_kqd8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_krweo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_8veed")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

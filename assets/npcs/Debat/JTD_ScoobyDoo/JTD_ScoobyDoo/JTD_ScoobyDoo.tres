@@ -1,0 +1,254 @@
+[gd_resource type="SpriteFrames" load_steps=62 format=3 uid="uid://c33o3f5v7xy8x"]
+
+[ext_resource type="Texture2D" uid="uid://ctaafvgvlc621" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00000.png" id="1_ni035"]
+[ext_resource type="Texture2D" uid="uid://fxrqyao0wobu" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00001.png" id="2_pab37"]
+[ext_resource type="Texture2D" uid="uid://bawvrt3maxgd2" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00002.png" id="3_g05p7"]
+[ext_resource type="Texture2D" uid="uid://bcvxydfmxwuop" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00003.png" id="4_xsr37"]
+[ext_resource type="Texture2D" uid="uid://bsucs0g1xb1n5" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00004.png" id="5_y1eji"]
+[ext_resource type="Texture2D" uid="uid://c0dp0eoa8626i" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00005.png" id="6_d2t77"]
+[ext_resource type="Texture2D" uid="uid://cpqjfj764suuy" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00006.png" id="7_oe471"]
+[ext_resource type="Texture2D" uid="uid://h6otrc2p6wuu" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00007.png" id="8_6rs6h"]
+[ext_resource type="Texture2D" uid="uid://ducgj7f5yp5dh" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00008.png" id="9_sopg2"]
+[ext_resource type="Texture2D" uid="uid://odtoa64mj7eb" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00009.png" id="10_4u01s"]
+[ext_resource type="Texture2D" uid="uid://blh2tbbufrtfx" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00010.png" id="11_biue3"]
+[ext_resource type="Texture2D" uid="uid://d04g30kg86uop" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00011.png" id="12_eiv2p"]
+[ext_resource type="Texture2D" uid="uid://cx313aa5vpwf7" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00012.png" id="13_2kbua"]
+[ext_resource type="Texture2D" uid="uid://78f6c6u2x6go" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00013.png" id="14_caq2i"]
+[ext_resource type="Texture2D" uid="uid://cgbonyujdw1gd" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00014.png" id="15_4jn88"]
+[ext_resource type="Texture2D" uid="uid://1u0bjjqdmgxp" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00015.png" id="16_abw22"]
+[ext_resource type="Texture2D" uid="uid://c3onmgdxllp00" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00016.png" id="17_ysic7"]
+[ext_resource type="Texture2D" uid="uid://1wu7lekm4evl" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00017.png" id="18_025ko"]
+[ext_resource type="Texture2D" uid="uid://cax2x7q6c2yn4" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00018.png" id="19_mch8w"]
+[ext_resource type="Texture2D" uid="uid://ckolmti8j7vv6" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00019.png" id="20_5ek4k"]
+[ext_resource type="Texture2D" uid="uid://dna6ovsua55d1" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00020.png" id="21_p2st4"]
+[ext_resource type="Texture2D" uid="uid://dorayyawrcsb2" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00021.png" id="22_fks3m"]
+[ext_resource type="Texture2D" uid="uid://d2y08oewj6aio" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00022.png" id="23_aqgsh"]
+[ext_resource type="Texture2D" uid="uid://es1qhaclikak" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00023.png" id="24_8k7gf"]
+[ext_resource type="Texture2D" uid="uid://bsr0y1hdk8o4q" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00024.png" id="25_607sa"]
+[ext_resource type="Texture2D" uid="uid://ba08j32b4jk4v" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00025.png" id="26_q5rd7"]
+[ext_resource type="Texture2D" uid="uid://cmc1tg75nijsv" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00026.png" id="27_hovds"]
+[ext_resource type="Texture2D" uid="uid://dh6yvec484r3v" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00027.png" id="28_l3owj"]
+[ext_resource type="Texture2D" uid="uid://ccj1rii0joccf" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00028.png" id="29_s2c6a"]
+[ext_resource type="Texture2D" uid="uid://jhq4si0j0fp2" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00029.png" id="30_ewf7i"]
+[ext_resource type="Texture2D" uid="uid://da0tq8wvvxfuh" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00030.png" id="31_6g3kl"]
+[ext_resource type="Texture2D" uid="uid://pl4lfija3kj7" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00031.png" id="32_rrco5"]
+[ext_resource type="Texture2D" uid="uid://bsnwppb4ugta8" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00032.png" id="33_ynv72"]
+[ext_resource type="Texture2D" uid="uid://boobewyvne4rl" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00033.png" id="34_u2ke2"]
+[ext_resource type="Texture2D" uid="uid://bgrn0uymujskq" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00034.png" id="35_b54no"]
+[ext_resource type="Texture2D" uid="uid://dlt887kkqxyiq" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00035.png" id="36_yt4t1"]
+[ext_resource type="Texture2D" uid="uid://dnegiq5vb2tfv" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00036.png" id="37_gdbqp"]
+[ext_resource type="Texture2D" uid="uid://2ni61b57do2s" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00037.png" id="38_awc66"]
+[ext_resource type="Texture2D" uid="uid://jayfvrastscq" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00038.png" id="39_ivavt"]
+[ext_resource type="Texture2D" uid="uid://bjx54sf5ys65p" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00039.png" id="40_42wkw"]
+[ext_resource type="Texture2D" uid="uid://ccvafuh66xjp" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00040.png" id="41_8d5gl"]
+[ext_resource type="Texture2D" uid="uid://dl7a5xy3vr0lm" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00041.png" id="42_m8edy"]
+[ext_resource type="Texture2D" uid="uid://tcvi0l3rmlsg" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00042.png" id="43_a735u"]
+[ext_resource type="Texture2D" uid="uid://c5yy6c4ornnvt" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00043.png" id="44_jsmy7"]
+[ext_resource type="Texture2D" uid="uid://bpv3l8a4jlm37" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00044.png" id="45_yxhjg"]
+[ext_resource type="Texture2D" uid="uid://4h6pl524oo36" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00045.png" id="46_7ibmc"]
+[ext_resource type="Texture2D" uid="uid://dj462fdfuxm6l" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00046.png" id="47_uujsq"]
+[ext_resource type="Texture2D" uid="uid://c6g8cbi882dch" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00047.png" id="48_jgy5q"]
+[ext_resource type="Texture2D" uid="uid://cdmdj6xf0rrk8" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00048.png" id="49_1sxgl"]
+[ext_resource type="Texture2D" uid="uid://bithpy7axk407" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00049.png" id="50_wl07o"]
+[ext_resource type="Texture2D" uid="uid://8yhb0qbs47tj" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00050.png" id="51_vn7mq"]
+[ext_resource type="Texture2D" uid="uid://bshudr5s7cobn" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00051.png" id="52_o8lqs"]
+[ext_resource type="Texture2D" uid="uid://b3lf7inmk6tyo" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00052.png" id="53_dgppu"]
+[ext_resource type="Texture2D" uid="uid://qk2elthk8u4j" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00053.png" id="54_bcgra"]
+[ext_resource type="Texture2D" uid="uid://cqeek0500d5tx" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00054.png" id="55_j88bw"]
+[ext_resource type="Texture2D" uid="uid://bjii775kurouf" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00055.png" id="56_svqfb"]
+[ext_resource type="Texture2D" uid="uid://dm4aerowjkcwg" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00056.png" id="57_v3rfs"]
+[ext_resource type="Texture2D" uid="uid://btblniqewj7gi" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00057.png" id="58_28gkm"]
+[ext_resource type="Texture2D" uid="uid://cvp8rfah5vcv2" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00058.png" id="59_wi0bg"]
+[ext_resource type="Texture2D" uid="uid://qv0olshi1on6" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00059.png" id="60_r10t8"]
+[ext_resource type="Texture2D" uid="uid://de2hcrs3hnbgl" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/Mask Scooby Doo_00060.png" id="61_an70p"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ni035")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pab37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_g05p7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xsr37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_y1eji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_d2t77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_oe471")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6rs6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_sopg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_4u01s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_biue3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_eiv2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_2kbua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_caq2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_4jn88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_abw22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ysic7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_025ko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_mch8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_5ek4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_p2st4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_fks3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_aqgsh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_8k7gf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_607sa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_q5rd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_hovds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_l3owj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_s2c6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ewf7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_6g3kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_rrco5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ynv72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_u2ke2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_b54no")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_yt4t1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_gdbqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_awc66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ivavt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_42wkw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_8d5gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_m8edy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_a735u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_jsmy7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_yxhjg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_7ibmc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_uujsq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_jgy5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_1sxgl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_wl07o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_vn7mq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_o8lqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_dgppu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_bcgra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_j88bw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_svqfb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_v3rfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_28gkm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_wi0bg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_r10t8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_an70p")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

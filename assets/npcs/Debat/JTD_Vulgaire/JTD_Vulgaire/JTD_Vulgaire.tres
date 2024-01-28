@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://blx1spy2iyk2u"]
+
+[ext_resource type="Texture2D" uid="uid://dyf6222u050c0" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00000.png" id="1_kt15k"]
+[ext_resource type="Texture2D" uid="uid://dy11gedp8yimb" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00001.png" id="2_smkif"]
+[ext_resource type="Texture2D" uid="uid://csf35bo23slli" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00002.png" id="3_ys0am"]
+[ext_resource type="Texture2D" uid="uid://bxhy7e4sgymct" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00003.png" id="4_xigp1"]
+[ext_resource type="Texture2D" uid="uid://bmnh4lwvxdfoo" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00004.png" id="5_h180h"]
+[ext_resource type="Texture2D" uid="uid://b8f4ullpu45fr" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00005.png" id="6_ys0e3"]
+[ext_resource type="Texture2D" uid="uid://bj841m4onti0q" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00006.png" id="7_6dxex"]
+[ext_resource type="Texture2D" uid="uid://clwy6yp4j0cys" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00007.png" id="8_cm6du"]
+[ext_resource type="Texture2D" uid="uid://dpuvrwk5wsimo" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00008.png" id="9_gwhr7"]
+[ext_resource type="Texture2D" uid="uid://odobj3uu4s4b" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00009.png" id="10_76k3c"]
+[ext_resource type="Texture2D" uid="uid://dp0fk7sgis3m3" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00010.png" id="11_n7ppx"]
+[ext_resource type="Texture2D" uid="uid://d1ironkgd2wha" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00011.png" id="12_1q1d4"]
+[ext_resource type="Texture2D" uid="uid://daf110dftsxv5" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00012.png" id="13_kbray"]
+[ext_resource type="Texture2D" uid="uid://bpdl31mcsrx63" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00013.png" id="14_5pr1b"]
+[ext_resource type="Texture2D" uid="uid://irki0bueda8o" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00014.png" id="15_b72de"]
+[ext_resource type="Texture2D" uid="uid://dmivsparvkgvo" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00015.png" id="16_ub006"]
+[ext_resource type="Texture2D" uid="uid://d245e8juqucn0" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00016.png" id="17_qgbly"]
+[ext_resource type="Texture2D" uid="uid://0f1vsayo638t" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00017.png" id="18_5asw7"]
+[ext_resource type="Texture2D" uid="uid://kd32w2rr8vv1" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00018.png" id="19_trl6w"]
+[ext_resource type="Texture2D" uid="uid://wunt0hwul054" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00019.png" id="20_f53d0"]
+[ext_resource type="Texture2D" uid="uid://c3r1cckqrm7xa" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00020.png" id="21_fgiof"]
+[ext_resource type="Texture2D" uid="uid://doyfmc1b4t87c" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00021.png" id="22_3h2b8"]
+[ext_resource type="Texture2D" uid="uid://dh475vp0y3lly" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00022.png" id="23_nfwhy"]
+[ext_resource type="Texture2D" uid="uid://jqsgua3pdk0o" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00023.png" id="24_duukg"]
+[ext_resource type="Texture2D" uid="uid://b6ipo28vg0yrr" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00024.png" id="25_ewrcv"]
+[ext_resource type="Texture2D" uid="uid://d2v3rwtsf6g7o" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00025.png" id="26_gh6fp"]
+[ext_resource type="Texture2D" uid="uid://cq2jcu3frrtcc" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00026.png" id="27_kbnre"]
+[ext_resource type="Texture2D" uid="uid://bkoj03qy52r3y" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00027.png" id="28_gqxu6"]
+[ext_resource type="Texture2D" uid="uid://j670m0twr5si" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00028.png" id="29_ojrvk"]
+[ext_resource type="Texture2D" uid="uid://bq4yfefsxlpub" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00029.png" id="30_8wnnk"]
+[ext_resource type="Texture2D" uid="uid://rixvxy8xchgh" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00030.png" id="31_bo62x"]
+[ext_resource type="Texture2D" uid="uid://cslx7kmfls5kd" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00031.png" id="32_i2i8i"]
+[ext_resource type="Texture2D" uid="uid://bw6jr5wf4rbox" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00032.png" id="33_dwxst"]
+[ext_resource type="Texture2D" uid="uid://del0dg3uvow1b" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00033.png" id="34_24kih"]
+[ext_resource type="Texture2D" uid="uid://cg3k27lb7fthg" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00034.png" id="35_khfii"]
+[ext_resource type="Texture2D" uid="uid://cq2w306vhvdg3" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00035.png" id="36_kboyl"]
+[ext_resource type="Texture2D" uid="uid://d0dbackylg7h8" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00036.png" id="37_s7i8l"]
+[ext_resource type="Texture2D" uid="uid://dn201hgmchq6h" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00037.png" id="38_2mdt8"]
+[ext_resource type="Texture2D" uid="uid://c0kk7opmbvfpa" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00038.png" id="39_ltdpw"]
+[ext_resource type="Texture2D" uid="uid://d1ki07gmutv33" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00039.png" id="40_6tat5"]
+[ext_resource type="Texture2D" uid="uid://cqarpkw24vm2f" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00040.png" id="41_yv8qr"]
+[ext_resource type="Texture2D" uid="uid://cp0lixuojvx3d" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00041.png" id="42_kfiwf"]
+[ext_resource type="Texture2D" uid="uid://cciw3tw8i6w74" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00042.png" id="43_dhd2q"]
+[ext_resource type="Texture2D" uid="uid://bysqm8tp4ig57" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00043.png" id="44_f447j"]
+[ext_resource type="Texture2D" uid="uid://daf52mdl47cnk" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00044.png" id="45_17g73"]
+[ext_resource type="Texture2D" uid="uid://7bqg7ebttu72" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00045.png" id="46_emusi"]
+[ext_resource type="Texture2D" uid="uid://cmhenfmqn6gns" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00046.png" id="47_4cc7f"]
+[ext_resource type="Texture2D" uid="uid://8hdvrgu236vb" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00047.png" id="48_4m8mp"]
+[ext_resource type="Texture2D" uid="uid://c3onl72pcete4" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00048.png" id="49_rvtjt"]
+[ext_resource type="Texture2D" uid="uid://qauq4r2k40gk" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00049.png" id="50_ioipx"]
+[ext_resource type="Texture2D" uid="uid://caglmf6jo4q4q" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00050.png" id="51_o6dc4"]
+[ext_resource type="Texture2D" uid="uid://cj06c2i4r34kt" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00051.png" id="52_v3i2q"]
+[ext_resource type="Texture2D" uid="uid://difb352xo01qf" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00052.png" id="53_y7xhs"]
+[ext_resource type="Texture2D" uid="uid://dbwl3sk4c0q5r" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00053.png" id="54_fnkr6"]
+[ext_resource type="Texture2D" uid="uid://btjn7mf2r2yij" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00054.png" id="55_xblqe"]
+[ext_resource type="Texture2D" uid="uid://cetx3obgbo6yg" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00055.png" id="56_f1fru"]
+[ext_resource type="Texture2D" uid="uid://3ot85dsvj4b6" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00056.png" id="57_cphnr"]
+[ext_resource type="Texture2D" uid="uid://wi3f75wpdals" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00057.png" id="58_khypp"]
+[ext_resource type="Texture2D" uid="uid://jbyvktm6hj8a" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00058.png" id="59_e1slv"]
+[ext_resource type="Texture2D" uid="uid://cwh6u143codur" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/TalkShowsexy_00059.png" id="60_ae1b4"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_kt15k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_smkif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ys0am")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xigp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_h180h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ys0e3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_6dxex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_cm6du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gwhr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_76k3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_n7ppx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_1q1d4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_kbray")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5pr1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_b72de")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ub006")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_qgbly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_5asw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_trl6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_f53d0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_fgiof")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_3h2b8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_nfwhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_duukg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ewrcv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_gh6fp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_kbnre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_gqxu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ojrvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_8wnnk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_bo62x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_i2i8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_dwxst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_24kih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_khfii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_kboyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_s7i8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_2mdt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ltdpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6tat5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_yv8qr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_kfiwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_dhd2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_f447j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_17g73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_emusi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_4cc7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_4m8mp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_rvtjt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ioipx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_o6dc4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_v3i2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_y7xhs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_fnkr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_xblqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_f1fru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_cphnr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_khypp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_e1slv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_ae1b4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://rot2o7a01e4o"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_acce2"]
+[ext_resource type="SpriteFrames" uid="uid://bfd4qkhx41ana" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/TAS_Reptiliens.tres" id="2_y5ql3"]
+
+[node name="TAS_Reptiliens" instance=ExtResource("1_acce2")]
+sprite_frames = ExtResource("2_y5ql3")
+isBad = true
+
+[node name="CSGBox3D" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 0.6, 0, 0, 0, 1, 2.06192, -0.815436, 2.98023e-08)

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bf7gv36a8nd00"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_y7s8o"]
+[ext_resource type="SpriteFrames" uid="uid://8wsxbk1kip2v" path="res://assets/npcs/TF1/TF1_Chauves/TF1_Chauves.tres" id="2_8l8b4"]
+
+[node name="TF1_Chauves" instance=ExtResource("1_y7s8o")]
+sprite_frames = ExtResource("2_8l8b4")
+isBad = true
+
+[node name="CSGBox3D" parent="." index="0"]
+transform = Transform3D(5.66352, 0, 0, 0, 3.06424, 0, 0, 0, 1, 0.0619202, 0.0543988, 2.98023e-08)

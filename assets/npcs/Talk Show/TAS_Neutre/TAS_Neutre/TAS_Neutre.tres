@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://davc4x0gn88y8"]
+
+[ext_resource type="Texture2D" uid="uid://yyg20y7iq2to" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00000.png" id="1_3lisb"]
+[ext_resource type="Texture2D" uid="uid://6g8m23g0rlj6" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00001.png" id="2_q2s7x"]
+[ext_resource type="Texture2D" uid="uid://nwsj7pl6wve3" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00002.png" id="3_xmvat"]
+[ext_resource type="Texture2D" uid="uid://cmx6kgj0fd5t" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00003.png" id="4_03ll1"]
+[ext_resource type="Texture2D" uid="uid://csknpco34dnaa" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00004.png" id="5_m0lew"]
+[ext_resource type="Texture2D" uid="uid://d18l3als2pksd" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00005.png" id="6_sc2ly"]
+[ext_resource type="Texture2D" uid="uid://bo1nvyf6741ba" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00006.png" id="7_dtoej"]
+[ext_resource type="Texture2D" uid="uid://drrt6m5omgqwd" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00007.png" id="8_yqtmr"]
+[ext_resource type="Texture2D" uid="uid://d18l2v025b82r" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00008.png" id="9_h80vj"]
+[ext_resource type="Texture2D" uid="uid://1po715mjjvps" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00009.png" id="10_vqux3"]
+[ext_resource type="Texture2D" uid="uid://bpp521qld8fw2" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00010.png" id="11_cqeh1"]
+[ext_resource type="Texture2D" uid="uid://dv65hsc3qk48i" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00011.png" id="12_2wvcd"]
+[ext_resource type="Texture2D" uid="uid://c4waw1mdvhfkt" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00012.png" id="13_v0n4w"]
+[ext_resource type="Texture2D" uid="uid://b6uti4skit6f" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00013.png" id="14_lp4y8"]
+[ext_resource type="Texture2D" uid="uid://1t8hnhd6bq5a" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00014.png" id="15_xkbgd"]
+[ext_resource type="Texture2D" uid="uid://b0tyjahxwthyp" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00015.png" id="16_40uds"]
+[ext_resource type="Texture2D" uid="uid://b1jtlimkqr8w7" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00016.png" id="17_b7wsf"]
+[ext_resource type="Texture2D" uid="uid://rqf16psutsch" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00017.png" id="18_qhhhd"]
+[ext_resource type="Texture2D" uid="uid://ci0xf7pdaecwx" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00018.png" id="19_557hv"]
+[ext_resource type="Texture2D" uid="uid://c6xpphpbpfmvs" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00019.png" id="20_vxaqd"]
+[ext_resource type="Texture2D" uid="uid://bp2cmwbq7igj0" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00020.png" id="21_0lau3"]
+[ext_resource type="Texture2D" uid="uid://dljpaca1ji2dm" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00021.png" id="22_nynjx"]
+[ext_resource type="Texture2D" uid="uid://bmg7x8rqdwqaq" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00022.png" id="23_yt2r5"]
+[ext_resource type="Texture2D" uid="uid://c1cxdc2gghntc" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00023.png" id="24_mr3ic"]
+[ext_resource type="Texture2D" uid="uid://bpctf45c72dxb" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00024.png" id="25_nfwad"]
+[ext_resource type="Texture2D" uid="uid://ccjfh6v24t6hr" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00025.png" id="26_2mcb6"]
+[ext_resource type="Texture2D" uid="uid://bfw2blpchuru" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00026.png" id="27_ivcm0"]
+[ext_resource type="Texture2D" uid="uid://142sghf0ec8g" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00027.png" id="28_7p155"]
+[ext_resource type="Texture2D" uid="uid://cldrl1m7j1mr7" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00028.png" id="29_e5ufi"]
+[ext_resource type="Texture2D" uid="uid://rxq3bsuglxyt" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00029.png" id="30_fiwac"]
+[ext_resource type="Texture2D" uid="uid://d0kqar2tbp5qf" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00030.png" id="31_aancu"]
+[ext_resource type="Texture2D" uid="uid://dbmkvp776symh" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00031.png" id="32_5arvm"]
+[ext_resource type="Texture2D" uid="uid://dpyfuag2xitsv" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00032.png" id="33_yngaa"]
+[ext_resource type="Texture2D" uid="uid://djs51f4k023ae" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00033.png" id="34_lohvg"]
+[ext_resource type="Texture2D" uid="uid://b1obiua4x035d" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00034.png" id="35_ss551"]
+[ext_resource type="Texture2D" uid="uid://dd70clv8s3yg2" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00035.png" id="36_gqyvu"]
+[ext_resource type="Texture2D" uid="uid://cq4m2ymyre434" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00036.png" id="37_7rq7m"]
+[ext_resource type="Texture2D" uid="uid://doi5pljp1qd8" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00037.png" id="38_0gt73"]
+[ext_resource type="Texture2D" uid="uid://dl6t4g8wn8njg" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00038.png" id="39_36m7t"]
+[ext_resource type="Texture2D" uid="uid://bt8t8qr377x7w" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00039.png" id="40_ntikg"]
+[ext_resource type="Texture2D" uid="uid://ci70ywr6ld55g" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00040.png" id="41_ga6yn"]
+[ext_resource type="Texture2D" uid="uid://bx42iitej45s8" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00041.png" id="42_xfahf"]
+[ext_resource type="Texture2D" uid="uid://4nds7neyamrh" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00042.png" id="43_yryhd"]
+[ext_resource type="Texture2D" uid="uid://mdxc27i6211a" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00043.png" id="44_p4cmq"]
+[ext_resource type="Texture2D" uid="uid://b74yt0d8n2cdb" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00044.png" id="45_e0bn5"]
+[ext_resource type="Texture2D" uid="uid://drx0u6lp358qb" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00045.png" id="46_3gxe5"]
+[ext_resource type="Texture2D" uid="uid://c2u4adb5od5r4" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00046.png" id="47_jr8pu"]
+[ext_resource type="Texture2D" uid="uid://dhoed21wgjyu8" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00047.png" id="48_y237q"]
+[ext_resource type="Texture2D" uid="uid://bgkgx21biwukg" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00048.png" id="49_q5fcm"]
+[ext_resource type="Texture2D" uid="uid://c6any0xfvafqd" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00049.png" id="50_xcq13"]
+[ext_resource type="Texture2D" uid="uid://bgqk2ypf5eet" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00050.png" id="51_7sftc"]
+[ext_resource type="Texture2D" uid="uid://dtgnbw5vodm4x" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00051.png" id="52_6orrr"]
+[ext_resource type="Texture2D" uid="uid://c7yswrp66r08e" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00052.png" id="53_n8i5f"]
+[ext_resource type="Texture2D" uid="uid://bpqo4tnck56c5" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00053.png" id="54_la4dl"]
+[ext_resource type="Texture2D" uid="uid://cw7mnkl7o80nu" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00054.png" id="55_kspq2"]
+[ext_resource type="Texture2D" uid="uid://hwnbwimc47ye" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00055.png" id="56_q2fx6"]
+[ext_resource type="Texture2D" uid="uid://cg4uyrcrqo8li" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00056.png" id="57_0f35w"]
+[ext_resource type="Texture2D" uid="uid://cmakn8agaxa8u" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00057.png" id="58_lqy2t"]
+[ext_resource type="Texture2D" uid="uid://274iarqpyige" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00058.png" id="59_dsvol"]
+[ext_resource type="Texture2D" uid="uid://bh1seslkdnpa4" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/présentateur-talkshow_00059.png" id="60_glj2u"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3lisb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_q2s7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xmvat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_03ll1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_m0lew")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_sc2ly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_dtoej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yqtmr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_h80vj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_vqux3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_cqeh1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_2wvcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_v0n4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_lp4y8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_xkbgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_40uds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b7wsf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_qhhhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_557hv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_vxaqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_0lau3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_nynjx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_yt2r5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_mr3ic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_nfwad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_2mcb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ivcm0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_7p155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_e5ufi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_fiwac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_aancu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_5arvm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_yngaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_lohvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ss551")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_gqyvu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_7rq7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_0gt73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_36m7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ntikg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ga6yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_xfahf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_yryhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_p4cmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_e0bn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_3gxe5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_jr8pu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_y237q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_q5fcm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_xcq13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_7sftc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_6orrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_n8i5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_la4dl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_kspq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_q2fx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_0f35w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_lqy2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_dsvol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_glj2u")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

@@ -1,0 +1,254 @@
+[gd_resource type="SpriteFrames" load_steps=62 format=3 uid="uid://bfumev3w0tdbk"]
+
+[ext_resource type="Texture2D" uid="uid://dajy5ni5us112" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00000.png" id="1_t2gpt"]
+[ext_resource type="Texture2D" uid="uid://fi8oevgvtmd7" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00001.png" id="2_3wlro"]
+[ext_resource type="Texture2D" uid="uid://6rhd6usi2t4p" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00002.png" id="3_te8sk"]
+[ext_resource type="Texture2D" uid="uid://dnw0hydh4rnrd" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00003.png" id="4_h28a4"]
+[ext_resource type="Texture2D" uid="uid://c64ttpejsnpp7" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00004.png" id="5_i5q6r"]
+[ext_resource type="Texture2D" uid="uid://ct8m2e1xtd6ew" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00005.png" id="6_k7g0f"]
+[ext_resource type="Texture2D" uid="uid://buk77o8rgd6bp" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00006.png" id="7_irc6n"]
+[ext_resource type="Texture2D" uid="uid://d3bogqc37prds" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00007.png" id="8_uhqpa"]
+[ext_resource type="Texture2D" uid="uid://dxkr5ho4vluef" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00008.png" id="9_28ste"]
+[ext_resource type="Texture2D" uid="uid://bvmxblxptoccs" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00009.png" id="10_gra8r"]
+[ext_resource type="Texture2D" uid="uid://ciq7fkl5abeam" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00010.png" id="11_q05pw"]
+[ext_resource type="Texture2D" uid="uid://b5t2g1v2uapkr" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00011.png" id="12_isjsa"]
+[ext_resource type="Texture2D" uid="uid://b6gja45pwh6cw" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00012.png" id="13_1tg7d"]
+[ext_resource type="Texture2D" uid="uid://cp3rovx6fsfm8" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00013.png" id="14_0vi6m"]
+[ext_resource type="Texture2D" uid="uid://3d1lv8yd4fb8" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00014.png" id="15_fg3g4"]
+[ext_resource type="Texture2D" uid="uid://cbdk1i83xiy0n" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00015.png" id="16_udgra"]
+[ext_resource type="Texture2D" uid="uid://bet3oeo5sc6r6" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00016.png" id="17_4pjlr"]
+[ext_resource type="Texture2D" uid="uid://dxc52fws1xytf" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00017.png" id="18_6lnyj"]
+[ext_resource type="Texture2D" uid="uid://w0fc2c6tdbgn" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00018.png" id="19_0gyeb"]
+[ext_resource type="Texture2D" uid="uid://cppef4dj3q10v" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00019.png" id="20_4denu"]
+[ext_resource type="Texture2D" uid="uid://ba3726ke67n3y" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00020.png" id="21_lah1f"]
+[ext_resource type="Texture2D" uid="uid://isy4b5n665o" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00021.png" id="22_cpl6f"]
+[ext_resource type="Texture2D" uid="uid://ccs7ek5gyam6s" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00022.png" id="23_bwtb2"]
+[ext_resource type="Texture2D" uid="uid://cuapv0kk85yft" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00023.png" id="24_05ccg"]
+[ext_resource type="Texture2D" uid="uid://jmvvm57vbvlu" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00024.png" id="25_pkjrp"]
+[ext_resource type="Texture2D" uid="uid://cek45v7xyejm8" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00025.png" id="26_85bo7"]
+[ext_resource type="Texture2D" uid="uid://cvyf6yp6a8sbq" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00026.png" id="27_0ipao"]
+[ext_resource type="Texture2D" uid="uid://bimgvnsrciyuw" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00027.png" id="28_he2bu"]
+[ext_resource type="Texture2D" uid="uid://c6s7if7gj535p" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00028.png" id="29_hhwla"]
+[ext_resource type="Texture2D" uid="uid://cl5377l8vcvkp" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00029.png" id="30_4tkfm"]
+[ext_resource type="Texture2D" uid="uid://duiqbjju7sn4p" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00030.png" id="31_eii0b"]
+[ext_resource type="Texture2D" uid="uid://b4aaex2bsfgfq" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00031.png" id="32_lnikl"]
+[ext_resource type="Texture2D" uid="uid://cqt7hw5jwpy3h" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00032.png" id="33_ltwvr"]
+[ext_resource type="Texture2D" uid="uid://d8krsihnxun7" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00033.png" id="34_fx154"]
+[ext_resource type="Texture2D" uid="uid://bvqbetrxafwu5" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00034.png" id="35_gqjd0"]
+[ext_resource type="Texture2D" uid="uid://m2us4jr744e6" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00035.png" id="36_hnbmh"]
+[ext_resource type="Texture2D" uid="uid://ihbpko00ui57" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00036.png" id="37_fc6gl"]
+[ext_resource type="Texture2D" uid="uid://cpqv6ddqg3bxa" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00037.png" id="38_35q17"]
+[ext_resource type="Texture2D" uid="uid://1nouqf8n28na" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00038.png" id="39_vquj4"]
+[ext_resource type="Texture2D" uid="uid://co3rnlphcmg8m" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00039.png" id="40_ywg2y"]
+[ext_resource type="Texture2D" uid="uid://gc67ehcoktl3" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00040.png" id="41_gj8di"]
+[ext_resource type="Texture2D" uid="uid://yjl4sh78hs15" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00041.png" id="42_qrqcc"]
+[ext_resource type="Texture2D" uid="uid://fhbxpuelrmg1" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00042.png" id="43_k3muw"]
+[ext_resource type="Texture2D" uid="uid://c05xkn4kakw8u" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00043.png" id="44_6uoj5"]
+[ext_resource type="Texture2D" uid="uid://yylgrhyjxyjg" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00044.png" id="45_jg0pp"]
+[ext_resource type="Texture2D" uid="uid://dukmxttmdpdtn" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00045.png" id="46_qqlpv"]
+[ext_resource type="Texture2D" uid="uid://d3gsc5uf3bwt1" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00046.png" id="47_nuc3k"]
+[ext_resource type="Texture2D" uid="uid://ck5v32h82lmbs" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00047.png" id="48_nv5ub"]
+[ext_resource type="Texture2D" uid="uid://cqvyercmi388w" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00048.png" id="49_iboye"]
+[ext_resource type="Texture2D" uid="uid://u7ctrdmrfkus" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00049.png" id="50_kaeds"]
+[ext_resource type="Texture2D" uid="uid://b0e1whgpafqb5" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00050.png" id="51_8eig4"]
+[ext_resource type="Texture2D" uid="uid://dpclpv2cow0cf" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00051.png" id="52_rp5jt"]
+[ext_resource type="Texture2D" uid="uid://cpom58kvhly13" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00052.png" id="53_kpu85"]
+[ext_resource type="Texture2D" uid="uid://cq7qwholc6guf" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00053.png" id="54_ahkck"]
+[ext_resource type="Texture2D" uid="uid://k0tll71tk7ud" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00054.png" id="55_dhjpm"]
+[ext_resource type="Texture2D" uid="uid://c30nmk5pcweg3" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00055.png" id="56_1gaus"]
+[ext_resource type="Texture2D" uid="uid://btu8gi4vwedrg" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00056.png" id="57_c1wts"]
+[ext_resource type="Texture2D" uid="uid://f4my7sjh3723" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00057.png" id="58_3jat3"]
+[ext_resource type="Texture2D" uid="uid://dhg6fmu738id8" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00058.png" id="59_lgc20"]
+[ext_resource type="Texture2D" uid="uid://dsef0rovf8bw3" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00059.png" id="60_q1lwj"]
+[ext_resource type="Texture2D" uid="uid://pu1lqmi4ihn0" path="res://assets/npcs/Talk Show/TAS_Napoleon/TAS_Napoleon/Napoléon_00060.png" id="61_auvuw"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_t2gpt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_3wlro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_te8sk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_h28a4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_i5q6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_k7g0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_irc6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_uhqpa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_28ste")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_gra8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_q05pw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_isjsa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1tg7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_0vi6m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_fg3g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_udgra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_4pjlr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_6lnyj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_0gyeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4denu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_lah1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_cpl6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_bwtb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_05ccg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_pkjrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_85bo7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_0ipao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_he2bu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_hhwla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_4tkfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_eii0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_lnikl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ltwvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_fx154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_gqjd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_hnbmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_fc6gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_35q17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_vquj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ywg2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_gj8di")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_qrqcc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_k3muw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_6uoj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_jg0pp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_qqlpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_nuc3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_nv5ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_iboye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_kaeds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_8eig4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_rp5jt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_kpu85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ahkck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_dhjpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_1gaus")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_c1wts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_3jat3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_lgc20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_q1lwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_auvuw")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

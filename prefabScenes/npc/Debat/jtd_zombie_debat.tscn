@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvlhgca265rtc"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_fq2a4"]
+[ext_resource type="SpriteFrames" uid="uid://wu5ogflhcjii" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/JTD_ZombieDebat.tres" id="2_hvc1i"]
+
+[node name="JTD_ZombieDebat" instance=ExtResource("1_fq2a4")]
+sprite_frames = ExtResource("2_hvc1i")
+frame_progress = 0.0

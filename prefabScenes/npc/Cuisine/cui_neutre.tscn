@@ -6,3 +6,6 @@
 [node name="CUI_Neutre" instance=ExtResource("1_yq20q")]
 sprite_frames = ExtResource("2_ivsix")
 frame_progress = 0.0
+
+[node name="CSGBox3D" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0619202, -31.295, 2.98023e-08)

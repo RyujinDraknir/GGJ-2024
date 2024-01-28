@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://3ccnvx5oqq0p"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_73gky"]
+[ext_resource type="SpriteFrames" uid="uid://butk813jo0y4c" path="res://assets/npcs/Debat/JTD_MMA/JTD_MMA/JTD_MMA.tres" id="2_pd544"]
+
+[node name="JTD_MMA" instance=ExtResource("1_73gky")]
+sprite_frames = ExtResource("2_pd544")
+frame_progress = 0.101695
+isBad = true
+
+[node name="CSGBox3D" parent="." index="0"]
+transform = Transform3D(2.32522, 0, 0, 0, 1.25018, 0, 0, 0, 1, -1.0262, 0.0415762, 2.98023e-08)

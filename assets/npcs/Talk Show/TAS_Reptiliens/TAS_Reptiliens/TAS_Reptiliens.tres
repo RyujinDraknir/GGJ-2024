@@ -1,0 +1,254 @@
+[gd_resource type="SpriteFrames" load_steps=62 format=3 uid="uid://bfd4qkhx41ana"]
+
+[ext_resource type="Texture2D" uid="uid://cs2vythw61h73" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00000.png" id="1_8w0lr"]
+[ext_resource type="Texture2D" uid="uid://d183hiaijbkpo" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00001.png" id="2_vrpn2"]
+[ext_resource type="Texture2D" uid="uid://defixw28c0nre" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00002.png" id="3_ha23c"]
+[ext_resource type="Texture2D" uid="uid://dueqbnakux6ho" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00003.png" id="4_n2dnb"]
+[ext_resource type="Texture2D" uid="uid://bfj3pcbbju1tq" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00004.png" id="5_rvf48"]
+[ext_resource type="Texture2D" uid="uid://bk8ajgip4hw68" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00005.png" id="6_dkoxm"]
+[ext_resource type="Texture2D" uid="uid://b6cod82pke0kx" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00006.png" id="7_l2vxj"]
+[ext_resource type="Texture2D" uid="uid://cr54hdmo7n27j" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00007.png" id="8_cl4b0"]
+[ext_resource type="Texture2D" uid="uid://b3nxgaw5ugdo8" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00008.png" id="9_vgr03"]
+[ext_resource type="Texture2D" uid="uid://nvy5dvufrrvg" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00009.png" id="10_welmh"]
+[ext_resource type="Texture2D" uid="uid://edkc7lhrbwky" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00010.png" id="11_etoqi"]
+[ext_resource type="Texture2D" uid="uid://cc5bieubiam3s" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00011.png" id="12_6lpjm"]
+[ext_resource type="Texture2D" uid="uid://cm1nw6mt8s270" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00012.png" id="13_jmwf8"]
+[ext_resource type="Texture2D" uid="uid://cu7lcyv67ptq" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00013.png" id="14_swtml"]
+[ext_resource type="Texture2D" uid="uid://cq04s1ml6x2ka" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00014.png" id="15_l6sul"]
+[ext_resource type="Texture2D" uid="uid://csnqdd1f14on0" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00015.png" id="16_6fyvr"]
+[ext_resource type="Texture2D" uid="uid://vs6fol2d8ooa" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00016.png" id="17_lo44i"]
+[ext_resource type="Texture2D" uid="uid://cuxsqxm45ta0i" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00017.png" id="18_c8j3n"]
+[ext_resource type="Texture2D" uid="uid://cnyq5imv25fv1" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00018.png" id="19_n0y8w"]
+[ext_resource type="Texture2D" uid="uid://pvyttll0fus6" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00019.png" id="20_tv107"]
+[ext_resource type="Texture2D" uid="uid://jx142ms0l767" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00020.png" id="21_6jj8u"]
+[ext_resource type="Texture2D" uid="uid://mk2xeg2dmh6n" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00021.png" id="22_du2cy"]
+[ext_resource type="Texture2D" uid="uid://bkg14ersvjl6c" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00022.png" id="23_fthcw"]
+[ext_resource type="Texture2D" uid="uid://dp3f3a3n1f263" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00023.png" id="24_wkhry"]
+[ext_resource type="Texture2D" uid="uid://cnsyi175aw6o4" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00024.png" id="25_ki73n"]
+[ext_resource type="Texture2D" uid="uid://bvrxpxycebsrv" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00025.png" id="26_hvqwk"]
+[ext_resource type="Texture2D" uid="uid://b5hlgdiuuu3b7" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00026.png" id="27_ho8pm"]
+[ext_resource type="Texture2D" uid="uid://by5hp1gx8ae4k" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00027.png" id="28_cl4we"]
+[ext_resource type="Texture2D" uid="uid://d0yagrnybtqnm" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00028.png" id="29_dbjx4"]
+[ext_resource type="Texture2D" uid="uid://cthegvvxsevxo" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00029.png" id="30_7bgxl"]
+[ext_resource type="Texture2D" uid="uid://dwlgpju8ypphb" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00030.png" id="31_6ey5m"]
+[ext_resource type="Texture2D" uid="uid://0q6rbintm0ru" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00031.png" id="32_nh5j0"]
+[ext_resource type="Texture2D" uid="uid://cys46oxkjyjb8" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00032.png" id="33_0dl5h"]
+[ext_resource type="Texture2D" uid="uid://bh1qdgbouisa6" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00033.png" id="34_dqe1r"]
+[ext_resource type="Texture2D" uid="uid://bwcp7egqv87j8" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00034.png" id="35_fwxca"]
+[ext_resource type="Texture2D" uid="uid://1oc5gsc1l4af" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00035.png" id="36_wxu6s"]
+[ext_resource type="Texture2D" uid="uid://bakcew7cc7685" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00036.png" id="37_7waqm"]
+[ext_resource type="Texture2D" uid="uid://d7hqf8crcq3n" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00037.png" id="38_bfi4s"]
+[ext_resource type="Texture2D" uid="uid://dfd580iyh6x4w" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00038.png" id="39_1ji7f"]
+[ext_resource type="Texture2D" uid="uid://6u3cvecw1b3t" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00039.png" id="40_fomeg"]
+[ext_resource type="Texture2D" uid="uid://cu8midtgwc8td" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00040.png" id="41_e6701"]
+[ext_resource type="Texture2D" uid="uid://dfdajkflpyfer" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00041.png" id="42_xkre3"]
+[ext_resource type="Texture2D" uid="uid://bqoq5188j8i1a" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00042.png" id="43_r4f6o"]
+[ext_resource type="Texture2D" uid="uid://ibmf4dfxpvp6" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00043.png" id="44_6yjn8"]
+[ext_resource type="Texture2D" uid="uid://drpye2nvn4wuc" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00044.png" id="45_ohlkj"]
+[ext_resource type="Texture2D" uid="uid://cx65v67ih6sw8" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00045.png" id="46_sbmtb"]
+[ext_resource type="Texture2D" uid="uid://u4vdkkoxuq40" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00046.png" id="47_27vej"]
+[ext_resource type="Texture2D" uid="uid://c10xoc58pwin2" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00047.png" id="48_cft1v"]
+[ext_resource type="Texture2D" uid="uid://lmy0diy7dyoo" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00048.png" id="49_fmpdl"]
+[ext_resource type="Texture2D" uid="uid://c0xjhlvs4c0hc" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00049.png" id="50_rxkow"]
+[ext_resource type="Texture2D" uid="uid://b61q1bl8730ha" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00050.png" id="51_vbdc1"]
+[ext_resource type="Texture2D" uid="uid://el4kboj0wrn7" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00051.png" id="52_5ckoe"]
+[ext_resource type="Texture2D" uid="uid://x6n2640k0le7" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00052.png" id="53_50y5k"]
+[ext_resource type="Texture2D" uid="uid://d1yblks0fsj5v" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00053.png" id="54_iuqpi"]
+[ext_resource type="Texture2D" uid="uid://djol4rqi7v6g2" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00054.png" id="55_8qjlh"]
+[ext_resource type="Texture2D" uid="uid://davl4n0eikvvv" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00055.png" id="56_g03uu"]
+[ext_resource type="Texture2D" uid="uid://bxit3bod6mtd7" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00056.png" id="57_d6rbe"]
+[ext_resource type="Texture2D" uid="uid://dto16jnmi8b0o" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00057.png" id="58_255rt"]
+[ext_resource type="Texture2D" uid="uid://d2qaru5aijgwk" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00058.png" id="59_1o8ot"]
+[ext_resource type="Texture2D" uid="uid://djomcymqiks0y" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00059.png" id="60_s0sbu"]
+[ext_resource type="Texture2D" uid="uid://cxyu65r05udsw" path="res://assets/npcs/Talk Show/TAS_Reptiliens/TAS_Reptiliens/Reptilien_00060.png" id="61_t4y2r"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8w0lr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_vrpn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ha23c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_n2dnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_rvf48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dkoxm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_l2vxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_cl4b0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vgr03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_welmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_etoqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_6lpjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jmwf8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_swtml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_l6sul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_6fyvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_lo44i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_c8j3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_n0y8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_tv107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_6jj8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_du2cy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_fthcw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_wkhry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ki73n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_hvqwk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ho8pm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_cl4we")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_dbjx4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_7bgxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_6ey5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_nh5j0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_0dl5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_dqe1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_fwxca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_wxu6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_7waqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_bfi4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_1ji7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_fomeg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_e6701")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_xkre3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_r4f6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_6yjn8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_ohlkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_sbmtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_27vej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_cft1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_fmpdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_rxkow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_vbdc1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_5ckoe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_50y5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_iuqpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_8qjlh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_g03uu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_d6rbe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_255rt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_1o8ot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_s0sbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_t4y2r")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

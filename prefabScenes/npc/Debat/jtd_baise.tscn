@@ -7,3 +7,4 @@
 sprite_frames = ExtResource("2_v3tqn")
 frame = 33
 frame_progress = 0.207491
+isBad = true

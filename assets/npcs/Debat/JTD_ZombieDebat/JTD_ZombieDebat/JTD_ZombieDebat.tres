@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://wu5ogflhcjii"]
+
+[ext_resource type="Texture2D" uid="uid://cpp7xk635n0e8" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00000.png" id="1_3qjtu"]
+[ext_resource type="Texture2D" uid="uid://caqd0u4n81f1y" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00001.png" id="2_22xay"]
+[ext_resource type="Texture2D" uid="uid://chgdjgtw1mvd6" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00002.png" id="3_60uw3"]
+[ext_resource type="Texture2D" uid="uid://bye211nuqgva1" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00003.png" id="4_68lc8"]
+[ext_resource type="Texture2D" uid="uid://ow20dtp1kntk" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00004.png" id="5_0aita"]
+[ext_resource type="Texture2D" uid="uid://d3bnlxc8irc2n" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00005.png" id="6_c0630"]
+[ext_resource type="Texture2D" uid="uid://hvxqpky3ypv0" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00006.png" id="7_ryaa7"]
+[ext_resource type="Texture2D" uid="uid://c3trd2ysyllfw" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00007.png" id="8_kcqkg"]
+[ext_resource type="Texture2D" uid="uid://c4ax463dlht6p" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00008.png" id="9_iol8p"]
+[ext_resource type="Texture2D" uid="uid://dusg06xw26a2b" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00009.png" id="10_sb22b"]
+[ext_resource type="Texture2D" uid="uid://bmrt1qvvklx0r" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00010.png" id="11_im07g"]
+[ext_resource type="Texture2D" uid="uid://doqaemf4d1ad" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00011.png" id="12_axdp7"]
+[ext_resource type="Texture2D" uid="uid://dj7fcqjw2fvqo" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00012.png" id="13_qchob"]
+[ext_resource type="Texture2D" uid="uid://w1832s3dc5pl" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00013.png" id="14_akpth"]
+[ext_resource type="Texture2D" uid="uid://basn76nppd66g" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00014.png" id="15_44h2a"]
+[ext_resource type="Texture2D" uid="uid://cdafknljilxvd" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00015.png" id="16_u2ttv"]
+[ext_resource type="Texture2D" uid="uid://b4n5hwwgrx0ms" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00016.png" id="17_bwrox"]
+[ext_resource type="Texture2D" uid="uid://dhal4btg2uala" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00017.png" id="18_7whrl"]
+[ext_resource type="Texture2D" uid="uid://bhcsmknxbtgk4" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00018.png" id="19_jgeov"]
+[ext_resource type="Texture2D" uid="uid://b7qr3mrl6m7ri" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00019.png" id="20_v66eq"]
+[ext_resource type="Texture2D" uid="uid://bmojo0x6hao0u" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00020.png" id="21_sqo1d"]
+[ext_resource type="Texture2D" uid="uid://j6um1tad7j65" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00021.png" id="22_cnub7"]
+[ext_resource type="Texture2D" uid="uid://bwb6umjvfvpnw" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00022.png" id="23_otm85"]
+[ext_resource type="Texture2D" uid="uid://cyjo6u8qgqfqq" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00023.png" id="24_4431k"]
+[ext_resource type="Texture2D" uid="uid://bh3use0w6k7d0" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00024.png" id="25_l0lh7"]
+[ext_resource type="Texture2D" uid="uid://c8w6rlu4f426l" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00025.png" id="26_b050g"]
+[ext_resource type="Texture2D" uid="uid://bmhrnvsd7su5n" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00026.png" id="27_sbjkt"]
+[ext_resource type="Texture2D" uid="uid://dehiu8tb5ych7" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00027.png" id="28_32sfj"]
+[ext_resource type="Texture2D" uid="uid://c68d3j1a7v20r" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00028.png" id="29_yi1op"]
+[ext_resource type="Texture2D" uid="uid://bdagbj8ukgk7a" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00029.png" id="30_d5owi"]
+[ext_resource type="Texture2D" uid="uid://ba7biqh018b7j" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00030.png" id="31_5jruk"]
+[ext_resource type="Texture2D" uid="uid://dpcjv80rwhl1a" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00031.png" id="32_vjrmm"]
+[ext_resource type="Texture2D" uid="uid://c0e17k10yusk2" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00032.png" id="33_pmb0o"]
+[ext_resource type="Texture2D" uid="uid://vbpdvkd8wjc2" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00033.png" id="34_uqtb2"]
+[ext_resource type="Texture2D" uid="uid://qx53o47gbdoa" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00034.png" id="35_l0x44"]
+[ext_resource type="Texture2D" uid="uid://bbc06ldkm2bst" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00035.png" id="36_si6uo"]
+[ext_resource type="Texture2D" uid="uid://c0slkmm30rou1" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00036.png" id="37_u80ml"]
+[ext_resource type="Texture2D" uid="uid://ex5kptupg4d5" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00037.png" id="38_daavb"]
+[ext_resource type="Texture2D" uid="uid://nolapq4ux1i0" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00038.png" id="39_7crdo"]
+[ext_resource type="Texture2D" uid="uid://d17dm042wcvk" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00039.png" id="40_mhqdm"]
+[ext_resource type="Texture2D" uid="uid://bbinh7obnnemm" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00040.png" id="41_og4dp"]
+[ext_resource type="Texture2D" uid="uid://lqv0512uuhvr" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00041.png" id="42_pofks"]
+[ext_resource type="Texture2D" uid="uid://dvw3t4j014btg" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00042.png" id="43_tf5dn"]
+[ext_resource type="Texture2D" uid="uid://dxwpq7kbwg24a" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00043.png" id="44_5jns3"]
+[ext_resource type="Texture2D" uid="uid://c3sjqohqjkfh" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00044.png" id="45_n876m"]
+[ext_resource type="Texture2D" uid="uid://b4t4b36d3rpfl" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00045.png" id="46_oqpga"]
+[ext_resource type="Texture2D" uid="uid://cx0flqv44538g" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00046.png" id="47_lddy1"]
+[ext_resource type="Texture2D" uid="uid://dltg3h2q5ewwc" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00047.png" id="48_nkl5k"]
+[ext_resource type="Texture2D" uid="uid://coxbxawnr6vyw" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00048.png" id="49_4nnhh"]
+[ext_resource type="Texture2D" uid="uid://dgqiwix1nos8v" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00049.png" id="50_02pqo"]
+[ext_resource type="Texture2D" uid="uid://cjqcpvmw658y0" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00050.png" id="51_5kqdp"]
+[ext_resource type="Texture2D" uid="uid://bpb2t2j6jvcik" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00051.png" id="52_lr2pc"]
+[ext_resource type="Texture2D" uid="uid://07hx6ma0bfm4" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00052.png" id="53_if1ks"]
+[ext_resource type="Texture2D" uid="uid://bc7s10yw2snjf" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00053.png" id="54_6sx6g"]
+[ext_resource type="Texture2D" uid="uid://4ykutvm36di6" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00054.png" id="55_mf48l"]
+[ext_resource type="Texture2D" uid="uid://csb3e7t50e4u5" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00055.png" id="56_4gjyx"]
+[ext_resource type="Texture2D" uid="uid://dsx2oyf7udsjp" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00056.png" id="57_5qfwv"]
+[ext_resource type="Texture2D" uid="uid://ddehxrubd8atr" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00057.png" id="58_xnawo"]
+[ext_resource type="Texture2D" uid="uid://raai0awoew6y" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00058.png" id="59_7sufh"]
+[ext_resource type="Texture2D" uid="uid://co1vlffphx8cn" path="res://assets/npcs/Debat/JTD_ZombieDebat/JTD_ZombieDebat/Président-Zombie_00059.png" id="60_4aiam"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3qjtu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_22xay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_60uw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_68lc8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_0aita")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c0630")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ryaa7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_kcqkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_iol8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_sb22b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_im07g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_axdp7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_qchob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_akpth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_44h2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_u2ttv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_bwrox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_7whrl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_jgeov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_v66eq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_sqo1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_cnub7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_otm85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_4431k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l0lh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_b050g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_sbjkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_32sfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_yi1op")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_d5owi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_5jruk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_vjrmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_pmb0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_uqtb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_l0x44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_si6uo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_u80ml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_daavb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_7crdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_mhqdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_og4dp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_pofks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_tf5dn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_5jns3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_n876m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_oqpga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_lddy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_nkl5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_4nnhh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_02pqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_5kqdp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_lr2pc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_if1ks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_6sx6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_mf48l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_4gjyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_5qfwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_xnawo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_7sufh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_4aiam")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

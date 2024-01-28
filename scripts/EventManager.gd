@@ -2,10 +2,10 @@ extends Node
 
 @onready var timer : Timer = $Timer
 
-const dataPath : String = "res://data/tv_events_cuisine.json"
+const dataPath : String = "res://data/tv_events.json"
 const prefabNpcPath : String = "res://prefabScenes/npc/"
 const startWaitDuration : int = 3
-const stepDuration : int = 3
+const stepDuration : int = 20
 
 var npcChilds : Array = Array()
 var currentStep : int = 0

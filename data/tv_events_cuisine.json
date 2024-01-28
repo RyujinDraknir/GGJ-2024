@@ -1,0 +1,50 @@
+{
+	"Steps" : [
+		{
+			"Id" : 1,
+			"Soucis" : [
+				{ 
+					"Name" : "CUI_Coupure",
+					"Sprite_Path" : "CUI_Coupure",
+					"Sound_Path" : "CUI_Coupure",
+					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
+					"Solution" : {
+						"Name" : "TF1_Soyjak",
+						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
+						"Sprite_Path" : "TF1_Soyjak",
+						"Sound_Path" : "TF1_Soyjak"
+					}
+				}
+			]
+		},
+		{
+			"Id" : 2,
+			"Soucis" : [
+				{ 
+					"Name" : "CUI_Tronçonneuse",
+					"Sprite_Path" : "CUI_Tronçonneuse",
+					"Sound_Path" : "CUI_Tronçonneuse",
+					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
+					"Solution" : {
+						"Name" : "TAS_MagicienFruit",
+						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
+						"Sprite_Path" : "TAS_MagicienFruit",
+						"Sound_Path" : "TAS_MagicienFruit"
+					}
+				},
+				{ 
+					"Name" : "CUI_Grenade",
+					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
+					"Sprite_Path" : "CUI_Grenade",
+					"Sound_Path" : "CUI_Grenade",
+					"Solution" : {
+						"Name" : "TAS_MagicienFruit",
+						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
+						"Sprite_Path" : "TAS_MagicienFruit",
+						"Sound_Path" : "TAS_MagicienFruit"
+					}
+				}
+			]
+		}
+	]
+}

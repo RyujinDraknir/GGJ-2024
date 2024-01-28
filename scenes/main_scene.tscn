@@ -30,4 +30,10 @@ environment = SubResource("Environment_pbgh1")
 [node name="EventManager" type="Node" parent="."]
 script = ExtResource("2_mht0t")
 
+[node name="Timer" type="Timer" parent="EventManager"]
+wait_time = 2.0
+one_shot = true
+
 [node name="Map" type="Node3D" parent="."]
+
+[connection signal="timeout" from="EventManager/Timer" to="EventManager" method="_on_timer_timeout"]

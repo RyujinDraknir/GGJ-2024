@@ -4,45 +4,45 @@
 			"Id" : 1,
 			"Soucis" : [
 				{ 
-					"Name" : "CUI_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "CUI_Coupure",
+					"Sprite_Path" : "CUI_Coupure",
+					"Sound_Path" : "CUI_Coupure",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : {
-						"Name" : "TF1_1_SOL PLACEHOLDER",
+						"Name" : "TF1_Soyjak",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "TF1_Soyjak",
+						"Sound_Path" : "TF1_Soyjak"
 					}
 				},
 				{ 
-					"Name" : "TF1_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "TF1_Booring",
+					"Sprite_Path" : "TF1_Booring",
+					"Sound_Path" : "TF1_Booring",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : {
-						"Name" : "JTD_1_SOL PLACEHOLDER",
+						"Name" : "JTD_Marionnette",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "JTD_Marionnette",
+						"Sound_Path" : "JTD_Marionnette"
 					}
 				},
 				{ 
-					"Name" : "JTD_1 PLACEHOLDER",
+					"Name" : "JTD_Engueulade",
 					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sound_Path" : "JTD_Engueulade",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : {
-						"Name" : "TAS_1_SOL PLACEHOLDER",
+						"Name" : "TAS_Napoleon",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "TAS_Napoleon",
+						"Sound_Path" : "TAS_Napoleon"
 					}
 				},
 				{ 
-					"Name" : "TAS_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "TAS_Reptiliens",
+					"Sprite_Path" : "TAS_Reptiliens",
+					"Sound_Path" : "TAS_Reptiliens",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : null
 				}
@@ -52,58 +52,58 @@
 			"Id" : 2,
 			"Soucis" : [
 				{ 
-					"Name" : "CUI_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "CUI_Tronçonneuse",
+					"Sprite_Path" : "CUI_Tronçonneuse",
+					"Sound_Path" : "CUI_Tronçonneuse",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : {
-						"Name" : "TAS_1_SOL PLACEHOLDER",
+						"Name" : "TAS_MagicienFruit",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "TAS_MagicienFruit",
+						"Sound_Path" : "TAS_MagicienFruit"
 					}
 				},
 				{ 
-					"Name" : "CUI_2 PLACEHOLDER",
+					"Name" : "CUI_Grenade",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sprite_Path" : "CUI_Grenade",
+					"Sound_Path" : "CUI_Grenade",
 					"Solution" : {
-						"Name" : "TAS_1_SOL PLACEHOLDER",
+						"Name" : "TAS_MagicienFruit",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "TAS_MagicienFruit",
+						"Sound_Path" : "TAS_MagicienFruit"
 					}
 				},
 				{ 
-					"Name" : "TF1_1 PLACEHOLDER",
+					"Name" : "TF1_Telephone",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sprite_Path" : "TF1_Telephone",
+					"Sound_Path" : "TF1_Telephone",
 					"Solution" : {
-						"Name" : "CUI_1_SOL PLACEHOLDER",
+						"Name" : "CUI_Tarte",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "CUI_Tarte",
+						"Sound_Path" : "CUI_Tarte"
 					}
 				},
 				{ 
-					"Name" : "JTD_1 PLACEHOLDER",
+					"Name" : "JTD_Vulgaire",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sprite_Path" : "JTD_Vulgaire",
+					"Sound_Path" : "JTD_Vulgaire",
 					"Solution" : {
-						"Name" : "CUI_2_SOL PLACEHOLDER",
+						"Name" : "CUI_InverseVulgaire",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "CUI_InverseVulgaire",
+						"Sound_Path" : "CUI_InverseVulgaire"
 					}
 				},
 				{ 
-					"Name" : "TAS_1 PLACEHOLDER",
+					"Name" : "TAS_Corps",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sprite_Path" : "TAS_Corps",
+					"Sound_Path" : "TAS_Corps",
 					"Solution" : null
 				}
 			]
@@ -112,34 +112,34 @@
 			"Id" : 3,
 			"Soucis" : [
 				{ 
-					"Name" : "CUI_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "CUI_RecetteAlcool",
+					"Sprite_Path" : "CUI_RecetteAlcool",
+					"Sound_Path" : "CUI_RecetteAlcool",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : {
-						"Name" : "JTD_1_SOL PLACEHOLDER",
+						"Name" : "JTD_ScoobyDoo",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "JTD_ScoobyDoo",
+						"Sound_Path" : "JTD_ScoobyDoo"
 					}
 				},
 				{ 
-					"Name" : "TF1_1 PLACEHOLDER",
+					"Name" : "TF1_Cannibalisme",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sound_Path" : "TF1_Cannibalisme",
 					"Solution" : null
 				},
 				{ 
-					"Name" : "JTD_1 PLACEHOLDER",
+					"Name" : "JTD_Mickey",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sprite_Path" : "JTD_Mickey",
+					"Sound_Path" : "JTD_Mickey",
 					"Solution" : {
-						"Name" : "TAS_1_SOL PLACEHOLDER",
+						"Name" : "TAS_Popeye",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "TAS_Popeye",
+						"Sound_Path" : "TAS_Popeye"
 					}
 				}
 			]
@@ -148,41 +148,41 @@
 			"Id" : 4,
 			"Soucis" : [
 				{ 
-					"Name" : "TF1_1 PLACEHOLDER",
+					"Name" : "TF1_Guerre",
 					"Sprite_Path" : "",
 					"Sound_Path" : "",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : {
-						"Name" : "CUI_1_SOL PLACEHOLDER",
+						"Name" : "JTD_ZombiePoliticien",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 						"Sprite_Path" : "",
 						"Sound_Path" : ""
 					}
 				},
 				{ 
-					"Name" : "TF1_2 PLACEHOLDER",
+					"Name" : "TF1_Zombie",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sprite_Path" : "TF1_Zombie",
+					"Sound_Path" : "TF1_Zombie",
 					"Solution" : {
-						"Name" : "JTD_1_SOL PLACEHOLDER",
+						"Name" : "JTD_ZombieDebat",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "JTD_ZombieDebat",
+						"Sound_Path" : "JTD_ZombieDebat"
 					}
 				},
 				{ 
-					"Name" : "TAS_1 PLACEHOLDER",
+					"Name" : "TAS_PasDeGuest",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sound_Path" : "TAS_PasDeGuest",
 					"Solution" : null
 				},
 				{ 
-					"Name" : "TAS_2 PLACEHOLDER",
+					"Name" : "TAS_CasseDecor",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sprite_Path" : "TAS_CasseDecor",
+					"Sound_Path" : "TAS_CasseDecor",
 					"Solution" : null
 				}
 			]
@@ -191,24 +191,24 @@
 			"Id" : 5,
 			"Soucis" : [
 				{ 
-					"Name" : "CUI_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "CUI_CocktailMolotov",
+					"Sprite_Path" : "CUI_CocktailMolotov",
+					"Sound_Path" : "CUI_CocktailMolotov",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : null
 				},
 				{ 
-					"Name" : "TF1_1 PLACEHOLDER",
+					"Name" : "TF1_Chauves",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sprite_Path" : "TF1_Chauves",
+					"Sound_Path" : "TF1_Chauves",
 					"Solution" : null
 				},
 				{ 
-					"Name" : "JTD_1 PLACEHOLDER",
+					"Name" : "JTD_MMA",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Sprite_Path" : "JTD_MMA",
+					"Sound_Path" : "JTD_MMA",
 					"Solution" : null
 				}
 			]
@@ -217,31 +217,31 @@
 			"Id" : 6,
 			"Soucis" : [
 				{ 
-					"Name" : "TF1_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "TF1_Claque",
+					"Sprite_Path" : "TF1_Claque",
+					"Sound_Path" : "TF1_Claque",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : {
-						"Name" : "TAS_1_SOL PLACEHOLDER",
+						"Name" : "TAS_Claque",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "TAS_Claque",
+						"Sound_Path" : "TAS_Claque"
 					}
 				},
 				{ 
-					"Name" : "JTD_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "JTD_Baise",
+					"Sprite_Path" : "JTD_Baise",
+					"Sound_Path" : "JTD_Baise",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : {
-						"Name" : "TF1_1_SOL PLACEHOLDER",
+						"Name" : "TF1_Couple",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "TF1_Couple",
+						"Sound_Path" : "TF1_Couple"
 				}
 				},
 				{ 
-					"Name" : "TAS_1 PLACEHOLDER",
+					"Name" : "TAS_Bug",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Sprite_Path" : "",
 					"Sound_Path" : "",
@@ -253,41 +253,41 @@
 			"Id" : 7,
 			"Soucis" : [
 				{ 
-					"Name" : "CUI_1 PLACEHOLDER",
+					"Name" : "CUI_Etouffe",
 					"Sprite_Path" : "",
 					"Sound_Path" : "",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : null
 				},
 				{ 
-					"Name" : "TF1_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "TF1_GesteDeplace",
+					"Sprite_Path" : "TF1_GesteDeplace",
+					"Sound_Path" : "TF1_GesteDeplace",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : null
 				},
 				{ 
-					"Name" : "JTD_1 PLACEHOLDER",
-					"Sprite_Path" : "",
-					"Sound_Path" : "",
+					"Name" : "JTD_GroupesEmbrouille",
+					"Sprite_Path" : "JTD_GroupesEmbrouille",
+					"Sound_Path" : "JTD_GroupesEmbrouille",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Solution" : {
-						"Name" : "CUI_1_SOL PLACEHOLDER",
+						"Name" : "CUI_Rat",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
-						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sprite_Path" : "CUI_Rat",
+						"Sound_Path" : "CUI_Rat"
 					}
 				},
 				{ 
-					"Name" : "TAS_1 PLACEHOLDER",
+					"Name" : "TAS_Alien",
 					"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 					"Sprite_Path" : "",
 					"Sound_Path" : "",
 					"Solution" : {
-						"Name" : "JTD_1_SOL PLACEHOLDER",
+						"Name" : "JTD_DebatAlien",
 						"Coords" : {"x" : 0, "y" : 0, "z" : 0},
 						"Sprite_Path" : "",
-						"Sound_Path" : ""
+						"Sound_Path" : "JTD_DebatAlien"
 					}
 				}
 			]

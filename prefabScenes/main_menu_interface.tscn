@@ -1,12 +1,16 @@
-[gd_scene load_steps=8 format=3 uid="uid://da8dwo4wi1hlu"]
+[gd_scene load_steps=12 format=3 uid="uid://da8dwo4wi1hlu"]
 
 [ext_resource type="Script" path="res://scripts/main_menu_interface.gd" id="1_ihbnd"]
 [ext_resource type="PackedScene" uid="uid://qrmy1wdjtmfd" path="res://prefabScenes/scene_switcher.tscn" id="2_stlp7"]
 [ext_resource type="Texture2D" uid="uid://cgp6a8ypk8law" path="res://assets/images/Frame-Game.png" id="3_2qbdh"]
 [ext_resource type="Texture2D" uid="uid://dga6lpkp6pg0h" path="res://assets/images/Logo.png" id="3_dc6mc"]
 [ext_resource type="Texture2D" uid="uid://c6k13u6evnsq1" path="res://assets/images/PLAY.svg" id="3_nsr28"]
+[ext_resource type="Texture2D" uid="uid://cirfu743slu3e" path="res://assets/images/Gris-PLAY.svg" id="4_5ydba"]
 [ext_resource type="Texture2D" uid="uid://bb32trsr7ivms" path="res://assets/images/QUIT.svg" id="4_bf2e8"]
+[ext_resource type="Texture2D" uid="uid://b4643cf6leftp" path="res://assets/images/Rouge-PLAY.svg" id="5_8k11f"]
 [ext_resource type="SpriteFrames" uid="uid://cx3alw5wcikfo" path="res://assets/images/REC/rec.tres" id="7_737ct"]
+[ext_resource type="Texture2D" uid="uid://ivygd06x4221" path="res://assets/images/Gris-QUIT.svg" id="7_se21b"]
+[ext_resource type="Texture2D" uid="uid://ds2env3tcv1kx" path="res://assets/images/Rouge-QUIT.svg" id="8_vioie"]
 
 [node name="MainMenuInterface" type="Control"]
 process_mode = 3
@@ -38,14 +42,14 @@ theme_override_constants/separation = 20
 [node name="PlayButton" type="TextureButton" parent="VBoxContainer"]
 layout_mode = 2
 texture_normal = ExtResource("3_nsr28")
-texture_pressed = ExtResource("3_nsr28")
-texture_hover = ExtResource("3_nsr28")
+texture_pressed = ExtResource("4_5ydba")
+texture_hover = ExtResource("5_8k11f")
 
 [node name="QuitButton" type="TextureButton" parent="VBoxContainer"]
 layout_mode = 2
 texture_normal = ExtResource("4_bf2e8")
-texture_pressed = ExtResource("4_bf2e8")
-texture_hover = ExtResource("4_bf2e8")
+texture_pressed = ExtResource("7_se21b")
+texture_hover = ExtResource("8_vioie")
 
 [node name="Frame-game" type="Sprite2D" parent="."]
 position = Vector2(960, 540)
@@ -63,3 +67,6 @@ scale = Vector2(0.1, 0.1)
 sprite_frames = ExtResource("7_737ct")
 autoplay = "default"
 frame_progress = 0.726038
+
+[connection signal="pressed" from="VBoxContainer/PlayButton" to="SceneSwitcher" method="_on_play_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]

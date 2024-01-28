@@ -5,4 +5,4 @@
 [node name="SceneSwitcher" type="Node"]
 script = ExtResource("1_me1ff")
 main_menu_scene = "res://scenes/main_menu.tscn"
-start_game_scene = "res://scenes/main.tscn"
+start_game_scene = "res://scenes/main_scene.tscn"

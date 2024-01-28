@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkqb8c1qahweo"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_efpwt"]
+[ext_resource type="SpriteFrames" uid="uid://nkhiuwg2c20k" path="res://assets/npcs/TF1/TF1_Couple/TF1_Couple/TF1_Couple.tres" id="2_tsjr2"]
+
+[node name="TF1_Couple" instance=ExtResource("1_efpwt")]
+sprite_frames = ExtResource("2_tsjr2")

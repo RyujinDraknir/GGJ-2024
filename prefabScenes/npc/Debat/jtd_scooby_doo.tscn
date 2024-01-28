@@ -1,9 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://d4fhtgjmp5v1r"]
+[gd_scene load_steps=3 format=3 uid="uid://cuntbabomj5cb"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_t1gx8"]
-[ext_resource type="SpriteFrames" uid="uid://c33o3f5v7xy8x" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/JTD_ScoobyDoo.tres" id="2_qw4n3"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/Debat/JTD_ScoobyDoo/JTD_ScoobyDoo/JTD_ScoobyDoo.tres" id="2_qw4n3"]
 
 [node name="JTD_ScoobyDoo" instance=ExtResource("1_t1gx8")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -0.2, 10)
 sprite_frames = ExtResource("2_qw4n3")
 frame = 50
 frame_progress = 0.35669

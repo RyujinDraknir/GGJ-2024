@@ -1,11 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://chuxlsdd6r62f"]
+[gd_scene load_steps=3 format=3 uid="uid://dgof3ho8nxkvl"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_8ehfe"]
-[ext_resource type="SpriteFrames" uid="uid://blx1spy2iyk2u" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/JTD_Vulgaire.tres" id="2_0mvc8"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/Debat/JTD_Vulgaire/JTD_Vulgaire/JTD_Vulgaire.tres" id="2_0mvc8"]
 
 [node name="JTD_Vulgaire" instance=ExtResource("1_8ehfe")]
+transform = Transform3D(0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, -0.5, -0.2, 10)
 sprite_frames = ExtResource("2_0mvc8")
-frame_progress = 0.0
 isBad = true
 
 [node name="CSGBox3D" parent="." index="0"]

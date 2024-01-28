@@ -1,9 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://d6kwoie308dk"]
+[gd_scene load_steps=3 format=3 uid="uid://bq1w5go6spsea"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_exj11"]
-[ext_resource type="SpriteFrames" uid="uid://dt4vtuu25rq5k" path="res://assets/npcs/Debat/JTD_Neutre/JTD_Neutre/JTD_Neutre.tres" id="2_t3b48"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/Debat/JTD_Neutre/JTD_Neutre/JTD_Neutre.tres" id="2_t3b48"]
 
 [node name="JTD_Neutre" instance=ExtResource("1_exj11")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -0.2, 10)
 sprite_frames = ExtResource("2_t3b48")
 frame = 7
 frame_progress = 0.497427

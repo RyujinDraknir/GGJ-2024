@@ -1,9 +1,19 @@
-extends Node3D
+extends Node
 
-const dataPath : String = "res://data/tv_events.json"
+@onready var timer : Timer = $Timer
+
+const dataPath : String = "res://data/tv_events_cuisine.json"
+const prefabNpcPath : String = "res://prefabScenes/npc/"
+const startWaitDuration : int = 2
+const stepDuration : int = 5
+
+var npcChilds : Array = Array()
+var currentStep : int = 0
+
 var tvProgram : TvProgram
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	
 	var file = FileAccess.open(dataPath, FileAccess.READ)
 	#retrieve jsontext
 	var fileText = file.get_as_text();
@@ -31,12 +41,33 @@ func _ready():
 				jsonSoucis.remove_at(index)
 			tvStep.happenings = happenings
 			tvProgram.TvSteps.append(tvStep)
-		print(tvProgram)
+	timer.wait_time = startWaitDuration
+	timer.start()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+
+func _on_timer_timeout():
+	if currentStep == 0:
+		timer.wait_time = stepDuration
+	else:
+		for child in npcChilds:
+			remove_child(child)
+		var step = tvProgram.TvSteps[currentStep]
+		for happening in step.happenings:
+			loadPrefab(happening.soucis)
+			if happening.solution != null :
+				loadPrefab(happening.solution)
+	
+	print("start timer step : " + str(currentStep))
+	currentStep = currentStep + 1 
+	if currentStep < len(tvProgram.TvSteps):
+		timer.start()
+	else:
+		print("end partie")
+	
 
 func jsonToTvHappening(json) -> TvHappening:
 	var issue : TvEvent = TvEvent.new(json, true)
@@ -44,6 +75,20 @@ func jsonToTvHappening(json) -> TvHappening:
 	if json.Solution != null:
 		solution = TvEvent.new(json.Solution, false)
 	return TvHappening.new(issue, solution)
+
+func loadPrefab(event : TvEvent) -> void:
+	var issueScene = load(getPrefabPath(event.name))
+	var issueChild = issueScene.instance()
+	issueChild.position = event.position
+	npcChilds.append(issueChild)
+	add_child(issueChild)
+
+func getPrefabPath(name : String) -> String:
+	var path : String = prefabNpcPath
+	var zone : String = name.left(3)
+	if zone == "CUI":
+		path += "Cuisine/" + name.to_lower() + ".tscn"
+	return path
 
 class TvProgram:
 	var TvSteps : Array

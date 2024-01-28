@@ -29,7 +29,13 @@ environment = SubResource("Environment_1vt6b")
 [node name="Player" parent="." instance=ExtResource("1_g4gwe")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, 0)
 
+[node name="Timer" type="Timer" parent="EventManager"]
+wait_time = 2.0
+one_shot = true
+
 [node name="Map" type="Node3D" parent="."]
+
+[connection signal="timeout" from="EventManager/Timer" to="EventManager" method="_on_timer_timeout"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0)
 
 [node name="Global_game_jam" parent="Map" instance=ExtResource("2_46rrq")]

@@ -1,9 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://k762jxbdlwxe"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_53xhc"]
-[ext_resource type="SpriteFrames" uid="uid://dp87fuiycivgv" path="res://assets/npcs/Talk Show/TAS_Corps/TAS_Corps/TAS_Corps.tres" id="2_t7r0w"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/Talk Show/TAS_Corps/TAS_Corps/TAS_Corps.tres" id="2_t7r0w"]
 
 [node name="TAS_Corps" instance=ExtResource("1_53xhc")]
+transform = Transform3D(-8.74228e-09, 0, 0.2, 0, 0.2, 0, -0.2, 0, -8.74228e-09, -10, -0.2, 0)
 sprite_frames = ExtResource("2_t7r0w")
 frame_progress = 0.296129
 isBad = true

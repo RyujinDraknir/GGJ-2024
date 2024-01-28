@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://di72j73rtqte3"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_mdqxa"]
-[ext_resource type="SpriteFrames" uid="uid://bqby0s76o14c5" path="res://assets/npcs/Talk Show/TAS_Popeye/TAS_Popeye/TAS_Popeye.tres" id="2_ne1ve"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/Talk Show/TAS_Popeye/TAS_Popeye/TAS_Popeye.tres" id="2_ne1ve"]
 
 [node name="TAS_Popeye" instance=ExtResource("1_mdqxa")]
+transform = Transform3D(-8.74228e-09, 0, 0.2, 0, 0.2, 0, -0.2, 0, -8.74228e-09, -10, -0.2, 0)
 sprite_frames = ExtResource("2_ne1ve")
-frame_progress = 0.0
 
 [node name="CSGBox3D" parent="." index="0"]
 transform = Transform3D(0.5, 0, 0, 0, 0.55, 0, 0, 0, 1, -4.51857, -1.41544, 2.98023e-08)

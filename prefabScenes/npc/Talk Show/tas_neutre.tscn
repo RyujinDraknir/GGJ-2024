@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://5oisq3a3bvi7"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_6pjru"]
-[ext_resource type="SpriteFrames" uid="uid://davc4x0gn88y8" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/TAS_Neutre.tres" id="2_ajqst"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/Talk Show/TAS_Neutre/TAS_Neutre/TAS_Neutre.tres" id="2_ajqst"]
 
 [node name="TAS_Neutre" instance=ExtResource("1_6pjru")]
+transform = Transform3D(-3.27835e-09, 0, 0.075, 0, 0.075, 0, -0.075, 0, -3.27835e-09, -10.45, -0.2, -1)
 sprite_frames = ExtResource("2_ajqst")
-frame_progress = 0.0
 
 [node name="CSGBox3D" parent="." index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0619202, -33.1987, 2.98023e-08)

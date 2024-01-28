@@ -5,8 +5,8 @@
 [sub_resource type="SpriteFrames" id="SpriteFrames_ewf2m"]
 
 [node name="TAS_PasDeGuest" instance=ExtResource("1_8kbqy")]
+transform = Transform3D(-4.37114e-09, 0, 0.1, 0, 0.1, 0, -0.1, 0, -4.37114e-09, -10, 0, 0)
 sprite_frames = SubResource("SpriteFrames_ewf2m")
-frame_progress = 0.0
 
 [node name="CSGBox3D" parent="." index="0"]
 transform = Transform3D(13.0662, 0, 0, 0, 8.95131, 0, 0, 0, 1, 0.0619202, -0.415436, 2.98023e-08)

@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://dsqbp2ayvbk7v"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_pkrag"]
-[ext_resource type="SpriteFrames" uid="uid://d4iag015vx08a" path="res://assets/npcs/Talk Show/TAS_Claque/TAS_Claque.tres" id="2_r6m5g"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/Talk Show/TAS_Claque/TAS_Claque.tres" id="2_r6m5g"]
 
 [node name="TAS_Claque" instance=ExtResource("1_pkrag")]
+transform = Transform3D(-4.37114e-09, 0, 0.1, 0, 0.1, 0, -0.1, 0, -4.37114e-09, -10, 0, 0)
 sprite_frames = ExtResource("2_r6m5g")
-frame_progress = 0.0
 
 [node name="CSGBox3D" parent="." index="0"]
 transform = Transform3D(5.67547, 0, 0, 0, 3.10826, 0, 0, 0, 1, 0.0619202, 0.00741747, 2.98023e-08)

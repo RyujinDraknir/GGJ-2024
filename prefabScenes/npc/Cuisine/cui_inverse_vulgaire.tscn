@@ -4,6 +4,7 @@
 [ext_resource type="SpriteFrames" uid="uid://c8ie18hrx4p5d" path="res://assets/npcs/Cuisine/CUI_InverseVulgaire/CUI_InverseVulgaire/CUI_InverseVulgaire.tres" id="2_isle6"]
 
 [node name="CUI_InverseVulgaire" instance=ExtResource("1_vql6v")]
+transform = Transform3D(-4.37114e-09, 0, -0.1, 0, 0.1, 0, 0.1, 0, -4.37114e-09, 11.4, 1.35, -1.2)
 sprite_frames = ExtResource("2_isle6")
 frame_progress = 0.0
 

@@ -4,8 +4,8 @@ extends Node
 
 const dataPath : String = "res://data/tv_events_cuisine.json"
 const prefabNpcPath : String = "res://prefabScenes/npc/"
-const startWaitDuration : int = 2
-const stepDuration : int = 5
+const startWaitDuration : int = 3
+const stepDuration : int = 3
 
 var npcChilds : Array = Array()
 var currentStep : int = 0
@@ -33,7 +33,7 @@ func _ready():
 			if jsonStep.Id > 2 && jsonStep.Id <= 5:
 				nbHappening = 2
 			#6 -> 7 step => difficulty 3
-			else:
+			elif jsonStep.Id > 5:
 				nbHappening = 3
 			for i in range(nbHappening):
 				var index = randi_range(0,len(jsonSoucis) - 1)
@@ -52,10 +52,10 @@ func _process(delta):
 func _on_timer_timeout():
 	if currentStep == 0:
 		timer.wait_time = stepDuration
-	else:
+	else :
 		for child in npcChilds:
 			remove_child(child)
-		var step = tvProgram.TvSteps[currentStep]
+		var step = tvProgram.TvSteps[currentStep - 1]
 		for happening in step.happenings:
 			loadPrefab(happening.soucis)
 			if happening.solution != null :
@@ -63,7 +63,7 @@ func _on_timer_timeout():
 	
 	print("start timer step : " + str(currentStep))
 	currentStep = currentStep + 1 
-	if currentStep < len(tvProgram.TvSteps):
+	if currentStep <= len(tvProgram.TvSteps):
 		timer.start()
 	else:
 		print("end partie")
@@ -77,17 +77,21 @@ func jsonToTvHappening(json) -> TvHappening:
 	return TvHappening.new(issue, solution)
 
 func loadPrefab(event : TvEvent) -> void:
-	var issueScene = load(getPrefabPath(event.name))
-	var issueChild = issueScene.instance()
-	#issueChild.position = event.position
-	npcChilds.append(issueChild)
-	add_child(issueChild)
+	var prefabPath = getPrefabPath(event.spritePath)
+	var issueScene : PackedScene = load(prefabPath)
+	if issueScene != null:
+		var issueChild = issueScene.instantiate()
+		#issueChild.position = event.position
+		npcChilds.append(issueChild)
+		add_child(issueChild)
 
 func getPrefabPath(name : String) -> String:
 	var path : String = prefabNpcPath
 	var zone : String = name.left(3)
 	if zone == "CUI":
 		path += "Cuisine/" + name.to_lower() + ".tscn"
+	elif zone == "JTD":
+		path += "Debat/" + name.to_lower() + ".tscn"
 	return path
 
 class TvProgram:

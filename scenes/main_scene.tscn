@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://qlqu1mooo6lt"]
 
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_g4gwe"]
-[ext_resource type="PackedScene" uid="uid://ngp3vwa5n6fd" path="res://prefabScenes/global_game_jam_fin.tscn" id="2_46rrq"]
+[ext_resource type="PackedScene" path="res://prefabScenes/global_game_jam_fin.tscn" id="2_46rrq"]
 [ext_resource type="Script" path="res://scripts/EventManager.gd" id="2_mht0t"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4co3b"]
@@ -44,3 +44,8 @@ size = Vector3(100, 1, 100)
 
 [node name="EventManager" type="Node3D" parent="."]
 script = ExtResource("2_mht0t")
+
+[node name="Timer" type="Timer" parent="EventManager"]
+one_shot = true
+
+[connection signal="timeout" from="EventManager/Timer" to="EventManager" method="_on_timer_timeout"]

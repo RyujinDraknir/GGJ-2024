@@ -4,6 +4,7 @@
 [ext_resource type="SpriteFrames" uid="uid://pk8but3syva5" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CUI_RecetteAlcool.tres" id="2_8waby"]
 
 [node name="CUI_RecetteAlcool" instance=ExtResource("1_w5pkw")]
+transform = Transform3D(-4.37114e-09, 0, -0.1, 0, 0.1, 0, 0.1, 0, -4.37114e-09, 11, -0.2, -0.35)
 sprite_frames = ExtResource("2_8waby")
 frame_progress = 0.0
 isBad = true

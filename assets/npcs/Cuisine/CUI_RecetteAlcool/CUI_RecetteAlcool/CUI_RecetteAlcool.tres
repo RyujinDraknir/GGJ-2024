@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://pk8but3syva5"]
+
+[ext_resource type="Texture2D" uid="uid://cvrj8lisbpgn" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00000.png" id="1_7klmv"]
+[ext_resource type="Texture2D" uid="uid://gsx2mn4qyws1" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00001.png" id="2_4n1oq"]
+[ext_resource type="Texture2D" uid="uid://b1mdkevotdm8e" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00002.png" id="3_h5rav"]
+[ext_resource type="Texture2D" uid="uid://dev1uedabang0" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00003.png" id="4_be4cy"]
+[ext_resource type="Texture2D" uid="uid://b05u18bskyrjw" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00004.png" id="5_p0xa0"]
+[ext_resource type="Texture2D" uid="uid://bk2ojdu3gld1l" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00005.png" id="6_7gcr1"]
+[ext_resource type="Texture2D" uid="uid://cv43d0gpxgemm" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00006.png" id="7_36xt2"]
+[ext_resource type="Texture2D" uid="uid://c06bj6hpjj2wd" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00007.png" id="8_icnfy"]
+[ext_resource type="Texture2D" uid="uid://dcg63clmvfugs" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00008.png" id="9_m2e8o"]
+[ext_resource type="Texture2D" uid="uid://yrcb0un5nye" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00009.png" id="10_07ny6"]
+[ext_resource type="Texture2D" uid="uid://65wgw7ncnnfk" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00010.png" id="11_1cegv"]
+[ext_resource type="Texture2D" uid="uid://cvin3hwxkxl7n" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00011.png" id="12_ystx3"]
+[ext_resource type="Texture2D" uid="uid://brack70ewfm4l" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00012.png" id="13_0worh"]
+[ext_resource type="Texture2D" uid="uid://dthcas4cieblp" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00013.png" id="14_vam35"]
+[ext_resource type="Texture2D" uid="uid://bip4ky81tbw8b" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00014.png" id="15_t7sna"]
+[ext_resource type="Texture2D" uid="uid://b6cuibmbkm7x2" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00015.png" id="16_ocaq0"]
+[ext_resource type="Texture2D" uid="uid://b0fvwtrpbm27i" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00016.png" id="17_spvrq"]
+[ext_resource type="Texture2D" uid="uid://eohav047gfhl" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00017.png" id="18_ichww"]
+[ext_resource type="Texture2D" uid="uid://02mng31ly2cd" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00018.png" id="19_rbfh7"]
+[ext_resource type="Texture2D" uid="uid://djghtc3j1fvdt" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00019.png" id="20_heouw"]
+[ext_resource type="Texture2D" uid="uid://bw0duini0yayk" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00020.png" id="21_qohie"]
+[ext_resource type="Texture2D" uid="uid://dxxf2aoplfneh" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00021.png" id="22_ymm4f"]
+[ext_resource type="Texture2D" uid="uid://oxurxmj502qi" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00022.png" id="23_fnul3"]
+[ext_resource type="Texture2D" uid="uid://cqfb7ef5nw22l" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00023.png" id="24_k4yx2"]
+[ext_resource type="Texture2D" uid="uid://4yiyowrxhqko" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00024.png" id="25_js7ja"]
+[ext_resource type="Texture2D" uid="uid://b102uj48s6mvf" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00025.png" id="26_w0amt"]
+[ext_resource type="Texture2D" uid="uid://c2vfyvkjx633d" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00026.png" id="27_86pnk"]
+[ext_resource type="Texture2D" uid="uid://135geqq3tv71" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00027.png" id="28_mrj2t"]
+[ext_resource type="Texture2D" uid="uid://cnuotnwocknd5" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00028.png" id="29_oewdb"]
+[ext_resource type="Texture2D" uid="uid://bjkw1bst3eemk" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00029.png" id="30_u4px2"]
+[ext_resource type="Texture2D" uid="uid://270a5ea1fbgg" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00030.png" id="31_b4m6a"]
+[ext_resource type="Texture2D" uid="uid://b2m4plprfl6lv" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00031.png" id="32_61edn"]
+[ext_resource type="Texture2D" uid="uid://dalmbycosrfd0" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00032.png" id="33_km25i"]
+[ext_resource type="Texture2D" uid="uid://dvr4fyjqmo42h" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00033.png" id="34_3t6qj"]
+[ext_resource type="Texture2D" uid="uid://bs4g8g1dw15db" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00034.png" id="35_rcja7"]
+[ext_resource type="Texture2D" uid="uid://1lcqt6yqrm8n" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00035.png" id="36_0st4e"]
+[ext_resource type="Texture2D" uid="uid://cjxsjv45c5xqv" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00036.png" id="37_1mvyn"]
+[ext_resource type="Texture2D" uid="uid://daj8sovo4uw10" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00037.png" id="38_d7mkn"]
+[ext_resource type="Texture2D" uid="uid://cp348k10rnsi8" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00038.png" id="39_xnqfu"]
+[ext_resource type="Texture2D" uid="uid://cbaasujjglhu2" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00039.png" id="40_qfbbd"]
+[ext_resource type="Texture2D" uid="uid://csutnevvgyfc0" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00040.png" id="41_tdyhb"]
+[ext_resource type="Texture2D" uid="uid://c1hyp2t6pp1dj" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00041.png" id="42_csgf2"]
+[ext_resource type="Texture2D" uid="uid://byqyxqy1chi6r" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00042.png" id="43_8y52l"]
+[ext_resource type="Texture2D" uid="uid://34ki2d6pix2r" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00043.png" id="44_xw0ax"]
+[ext_resource type="Texture2D" uid="uid://8yngubi3hji8" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00044.png" id="45_1gm4u"]
+[ext_resource type="Texture2D" uid="uid://bkl56bx5u2jh6" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00045.png" id="46_defa2"]
+[ext_resource type="Texture2D" uid="uid://lwildp6lwtj4" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00046.png" id="47_nvxma"]
+[ext_resource type="Texture2D" uid="uid://4270387hxlxl" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00047.png" id="48_02e6y"]
+[ext_resource type="Texture2D" uid="uid://bu5nyenyjgm4t" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00048.png" id="49_yevwu"]
+[ext_resource type="Texture2D" uid="uid://croab1les0be6" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00049.png" id="50_lretp"]
+[ext_resource type="Texture2D" uid="uid://f7jvc0enqpii" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00050.png" id="51_6pljs"]
+[ext_resource type="Texture2D" uid="uid://cqtl7p6gp4tau" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00051.png" id="52_577aq"]
+[ext_resource type="Texture2D" uid="uid://dpa7b0vep1kbt" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00052.png" id="53_jqkt8"]
+[ext_resource type="Texture2D" uid="uid://caaot6khrdcq7" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00053.png" id="54_v3nos"]
+[ext_resource type="Texture2D" uid="uid://bb1xce86uaxva" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00054.png" id="55_v307n"]
+[ext_resource type="Texture2D" uid="uid://dl8jyjls5qx32" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00055.png" id="56_7s3fl"]
+[ext_resource type="Texture2D" uid="uid://bp3seyf4mh6qj" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00056.png" id="57_lxynn"]
+[ext_resource type="Texture2D" uid="uid://c3sw4xynwvhkl" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00057.png" id="58_xiahe"]
+[ext_resource type="Texture2D" uid="uid://btpnwujsakw28" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00058.png" id="59_x2the"]
+[ext_resource type="Texture2D" uid="uid://cu6vt4u7x1fvk" path="res://assets/npcs/Cuisine/CUI_RecetteAlcool/CUI_RecetteAlcool/CuisineAlcool1Pa_00059.png" id="60_jtqvl"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7klmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_4n1oq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_h5rav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_be4cy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_p0xa0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7gcr1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_36xt2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_icnfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_m2e8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_07ny6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1cegv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ystx3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_0worh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_vam35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_t7sna")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ocaq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_spvrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ichww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_rbfh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_heouw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_qohie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ymm4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_fnul3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_k4yx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_js7ja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_w0amt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_86pnk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_mrj2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_oewdb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_u4px2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_b4m6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_61edn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_km25i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_3t6qj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_rcja7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_0st4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_1mvyn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_d7mkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_xnqfu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_qfbbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_tdyhb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_csgf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_8y52l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_xw0ax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_1gm4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_defa2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_nvxma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_02e6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_yevwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_lretp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_6pljs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_577aq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_jqkt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_v3nos")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_v307n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_7s3fl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_lxynn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_xiahe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_x2the")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_jtqvl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5dkparbg263u"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_1my17"]
+[ext_resource type="SpriteFrames" uid="uid://53iovj7cpp15" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/CUI_Rat.tres" id="2_px6ny"]
+
+[node name="CUI_Rat" instance=ExtResource("1_1my17")]
+sprite_frames = ExtResource("2_px6ny")
+frame_progress = 0.0

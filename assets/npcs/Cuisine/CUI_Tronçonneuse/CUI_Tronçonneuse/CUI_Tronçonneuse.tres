@@ -1,0 +1,130 @@
+[gd_resource type="SpriteFrames" load_steps=31 format=3 uid="uid://brdufedo1ekb8"]
+
+[ext_resource type="Texture2D" uid="uid://dq4ms62ucxxc3" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00000.png" id="1_3yon0"]
+[ext_resource type="Texture2D" uid="uid://dg1jfqjbjv7o8" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00001.png" id="2_o6njl"]
+[ext_resource type="Texture2D" uid="uid://dy1ylupn84bva" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00002.png" id="3_aigs0"]
+[ext_resource type="Texture2D" uid="uid://driils07lh2hi" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00003.png" id="4_lfcs6"]
+[ext_resource type="Texture2D" uid="uid://cngosqujen3rv" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00004.png" id="5_jhs71"]
+[ext_resource type="Texture2D" uid="uid://cpe32mwuwi5d3" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00005.png" id="6_hfd3l"]
+[ext_resource type="Texture2D" uid="uid://dewpefvmmbhdu" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00006.png" id="7_bx3sa"]
+[ext_resource type="Texture2D" uid="uid://ciesu2hf1v30d" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00007.png" id="8_fkvgu"]
+[ext_resource type="Texture2D" uid="uid://b48vvytdxd4gu" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00008.png" id="9_jb6md"]
+[ext_resource type="Texture2D" uid="uid://bko4u83j71bhr" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00009.png" id="10_c5byn"]
+[ext_resource type="Texture2D" uid="uid://uxcqwcs70ry" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00010.png" id="11_s7ih1"]
+[ext_resource type="Texture2D" uid="uid://bfjvhc0mvi027" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00011.png" id="12_yyb2r"]
+[ext_resource type="Texture2D" uid="uid://6nnuaadd4qrh" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00012.png" id="13_nvgs4"]
+[ext_resource type="Texture2D" uid="uid://d2c2mcygbkn7s" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00013.png" id="14_j4u2t"]
+[ext_resource type="Texture2D" uid="uid://4e06uo3fyf1s" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00014.png" id="15_6n446"]
+[ext_resource type="Texture2D" uid="uid://bby7ru1ew7fhv" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00015.png" id="16_t8vb1"]
+[ext_resource type="Texture2D" uid="uid://b7632xb6xd884" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00016.png" id="17_jeoo5"]
+[ext_resource type="Texture2D" uid="uid://ceh8qpsacsg0i" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00017.png" id="18_0am7i"]
+[ext_resource type="Texture2D" uid="uid://c2lv5mqm1albb" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00018.png" id="19_41xl4"]
+[ext_resource type="Texture2D" uid="uid://c0cel0w4vfvqt" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00019.png" id="20_3a845"]
+[ext_resource type="Texture2D" uid="uid://cvudemrm7ylr" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00020.png" id="21_blr5m"]
+[ext_resource type="Texture2D" uid="uid://bahmjebm4epgy" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00021.png" id="22_gxlfc"]
+[ext_resource type="Texture2D" uid="uid://c8ln7d7b85wnp" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00022.png" id="23_i1f83"]
+[ext_resource type="Texture2D" uid="uid://bbh8kp4mo7uew" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00023.png" id="24_2mwkx"]
+[ext_resource type="Texture2D" uid="uid://djikjjvpfgu08" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00024.png" id="25_0571r"]
+[ext_resource type="Texture2D" uid="uid://ciqgcw6g7o4b" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00025.png" id="26_43df0"]
+[ext_resource type="Texture2D" uid="uid://bg0a8yiyybdgp" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00026.png" id="27_3t7s0"]
+[ext_resource type="Texture2D" uid="uid://xrq6644rtfp0" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00027.png" id="28_k5aoc"]
+[ext_resource type="Texture2D" uid="uid://dm3wcx4dypogv" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00028.png" id="29_enhwc"]
+[ext_resource type="Texture2D" uid="uid://b3jgkj1olybap" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/Chainsaw Cuistot_00029.png" id="30_6nidk"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3yon0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_o6njl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_aigs0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_lfcs6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_jhs71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_hfd3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bx3sa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_fkvgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_jb6md")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_c5byn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_s7ih1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_yyb2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nvgs4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_j4u2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_6n446")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_t8vb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_jeoo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_0am7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_41xl4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_3a845")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_blr5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_gxlfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_i1f83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_2mwkx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_0571r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_43df0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_3t7s0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_k5aoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_enhwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_6nidk")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

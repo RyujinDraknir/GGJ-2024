@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://tb80c87yeg1p"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_vql6v"]
+[ext_resource type="SpriteFrames" uid="uid://c8ie18hrx4p5d" path="res://assets/npcs/Cuisine/CUI_InverseVulgaire/CUI_InverseVulgaire/CUI_InverseVulgaire.tres" id="2_isle6"]
+
+[node name="CUI_InverseVulgaire" instance=ExtResource("1_vql6v")]
+sprite_frames = ExtResource("2_isle6")
+frame_progress = 0.0
+
+[node name="CSGBox3D" parent="." index="0"]
+transform = Transform3D(0.678179, 0, 0, 0, 0.924941, 0, 0, 0, 1, -0.190086, -0.0928685, 2.98023e-08)

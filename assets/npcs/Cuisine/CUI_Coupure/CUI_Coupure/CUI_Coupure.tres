@@ -1,0 +1,222 @@
+[gd_resource type="SpriteFrames" load_steps=54 format=3 uid="uid://nckv7bes8hvc"]
+
+[ext_resource type="Texture2D" uid="uid://d24aldayi7d6e" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00000.png" id="1_6pa8t"]
+[ext_resource type="Texture2D" uid="uid://dbg7e7h8d3dse" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00001.png" id="2_dejfm"]
+[ext_resource type="Texture2D" uid="uid://c3k5xyi5jdjbk" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00002.png" id="3_cfc0k"]
+[ext_resource type="Texture2D" uid="uid://bdwmwf6b433c" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00003.png" id="4_e8lxi"]
+[ext_resource type="Texture2D" uid="uid://dg3ix8mmisvpv" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00004.png" id="5_yb51b"]
+[ext_resource type="Texture2D" uid="uid://dd87u1ikq1q3h" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00005.png" id="6_8ofu6"]
+[ext_resource type="Texture2D" uid="uid://cmnwqsxw66arv" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00006.png" id="7_tthsc"]
+[ext_resource type="Texture2D" uid="uid://b0cxwn5hg54yw" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00007.png" id="8_06vtw"]
+[ext_resource type="Texture2D" uid="uid://g8au4x4kllb5" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00008.png" id="9_my34r"]
+[ext_resource type="Texture2D" uid="uid://njuy1igeu4ja" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00009.png" id="10_4rovj"]
+[ext_resource type="Texture2D" uid="uid://dr5e5n4mdrojg" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00010.png" id="11_xktir"]
+[ext_resource type="Texture2D" uid="uid://cs6j2ttop6s5q" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00011.png" id="12_42635"]
+[ext_resource type="Texture2D" uid="uid://b0vnjebmh3h6y" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00012.png" id="13_fid8e"]
+[ext_resource type="Texture2D" uid="uid://jtgujl8hpsc0" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00013.png" id="14_7xvle"]
+[ext_resource type="Texture2D" uid="uid://btt5wcps2p5d4" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00014.png" id="15_eo0mr"]
+[ext_resource type="Texture2D" uid="uid://cbelxn7kaonic" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00015.png" id="16_ej6dc"]
+[ext_resource type="Texture2D" uid="uid://d3sjow8sfgmg4" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00016.png" id="17_mp70k"]
+[ext_resource type="Texture2D" uid="uid://b0ipxaolo27lq" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00017.png" id="18_mtnpf"]
+[ext_resource type="Texture2D" uid="uid://v1u3w2o03o6l" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00018.png" id="19_jgkud"]
+[ext_resource type="Texture2D" uid="uid://ced5bn3najc3v" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00019.png" id="20_j7um7"]
+[ext_resource type="Texture2D" uid="uid://cc06tgevvaxxy" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00020.png" id="21_mj2pj"]
+[ext_resource type="Texture2D" uid="uid://2tjehrahbicu" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00021.png" id="22_1bgv3"]
+[ext_resource type="Texture2D" uid="uid://3m8gegpiych1" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00022.png" id="23_n44fh"]
+[ext_resource type="Texture2D" uid="uid://bfa3j3batw6u5" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00023.png" id="24_q16ai"]
+[ext_resource type="Texture2D" uid="uid://ves51g8wrvtp" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00024.png" id="25_6b1qw"]
+[ext_resource type="Texture2D" uid="uid://b1xfytbw12ir" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00025.png" id="26_tx884"]
+[ext_resource type="Texture2D" uid="uid://bvts7t2l2v7ys" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00026.png" id="27_145al"]
+[ext_resource type="Texture2D" uid="uid://bumw1m5k1xfk5" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00027.png" id="28_4kmvc"]
+[ext_resource type="Texture2D" uid="uid://d4khokcwbojny" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00028.png" id="29_ko4wn"]
+[ext_resource type="Texture2D" uid="uid://chpa7fv4udrod" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00029.png" id="30_h460t"]
+[ext_resource type="Texture2D" uid="uid://difj52nkf4pqb" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00030.png" id="31_ks0e0"]
+[ext_resource type="Texture2D" uid="uid://fu7g27u6htby" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00031.png" id="32_mry2r"]
+[ext_resource type="Texture2D" uid="uid://dfdjb01tceco6" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00032.png" id="33_1ci8c"]
+[ext_resource type="Texture2D" uid="uid://dyebspg35ewn6" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00033.png" id="34_ht2dk"]
+[ext_resource type="Texture2D" uid="uid://dxddf8s1uim0" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00034.png" id="35_1iiyq"]
+[ext_resource type="Texture2D" uid="uid://qr4p151lf3t4" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00035.png" id="36_30lt6"]
+[ext_resource type="Texture2D" uid="uid://b7t3d0cob2aik" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00036.png" id="37_xuuhb"]
+[ext_resource type="Texture2D" uid="uid://b2yhombrcwueh" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00037.png" id="38_ek6bl"]
+[ext_resource type="Texture2D" uid="uid://cdytcwl5go351" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00038.png" id="39_2ef47"]
+[ext_resource type="Texture2D" uid="uid://dtnaw7mg6tvex" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00039.png" id="40_i3u61"]
+[ext_resource type="Texture2D" uid="uid://88m187v6ltvr" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00040.png" id="41_i7an0"]
+[ext_resource type="Texture2D" uid="uid://do6438w02tyvi" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00041.png" id="42_th85n"]
+[ext_resource type="Texture2D" uid="uid://d0rjdhxbccryp" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00042.png" id="43_x8t5o"]
+[ext_resource type="Texture2D" uid="uid://crrhoj0wl6qxg" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00043.png" id="44_lo2ne"]
+[ext_resource type="Texture2D" uid="uid://bwya3c771ujty" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00044.png" id="45_6toxa"]
+[ext_resource type="Texture2D" uid="uid://b57thujgutceg" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00045.png" id="46_v7ct6"]
+[ext_resource type="Texture2D" uid="uid://88pasoa27uxr" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00046.png" id="47_7ydcr"]
+[ext_resource type="Texture2D" uid="uid://cnhut81g3l672" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00047.png" id="48_78b6o"]
+[ext_resource type="Texture2D" uid="uid://v70e3dbfotvl" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00048.png" id="49_50ha7"]
+[ext_resource type="Texture2D" uid="uid://c2nl1px7nq15l" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00049.png" id="50_txomv"]
+[ext_resource type="Texture2D" uid="uid://cikxtfrf04ff5" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00050.png" id="51_56nmk"]
+[ext_resource type="Texture2D" uid="uid://df7jtlit7ula7" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00051.png" id="52_w6p4u"]
+[ext_resource type="Texture2D" uid="uid://bwbbvw88khrcj" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/Test-Animation_00052.png" id="53_i6ox2"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_6pa8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dejfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_cfc0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_e8lxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_yb51b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8ofu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tthsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_06vtw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_my34r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_4rovj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_xktir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_42635")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_fid8e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_7xvle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_eo0mr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ej6dc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_mp70k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_mtnpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_jgkud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_j7um7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_mj2pj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_1bgv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_n44fh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_q16ai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_6b1qw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_tx884")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_145al")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_4kmvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ko4wn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_h460t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ks0e0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_mry2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_1ci8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ht2dk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_1iiyq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_30lt6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_xuuhb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ek6bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_2ef47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_i3u61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_i7an0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_th85n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_x8t5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_lo2ne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_6toxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_v7ct6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_7ydcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_78b6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_50ha7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_txomv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_56nmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_w6p4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_i6ox2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

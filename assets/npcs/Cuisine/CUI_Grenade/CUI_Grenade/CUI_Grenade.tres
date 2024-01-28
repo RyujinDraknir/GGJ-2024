@@ -1,0 +1,254 @@
+[gd_resource type="SpriteFrames" load_steps=62 format=3 uid="uid://d1a7oclww3ocn"]
+
+[ext_resource type="Texture2D" uid="uid://dy6e4c3pggkme" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00000.png" id="1_m6wmx"]
+[ext_resource type="Texture2D" uid="uid://ju5e1dsj82hi" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00001.png" id="2_a76ve"]
+[ext_resource type="Texture2D" uid="uid://dbs50ph7mluqy" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00002.png" id="3_ajbfe"]
+[ext_resource type="Texture2D" uid="uid://cy25s583pos3" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00003.png" id="4_hmpso"]
+[ext_resource type="Texture2D" uid="uid://cm5w3e83d8rv" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00004.png" id="5_8lio5"]
+[ext_resource type="Texture2D" uid="uid://bi6b2fo73xdoh" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00005.png" id="6_1pxxj"]
+[ext_resource type="Texture2D" uid="uid://3mjyu62us3lk" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00006.png" id="7_g2tgm"]
+[ext_resource type="Texture2D" uid="uid://dk631lu4l2ptf" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00007.png" id="8_rq58x"]
+[ext_resource type="Texture2D" uid="uid://doxbdwvdp508u" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00008.png" id="9_sguy5"]
+[ext_resource type="Texture2D" uid="uid://bvuup878vmab1" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00009.png" id="10_b0pc8"]
+[ext_resource type="Texture2D" uid="uid://dqmetm82kghp7" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00010.png" id="11_4x8xs"]
+[ext_resource type="Texture2D" uid="uid://cdxpdr0dutjqh" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00011.png" id="12_jb5c8"]
+[ext_resource type="Texture2D" uid="uid://jtjx5aorquge" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00012.png" id="13_hpt77"]
+[ext_resource type="Texture2D" uid="uid://b54peneikg5ed" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00013.png" id="14_ma0s3"]
+[ext_resource type="Texture2D" uid="uid://1pyxrdhpcsax" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00014.png" id="15_fq368"]
+[ext_resource type="Texture2D" uid="uid://bihbk6my0gpme" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00015.png" id="16_4oblp"]
+[ext_resource type="Texture2D" uid="uid://bqqo53ogxv4o5" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00016.png" id="17_7o2y7"]
+[ext_resource type="Texture2D" uid="uid://j2wl42ngb7gt" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00017.png" id="18_5b4dw"]
+[ext_resource type="Texture2D" uid="uid://dgm06sn0uqoi" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00018.png" id="19_8wtid"]
+[ext_resource type="Texture2D" uid="uid://psdcj8kj5qxm" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00019.png" id="20_o7c7q"]
+[ext_resource type="Texture2D" uid="uid://c0w6ert0gpscd" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00020.png" id="21_35rrs"]
+[ext_resource type="Texture2D" uid="uid://thxtq5iwrhrr" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00021.png" id="22_lmisb"]
+[ext_resource type="Texture2D" uid="uid://cis3lbqov27hy" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00022.png" id="23_4uf1x"]
+[ext_resource type="Texture2D" uid="uid://m57nyfgy8bip" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00023.png" id="24_0heo2"]
+[ext_resource type="Texture2D" uid="uid://b57n1y7a6ul8y" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00024.png" id="25_nkhsn"]
+[ext_resource type="Texture2D" uid="uid://dflt2ei2dajj2" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00025.png" id="26_doqfm"]
+[ext_resource type="Texture2D" uid="uid://cxs5t5utu8rc2" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00026.png" id="27_gb83q"]
+[ext_resource type="Texture2D" uid="uid://crjrfcwo5bx6m" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00027.png" id="28_0o2wm"]
+[ext_resource type="Texture2D" uid="uid://bxgdalk4qfkg4" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00028.png" id="29_78685"]
+[ext_resource type="Texture2D" uid="uid://crf3jnx0dkf1o" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00029.png" id="30_krcdj"]
+[ext_resource type="Texture2D" uid="uid://dc6e5wj3qr4td" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00030.png" id="31_egpjt"]
+[ext_resource type="Texture2D" uid="uid://ficuwxpyqkx" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00031.png" id="32_yofsc"]
+[ext_resource type="Texture2D" uid="uid://ru48aqkxaqq4" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00032.png" id="33_4yiqn"]
+[ext_resource type="Texture2D" uid="uid://7v6w61iq45a5" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00033.png" id="34_liptd"]
+[ext_resource type="Texture2D" uid="uid://ddxntkdlshqdl" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00034.png" id="35_ih3a7"]
+[ext_resource type="Texture2D" uid="uid://chps7sim5vg1w" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00035.png" id="36_nmdet"]
+[ext_resource type="Texture2D" uid="uid://cmaibseo3emho" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00036.png" id="37_fiswr"]
+[ext_resource type="Texture2D" uid="uid://dohit1yypytv1" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00037.png" id="38_0mstn"]
+[ext_resource type="Texture2D" uid="uid://bke370st5gkyn" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00038.png" id="39_xwmtf"]
+[ext_resource type="Texture2D" uid="uid://d13q7vg3k31dj" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00039.png" id="40_ccyx6"]
+[ext_resource type="Texture2D" uid="uid://cbprqw4llruta" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00040.png" id="41_sk4gj"]
+[ext_resource type="Texture2D" uid="uid://j1m3cwl3l6ow" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00041.png" id="42_ojokq"]
+[ext_resource type="Texture2D" uid="uid://ch6302reludnf" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00042.png" id="43_yc05h"]
+[ext_resource type="Texture2D" uid="uid://dwg8kuxemchub" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00043.png" id="44_0oo5p"]
+[ext_resource type="Texture2D" uid="uid://cb7dev0nyvm5q" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00044.png" id="45_yfy24"]
+[ext_resource type="Texture2D" uid="uid://b42hkafs1b7r0" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00045.png" id="46_w7gbt"]
+[ext_resource type="Texture2D" uid="uid://d0pjyja4qwk5m" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00046.png" id="47_qvbvw"]
+[ext_resource type="Texture2D" uid="uid://blqtwtvqr2kka" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00047.png" id="48_nso0c"]
+[ext_resource type="Texture2D" uid="uid://b3rtm5lyrfsxo" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00048.png" id="49_p4gxj"]
+[ext_resource type="Texture2D" uid="uid://ba1xro3sppcts" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00049.png" id="50_shl8t"]
+[ext_resource type="Texture2D" uid="uid://b7hdcg181be42" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00050.png" id="51_vw6f5"]
+[ext_resource type="Texture2D" uid="uid://bia7iwky6e28r" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00051.png" id="52_wob25"]
+[ext_resource type="Texture2D" uid="uid://c1hr8ycvt1a1p" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00052.png" id="53_uny26"]
+[ext_resource type="Texture2D" uid="uid://bak8r15e8q0om" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00053.png" id="54_phv74"]
+[ext_resource type="Texture2D" uid="uid://dvbus00qpj6fq" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00054.png" id="55_c4t2q"]
+[ext_resource type="Texture2D" uid="uid://c5qwfkx577c4n" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00055.png" id="56_hhptl"]
+[ext_resource type="Texture2D" uid="uid://bt1y7tc5f506b" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00056.png" id="57_jlbwy"]
+[ext_resource type="Texture2D" uid="uid://chxucyfubm3bv" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00057.png" id="58_5h3fb"]
+[ext_resource type="Texture2D" uid="uid://e8txcyrwwc3e" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00058.png" id="59_4huyh"]
+[ext_resource type="Texture2D" uid="uid://bq82vxew7rfft" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00059.png" id="60_1mo3q"]
+[ext_resource type="Texture2D" uid="uid://7lk2dnducadk" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/Cook Grenade_00060.png" id="61_2t2dv"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_m6wmx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_a76ve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ajbfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hmpso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8lio5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1pxxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_g2tgm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_rq58x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_sguy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_b0pc8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_4x8xs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_jb5c8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_hpt77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ma0s3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_fq368")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_4oblp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_7o2y7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_5b4dw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_8wtid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_o7c7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_35rrs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_lmisb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4uf1x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_0heo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_nkhsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_doqfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_gb83q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_0o2wm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_78685")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_krcdj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_egpjt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_yofsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_4yiqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_liptd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ih3a7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_nmdet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_fiswr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_0mstn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_xwmtf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ccyx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_sk4gj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_ojokq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_yc05h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_0oo5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_yfy24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_w7gbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_qvbvw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_nso0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_p4gxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_shl8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_vw6f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_wob25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_uny26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_phv74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_c4t2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_hhptl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_jlbwy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_5h3fb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_4huyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_1mo3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_2t2dv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

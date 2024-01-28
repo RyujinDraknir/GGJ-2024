@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://bi5gpk8861njv"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_yq20q"]
+[ext_resource type="SpriteFrames" uid="uid://didunp1qi4iw4" path="res://assets/npcs/Cuisine/CUI_Neutre/CUI_Neutre/CUI_Neutre.tres" id="2_ivsix"]
+
+[node name="CUI_Neutre" instance=ExtResource("1_yq20q")]
+sprite_frames = ExtResource("2_ivsix")
+frame_progress = 0.0

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cffk7j1xnkok0"]
 
 [ext_resource type="Script" path="res://scripts/npc.gd" id="1_3kd87"]
-[ext_resource type="SpriteFrames" uid="uid://cjycxw65ibkc0" path="res://assets/npcs/TF1/Meme/meme.tres" id="1_phqgg"]
+[ext_resource type="SpriteFrames" uid="uid://deefnf8o8y5g5" path="res://prefabScenes/npc/npc.tres" id="1_phqgg"]
 
 [node name="Npc" type="AnimatedSprite3D" groups=["npc"]]
 sprite_frames = ExtResource("1_phqgg")

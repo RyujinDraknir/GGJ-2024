@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://53iovj7cpp15"]
+
+[ext_resource type="Texture2D" uid="uid://d3wxs1sge6mxq" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00000.png" id="1_1l30a"]
+[ext_resource type="Texture2D" uid="uid://bfne2kfh2oghv" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00001.png" id="2_2hjnb"]
+[ext_resource type="Texture2D" uid="uid://bt0ephg2bymhy" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00002.png" id="3_j8cu4"]
+[ext_resource type="Texture2D" uid="uid://du8vk486iiqdp" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00003.png" id="4_68a4l"]
+[ext_resource type="Texture2D" uid="uid://dys7s3rkfodf8" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00004.png" id="5_pcdg5"]
+[ext_resource type="Texture2D" uid="uid://b4b13fkxoeug" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00005.png" id="6_tfnol"]
+[ext_resource type="Texture2D" uid="uid://c4d8kn8iex0kb" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00006.png" id="7_5agv4"]
+[ext_resource type="Texture2D" uid="uid://8fcrysxv46fn" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00007.png" id="8_fkmkj"]
+[ext_resource type="Texture2D" uid="uid://2ytvge6lw6v" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00008.png" id="9_btg7l"]
+[ext_resource type="Texture2D" uid="uid://bej0niitavbvr" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00009.png" id="10_cha2e"]
+[ext_resource type="Texture2D" uid="uid://65a0bo4o2wbf" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00010.png" id="11_7ksq3"]
+[ext_resource type="Texture2D" uid="uid://irjkw4nrolsy" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00011.png" id="12_2byw3"]
+[ext_resource type="Texture2D" uid="uid://cyh3t7r53sl22" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00012.png" id="13_2rbqv"]
+[ext_resource type="Texture2D" uid="uid://c0re70tdmiaa1" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00013.png" id="14_5yh74"]
+[ext_resource type="Texture2D" uid="uid://ce24yu7tdpri3" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00014.png" id="15_a7rka"]
+[ext_resource type="Texture2D" uid="uid://bmc3gp5w3swiv" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00015.png" id="16_hhgtw"]
+[ext_resource type="Texture2D" uid="uid://df6fjyla1tii6" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00016.png" id="17_begj3"]
+[ext_resource type="Texture2D" uid="uid://b3jccyohrmvbc" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00017.png" id="18_dilai"]
+[ext_resource type="Texture2D" uid="uid://n2gs5t0qb8cf" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00018.png" id="19_6818d"]
+[ext_resource type="Texture2D" uid="uid://b3c1qdp0egk3k" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00019.png" id="20_52gxk"]
+[ext_resource type="Texture2D" uid="uid://dets61ok01jqf" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00020.png" id="21_oobim"]
+[ext_resource type="Texture2D" uid="uid://df7abrc082bj1" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00021.png" id="22_s3mhp"]
+[ext_resource type="Texture2D" uid="uid://3mcrg48oh5eh" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00022.png" id="23_anpmm"]
+[ext_resource type="Texture2D" uid="uid://bim8at4wfyjno" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00023.png" id="24_0fin7"]
+[ext_resource type="Texture2D" uid="uid://cstlsfnf0ignw" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00024.png" id="25_8ath1"]
+[ext_resource type="Texture2D" uid="uid://jkvj3o46odrg" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00025.png" id="26_ginp4"]
+[ext_resource type="Texture2D" uid="uid://cn34sikjq032q" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00026.png" id="27_erqxc"]
+[ext_resource type="Texture2D" uid="uid://e43emcd5qvb2" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00027.png" id="28_hifae"]
+[ext_resource type="Texture2D" uid="uid://by0rthm5topaw" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00028.png" id="29_wkd1l"]
+[ext_resource type="Texture2D" uid="uid://bjgj4kiojipbo" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00029.png" id="30_c28h0"]
+[ext_resource type="Texture2D" uid="uid://b0v1rgjwydyag" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00030.png" id="31_0mvkc"]
+[ext_resource type="Texture2D" uid="uid://c38jtq47emnia" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00031.png" id="32_g60t3"]
+[ext_resource type="Texture2D" uid="uid://bta8ewigsnfq0" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00032.png" id="33_cmv27"]
+[ext_resource type="Texture2D" uid="uid://b2a1ndh74heue" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00033.png" id="34_l5dhq"]
+[ext_resource type="Texture2D" uid="uid://drucvnwkwpnn2" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00034.png" id="35_6etdl"]
+[ext_resource type="Texture2D" uid="uid://cic8evtqkn52k" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00035.png" id="36_0khwl"]
+[ext_resource type="Texture2D" uid="uid://3la05t8pjp1b" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00036.png" id="37_2yq1q"]
+[ext_resource type="Texture2D" uid="uid://fbqa77ypwy1s" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00037.png" id="38_l7bby"]
+[ext_resource type="Texture2D" uid="uid://swot7gyebqrx" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00038.png" id="39_33w3h"]
+[ext_resource type="Texture2D" uid="uid://n2ce0v25cbm7" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00039.png" id="40_6lsd1"]
+[ext_resource type="Texture2D" uid="uid://c1egvndt8nh5h" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00040.png" id="41_ox05u"]
+[ext_resource type="Texture2D" uid="uid://ymg4aruv7ie2" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00041.png" id="42_0o31h"]
+[ext_resource type="Texture2D" uid="uid://r3o6n4dw5m3v" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00042.png" id="43_o6lso"]
+[ext_resource type="Texture2D" uid="uid://daxr3bnyjfhxs" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00043.png" id="44_balun"]
+[ext_resource type="Texture2D" uid="uid://dblojycstn25l" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00044.png" id="45_sr4yn"]
+[ext_resource type="Texture2D" uid="uid://0yqcg57ug53l" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00045.png" id="46_giedo"]
+[ext_resource type="Texture2D" uid="uid://brm23d4dn21fs" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00046.png" id="47_bvxm3"]
+[ext_resource type="Texture2D" uid="uid://bkc6lk6h5gp0w" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00047.png" id="48_e2c23"]
+[ext_resource type="Texture2D" uid="uid://cgsal13l6e1lf" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00048.png" id="49_b2jb0"]
+[ext_resource type="Texture2D" uid="uid://h68hyxgt81yl" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00049.png" id="50_skn3n"]
+[ext_resource type="Texture2D" uid="uid://cpr877ffjhye3" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00050.png" id="51_l87sw"]
+[ext_resource type="Texture2D" uid="uid://dm76gr46y23a" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00051.png" id="52_dmo11"]
+[ext_resource type="Texture2D" uid="uid://bhw461pirro57" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00052.png" id="53_d4md4"]
+[ext_resource type="Texture2D" uid="uid://bgew4knls7gaq" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00053.png" id="54_v2i64"]
+[ext_resource type="Texture2D" uid="uid://bn3xvuqrb6g75" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00054.png" id="55_iv7a7"]
+[ext_resource type="Texture2D" uid="uid://0st2fu4b8wqr" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00055.png" id="56_83a5r"]
+[ext_resource type="Texture2D" uid="uid://bk83ppo4hlrsl" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00056.png" id="57_v4rqe"]
+[ext_resource type="Texture2D" uid="uid://pr746gfm512e" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00057.png" id="58_octdg"]
+[ext_resource type="Texture2D" uid="uid://sffljr8ht0qu" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00058.png" id="59_mij44"]
+[ext_resource type="Texture2D" uid="uid://rw0c7dhqj7bb" path="res://assets/npcs/Cuisine/CUI_Rat/CUI_Rat/Rat_00059.png" id="60_y06ir"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_1l30a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2hjnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_j8cu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_68a4l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_pcdg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_tfnol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_5agv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_fkmkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_btg7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_cha2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_7ksq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_2byw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_2rbqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5yh74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_a7rka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_hhgtw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_begj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_dilai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_6818d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_52gxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_oobim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_s3mhp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_anpmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_0fin7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_8ath1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ginp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_erqxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_hifae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_wkd1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_c28h0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_0mvkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_g60t3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_cmv27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_l5dhq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_6etdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_0khwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_2yq1q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_l7bby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_33w3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6lsd1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ox05u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_0o31h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_o6lso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_balun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_sr4yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_giedo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_bvxm3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_e2c23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_b2jb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_skn3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_l87sw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_dmo11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_d4md4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_v2i64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_iv7a7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_83a5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_v4rqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_octdg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_mij44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_y06ir")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

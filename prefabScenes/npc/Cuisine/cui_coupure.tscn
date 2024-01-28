@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://w55hcmkuop4c"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_5m6nf"]
+[ext_resource type="SpriteFrames" uid="uid://nckv7bes8hvc" path="res://assets/npcs/Cuisine/CUI_Coupure/CUI_Coupure/CUI_Coupure.tres" id="2_dkp3v"]
+
+[node name="CUI_Coupure" instance=ExtResource("1_5m6nf")]
+sprite_frames = ExtResource("2_dkp3v")
+frame = 15
+frame_progress = 0.996047
+isBad = true
+
+[node name="CSGBox3D" parent="." index="0"]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 0.0619202, -1.41544, 2.98023e-08)

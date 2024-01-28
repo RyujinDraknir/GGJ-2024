@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://m7tqipwhedyq"]
+
+[ext_resource type="Texture2D" uid="uid://ck16a3u1grpeu" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00000.png" id="1_brrne"]
+[ext_resource type="Texture2D" uid="uid://c1exsca2x2ywu" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00001.png" id="2_ii3dp"]
+[ext_resource type="Texture2D" uid="uid://h206qfdj3jgo" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00002.png" id="3_d1rxb"]
+[ext_resource type="Texture2D" uid="uid://dv767swxalto6" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00003.png" id="4_a0shv"]
+[ext_resource type="Texture2D" uid="uid://vk4u1fi2wh2c" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00004.png" id="5_phaq3"]
+[ext_resource type="Texture2D" uid="uid://dnifxelxvuqh3" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00005.png" id="6_dpbwc"]
+[ext_resource type="Texture2D" uid="uid://bcujaixbpwuhi" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00006.png" id="7_8f7kl"]
+[ext_resource type="Texture2D" uid="uid://bm23c368cabsh" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00007.png" id="8_vn63s"]
+[ext_resource type="Texture2D" uid="uid://bqehotbu02nd4" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00008.png" id="9_2n3mj"]
+[ext_resource type="Texture2D" uid="uid://3bx7p36xll06" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00009.png" id="10_7h3ym"]
+[ext_resource type="Texture2D" uid="uid://brf2543rh4g28" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00010.png" id="11_56tng"]
+[ext_resource type="Texture2D" uid="uid://d25s1heyjtm1e" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00011.png" id="12_j6s4p"]
+[ext_resource type="Texture2D" uid="uid://xmxwk2gf1h0d" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00012.png" id="13_f43lw"]
+[ext_resource type="Texture2D" uid="uid://ciaiadbp2imo0" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00013.png" id="14_hqyi5"]
+[ext_resource type="Texture2D" uid="uid://c2mmeyeah3vyw" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00014.png" id="15_tg2oo"]
+[ext_resource type="Texture2D" uid="uid://3vppd4f1nn03" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00015.png" id="16_rp0tv"]
+[ext_resource type="Texture2D" uid="uid://omscx1wr5q25" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00016.png" id="17_3pxed"]
+[ext_resource type="Texture2D" uid="uid://skxg0ysqkyib" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00017.png" id="18_vj468"]
+[ext_resource type="Texture2D" uid="uid://qg7vltvbp0co" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00018.png" id="19_3ulwb"]
+[ext_resource type="Texture2D" uid="uid://dmnloiv5lcgse" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00019.png" id="20_ngl7x"]
+[ext_resource type="Texture2D" uid="uid://dmmummdboejdp" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00020.png" id="21_gisnv"]
+[ext_resource type="Texture2D" uid="uid://cdq6oya8xyhdc" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00021.png" id="22_u77yb"]
+[ext_resource type="Texture2D" uid="uid://fj8315dwwyhj" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00022.png" id="23_d1t5b"]
+[ext_resource type="Texture2D" uid="uid://j1f5pkjpparu" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00023.png" id="24_jm0ul"]
+[ext_resource type="Texture2D" uid="uid://cy5gwttkxvvre" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00024.png" id="25_a8jp1"]
+[ext_resource type="Texture2D" uid="uid://4j2irjiq3ywv" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00025.png" id="26_ab5vq"]
+[ext_resource type="Texture2D" uid="uid://ctsf1ttb0bi67" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00026.png" id="27_osv2l"]
+[ext_resource type="Texture2D" uid="uid://qc0ly8lvuenr" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00027.png" id="28_gqxli"]
+[ext_resource type="Texture2D" uid="uid://bc43rwx635a4p" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00028.png" id="29_pdx16"]
+[ext_resource type="Texture2D" uid="uid://byihy61edyofa" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00029.png" id="30_66nn1"]
+[ext_resource type="Texture2D" uid="uid://biw3u0dmlf3ca" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00030.png" id="31_7ei8k"]
+[ext_resource type="Texture2D" uid="uid://caotj88uwi4fe" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00031.png" id="32_1koyk"]
+[ext_resource type="Texture2D" uid="uid://chyngpq3ph810" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00032.png" id="33_nhwsh"]
+[ext_resource type="Texture2D" uid="uid://cget3ssa1y6g7" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00033.png" id="34_evllt"]
+[ext_resource type="Texture2D" uid="uid://k6sh01ry05bn" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00034.png" id="35_ycud7"]
+[ext_resource type="Texture2D" uid="uid://h71lenasdm67" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00035.png" id="36_xihih"]
+[ext_resource type="Texture2D" uid="uid://dde1r1h5i58ri" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00036.png" id="37_cn37t"]
+[ext_resource type="Texture2D" uid="uid://bpopw1tnqblld" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00037.png" id="38_4n6pm"]
+[ext_resource type="Texture2D" uid="uid://cjeqhw57gvo27" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00038.png" id="39_r3w5y"]
+[ext_resource type="Texture2D" uid="uid://trghvf1t1xm0" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00039.png" id="40_wmhjx"]
+[ext_resource type="Texture2D" uid="uid://c6rx8e7375e3o" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00040.png" id="41_2ebmv"]
+[ext_resource type="Texture2D" uid="uid://yhes7e4mxkr3" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00041.png" id="42_cvfp5"]
+[ext_resource type="Texture2D" uid="uid://ccdj3cqnxj3u0" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00042.png" id="43_yiu5o"]
+[ext_resource type="Texture2D" uid="uid://dsgw73afv4hid" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00043.png" id="44_fld4d"]
+[ext_resource type="Texture2D" uid="uid://cpel3s58wgbwo" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00044.png" id="45_bgcg4"]
+[ext_resource type="Texture2D" uid="uid://bjc52cefdoxv2" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00045.png" id="46_ub8jo"]
+[ext_resource type="Texture2D" uid="uid://c0dbaxyyblvjk" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00046.png" id="47_ahidm"]
+[ext_resource type="Texture2D" uid="uid://dnm6tea14kohc" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00047.png" id="48_un5hy"]
+[ext_resource type="Texture2D" uid="uid://qbi0syfqy0y8" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00048.png" id="49_iovx3"]
+[ext_resource type="Texture2D" uid="uid://c0wbdxakrlt3r" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00049.png" id="50_r2kis"]
+[ext_resource type="Texture2D" uid="uid://bvvhtcevd6h5a" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00050.png" id="51_8tl8x"]
+[ext_resource type="Texture2D" uid="uid://dw5vgb8peh6td" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00051.png" id="52_aweoy"]
+[ext_resource type="Texture2D" uid="uid://bhx7squ3ipl2e" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00052.png" id="53_dp6t6"]
+[ext_resource type="Texture2D" uid="uid://dxmhnwsi2jyn1" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00053.png" id="54_62krn"]
+[ext_resource type="Texture2D" uid="uid://cwveluq0fysib" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00054.png" id="55_mdkcs"]
+[ext_resource type="Texture2D" uid="uid://ddk5xeqr3fckf" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00055.png" id="56_lqvrq"]
+[ext_resource type="Texture2D" uid="uid://c2vncov6pdbw6" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00056.png" id="57_pl5pl"]
+[ext_resource type="Texture2D" uid="uid://de4c35bwp2qp8" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00057.png" id="58_g1vl6"]
+[ext_resource type="Texture2D" uid="uid://doae2rcgdjcij" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00058.png" id="59_ewij7"]
+[ext_resource type="Texture2D" uid="uid://ckj4mtkmwwe8n" path="res://assets/npcs/Cuisine/CUI_Tarte/CUI_Tarte/Tarte_00059.png" id="60_kew16"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_brrne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ii3dp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_d1rxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_a0shv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_phaq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dpbwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_8f7kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_vn63s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_2n3mj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_7h3ym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_56tng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_j6s4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_f43lw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hqyi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_tg2oo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_rp0tv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_3pxed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_vj468")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_3ulwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ngl7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_gisnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_u77yb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_d1t5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_jm0ul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_a8jp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ab5vq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_osv2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_gqxli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_pdx16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_66nn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_7ei8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_1koyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_nhwsh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_evllt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ycud7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_xihih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_cn37t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_4n6pm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_r3w5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_wmhjx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_2ebmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_cvfp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_yiu5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_fld4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_bgcg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_ub8jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_ahidm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_un5hy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_iovx3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_r2kis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_8tl8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_aweoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_dp6t6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_62krn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_mdkcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_lqvrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_pl5pl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_g1vl6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_ewij7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_kew16")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

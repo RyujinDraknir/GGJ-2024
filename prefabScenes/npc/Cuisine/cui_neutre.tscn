@@ -4,5 +4,6 @@
 [ext_resource type="SpriteFrames" uid="uid://didunp1qi4iw4" path="res://assets/npcs/Cuisine/CUI_Neutre/CUI_Neutre/CUI_Neutre.tres" id="2_ivsix"]
 
 [node name="CUI_Neutre" instance=ExtResource("1_yq20q")]
+transform = Transform3D(-4.37114e-09, 0, -0.1, 0, 0.1, 0, 0.1, 0, -4.37114e-09, 11, -0.2, 0)
 sprite_frames = ExtResource("2_ivsix")
 frame_progress = 0.0

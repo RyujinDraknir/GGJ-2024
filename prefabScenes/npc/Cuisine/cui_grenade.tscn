@@ -4,6 +4,7 @@
 [ext_resource type="SpriteFrames" uid="uid://d1a7oclww3ocn" path="res://assets/npcs/Cuisine/CUI_Grenade/CUI_Grenade/CUI_Grenade.tres" id="2_8h6wv"]
 
 [node name="CUI_Grenade" instance=ExtResource("1_dnsx3")]
+transform = Transform3D(-4.37114e-09, 0, -0.1, 0, 0.1, 0, 0.1, 0, -4.37114e-09, 11, -0.25, 0)
 sprite_frames = ExtResource("2_8h6wv")
 frame_progress = 0.0
 isBad = true

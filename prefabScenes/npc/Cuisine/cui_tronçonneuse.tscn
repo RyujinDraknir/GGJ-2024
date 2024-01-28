@@ -4,6 +4,7 @@
 [ext_resource type="SpriteFrames" uid="uid://brdufedo1ekb8" path="res://assets/npcs/Cuisine/CUI_Tronçonneuse/CUI_Tronçonneuse/CUI_Tronçonneuse.tres" id="2_u5f1x"]
 
 [node name="CUI_Tronçonneuse" instance=ExtResource("1_p6jct")]
+transform = Transform3D(-6.55671e-09, 0, -0.15, 0, 0.15, 0, 0.15, 0, -6.55671e-09, 11, -0.2, 0)
 sprite_frames = ExtResource("2_u5f1x")
 frame_progress = 0.0
 isBad = true

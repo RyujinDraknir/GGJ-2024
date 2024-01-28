@@ -90,6 +90,8 @@ func getPrefabPath(name : String) -> String:
 	var zone : String = name.left(3)
 	if zone == "CUI":
 		path += "Cuisine/" + name.to_lower() + ".tscn"
+	elif zone == "JTD":
+		path += "Debat/" + name.to_lower() + ".tscn"
 	return path
 
 class TvProgram:

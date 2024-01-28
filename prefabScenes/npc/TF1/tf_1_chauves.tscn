@@ -1,9 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://bf7gv36a8nd00"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_y7s8o"]
-[ext_resource type="SpriteFrames" uid="uid://8wsxbk1kip2v" path="res://assets/npcs/TF1/TF1_Chauves/TF1_Chauves.tres" id="2_8l8b4"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/TF1/TF1_Chauves/TF1_Chauves.tres" id="2_8l8b4"]
 
 [node name="TF1_Chauves" instance=ExtResource("1_y7s8o")]
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 0, 0, -8.5)
 sprite_frames = ExtResource("2_8l8b4")
 isBad = true
 

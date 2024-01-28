@@ -1,9 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://1h2hiwti8oa"]
+[gd_scene load_steps=3 format=3 uid="uid://cn0qp0e7hyr5o"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_k7cod"]
-[ext_resource type="SpriteFrames" uid="uid://btlonxnvqsxxt" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1_Zombie_Alerte.tres" id="2_yhjga"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1_Zombie_Alerte.tres" id="2_yhjga"]
 
 [node name="TF1_Zombie_Alerte" instance=ExtResource("1_k7cod")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 0.08, -0.18, -9.1)
 sprite_frames = ExtResource("2_yhjga")
 isBad = true
 

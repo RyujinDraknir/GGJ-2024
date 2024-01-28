@@ -1,9 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://byru8eshu2o3m"]
+[gd_scene load_steps=3 format=3 uid="uid://bpye7kvja0fn"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_6baq4"]
 [ext_resource type="SpriteFrames" uid="uid://3avquf0ng1hb" path="res://assets/npcs/TF1/TF1_Zombie/TF1_Zombie_Invasion/TF1_Zombie_Invasion.tres" id="2_qiq60"]
 
 [node name="TF1_Zombie_Invasion" instance=ExtResource("1_6baq4")]
+transform = Transform3D(0.07, 0, 0, 0, 0.07, 0, 0, 0, 0.07, 0, -0.35, -8.3)
 sprite_frames = ExtResource("2_qiq60")
 isBad = true
 

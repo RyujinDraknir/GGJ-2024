@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bu3jtkw7n5n38"
-path="res://.godot/imported/Zombie-invasion_00054.png-767db6584ee7e411bf63f1a85dc19268.ctex"
+path="res://.godot/imported/Zombie-invasion_00054.png-0a354390922f8e35ae0be1ec540386a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/npcs/TF1/TF1_Zombie/TF1_Zombie_Invasion/Zombie-invasion_00054.png"
-dest_files=["res://.godot/imported/Zombie-invasion_00054.png-767db6584ee7e411bf63f1a85dc19268.ctex"]
+source_file="res://assets/npcs/TF1/TF1_Zombie/TF1_Zombie_invasion/Zombie-invasion_00054.png"
+dest_files=["res://.godot/imported/Zombie-invasion_00054.png-0a354390922f8e35ae0be1ec540386a5.ctex"]
 
 [params]
 

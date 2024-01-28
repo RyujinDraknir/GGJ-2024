@@ -1,8 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://7ew4ak25ebjr"]
+[gd_scene load_steps=3 format=3 uid="uid://c8rkqlx2fe61w"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_dmnev"]
-[ext_resource type="SpriteFrames" uid="uid://y02bpjifo3cv" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/TF1_Telephone.tres" id="2_rlfay"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/TF1_Telephone.tres" id="2_rlfay"]
 
 [node name="TF1_Telephone" instance=ExtResource("1_dmnev")]
+transform = Transform3D(0.0984808, 0.0173648, 0, -0.0173648, 0.0984808, 0, 0, 0, 0.1, -0.2, -0.1, -9)
 sprite_frames = ExtResource("2_rlfay")
 isBad = true

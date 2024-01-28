@@ -1,9 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://dv1405cq5mbc3"]
+[gd_scene load_steps=3 format=3 uid="uid://b1ft3r50omx7c"]
 
 [ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_kojq0"]
-[ext_resource type="SpriteFrames" uid="uid://bx6saqocyqby7" path="res://assets/npcs/TF1/TF1_Soyjak/TF1_Soyjak/TF1_Soyjak.tres" id="2_g0qwj"]
+[ext_resource type="SpriteFrames" path="res://assets/npcs/TF1/TF1_Soyjak/TF1_Soyjak/TF1_Soyjak.tres" id="2_g0qwj"]
 
 [node name="TF1_Soyjak" instance=ExtResource("1_kojq0")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, -0.3, -8)
 sprite_frames = ExtResource("2_g0qwj")
 
 [node name="CSGBox3D" parent="." index="0"]

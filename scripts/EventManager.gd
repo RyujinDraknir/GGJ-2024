@@ -2,7 +2,7 @@ extends Node
 
 @onready var timer : Timer = $Timer
 
-const dataPath : String = "res://data/tv_events.json"
+const dataPath : String = "res://data/tv_events_cuisine.json"
 const prefabNpcPath : String = "res://prefabScenes/npc/"
 const startWaitDuration : int = 2
 const stepDuration : int = 5
@@ -65,6 +65,8 @@ func _on_timer_timeout():
 	currentStep = currentStep + 1 
 	if currentStep < len(tvProgram.TvSteps):
 		timer.start()
+	else:
+		print("end partie")
 	
 
 func jsonToTvHappening(json) -> TvHappening:

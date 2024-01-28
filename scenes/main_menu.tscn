@@ -1,7 +1,36 @@
-[gd_scene load_steps=2 format=3 uid="uid://dw7v5gjjf3sln"]
+[gd_scene load_steps=7 format=3 uid="uid://dw7v5gjjf3sln"]
 
 [ext_resource type="PackedScene" uid="uid://da8dwo4wi1hlu" path="res://prefabScenes/main_menu_interface.tscn" id="1_5qqle"]
+[ext_resource type="Script" path="res://scenes/Camera3D.gd" id="2_ieffg"]
+[ext_resource type="PackedScene" uid="uid://ngp3vwa5n6fd" path="res://prefabScenes/global_game_jam_fin.tscn" id="2_r7hy0"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_g4jsy"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_1jh51"]
+sky_material = SubResource("ProceduralSkyMaterial_g4jsy")
+
+[sub_resource type="Environment" id="Environment_rgefq"]
+background_mode = 2
+sky = SubResource("Sky_1jh51")
+tonemap_mode = 2
+glow_enabled = true
 
 [node name="MainMenu" type="Node3D"]
 
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_rgefq")
+
 [node name="MainMenuInterface" parent="." instance=ExtResource("1_5qqle")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+script = ExtResource("2_ieffg")
+
+[node name="Global_game_jam" parent="." instance=ExtResource("2_r7hy0")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.1, 0)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 17, 0)
+size = Vector3(100, 1, 100)

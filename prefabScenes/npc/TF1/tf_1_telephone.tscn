@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://7ew4ak25ebjr"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_dmnev"]
+[ext_resource type="SpriteFrames" uid="uid://y02bpjifo3cv" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/TF1_Telephone.tres" id="2_rlfay"]
+
+[node name="TF1_Telephone" instance=ExtResource("1_dmnev")]
+sprite_frames = ExtResource("2_rlfay")
+isBad = true

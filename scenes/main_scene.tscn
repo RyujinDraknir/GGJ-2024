@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://qlqu1mooo6lt"]
 
 [ext_resource type="PackedScene" uid="uid://caabi8447msyu" path="res://prefabScenes/player.tscn" id="1_g4gwe"]
-[ext_resource type="PackedScene" path="res://prefabScenes/global_game_jam_fin.tscn" id="2_46rrq"]
+[ext_resource type="PackedScene" uid="uid://ngp3vwa5n6fd" path="res://prefabScenes/global_game_jam_fin.tscn" id="2_46rrq"]
 [ext_resource type="Script" path="res://scripts/EventManager.gd" id="2_mht0t"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4co3b"]
@@ -27,7 +27,7 @@ shadow_enabled = true
 environment = SubResource("Environment_1vt6b")
 
 [node name="Player" parent="." instance=ExtResource("1_g4gwe")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
 
 [node name="EventManager#Timer" type="Timer" parent="."]
 wait_time = 2.0

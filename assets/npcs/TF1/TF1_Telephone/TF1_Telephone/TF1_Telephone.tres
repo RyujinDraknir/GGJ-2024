@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://y02bpjifo3cv"]
+
+[ext_resource type="Texture2D" uid="uid://bi27w1xl2locx" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00000.png" id="1_h21u3"]
+[ext_resource type="Texture2D" uid="uid://dqitl30the6dw" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00001.png" id="2_cf7sf"]
+[ext_resource type="Texture2D" uid="uid://dcsdl012minp7" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00002.png" id="3_4a75h"]
+[ext_resource type="Texture2D" uid="uid://ba1g5q4dmjpy8" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00003.png" id="4_huu6e"]
+[ext_resource type="Texture2D" uid="uid://b30vmhtidthg4" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00004.png" id="5_bnw8d"]
+[ext_resource type="Texture2D" uid="uid://dele2l6gnbolo" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00005.png" id="6_8vfgu"]
+[ext_resource type="Texture2D" uid="uid://b453ymc0u5u7v" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00006.png" id="7_cwag0"]
+[ext_resource type="Texture2D" uid="uid://bctgjinvgty8s" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00007.png" id="8_170lk"]
+[ext_resource type="Texture2D" uid="uid://cmdyhedjigjtl" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00008.png" id="9_hs1rq"]
+[ext_resource type="Texture2D" uid="uid://bahm4ry7madrb" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00009.png" id="10_ahb0k"]
+[ext_resource type="Texture2D" uid="uid://c18hjr2tkxv17" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00010.png" id="11_q4ugw"]
+[ext_resource type="Texture2D" uid="uid://c7mx034ejr1c4" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00011.png" id="12_636yb"]
+[ext_resource type="Texture2D" uid="uid://djh6rj4bjpc1" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00012.png" id="13_fomde"]
+[ext_resource type="Texture2D" uid="uid://drmsf7kuh7mf6" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00013.png" id="14_rbawt"]
+[ext_resource type="Texture2D" uid="uid://bus4caa1tgvxt" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00014.png" id="15_8c6ag"]
+[ext_resource type="Texture2D" uid="uid://dxtcwvtsh2ait" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00015.png" id="16_wa6h6"]
+[ext_resource type="Texture2D" uid="uid://r2dexlwf6feq" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00016.png" id="17_7b4lp"]
+[ext_resource type="Texture2D" uid="uid://2ur462ofwy7h" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00017.png" id="18_4bejt"]
+[ext_resource type="Texture2D" uid="uid://b5t24qt53intp" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00018.png" id="19_7htu7"]
+[ext_resource type="Texture2D" uid="uid://c0xcv0enplbfg" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00019.png" id="20_4fk5a"]
+[ext_resource type="Texture2D" uid="uid://bcjpcxjfsma3i" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00020.png" id="21_6ojci"]
+[ext_resource type="Texture2D" uid="uid://ddcmc1roixll8" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00021.png" id="22_p6wb7"]
+[ext_resource type="Texture2D" uid="uid://xxjnxwvb0gdn" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00022.png" id="23_3t71d"]
+[ext_resource type="Texture2D" uid="uid://7osa7arrxs7j" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00023.png" id="24_yuhn2"]
+[ext_resource type="Texture2D" uid="uid://j3qm5sspuurw" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00024.png" id="25_5fcmy"]
+[ext_resource type="Texture2D" uid="uid://dkylp6iwnahft" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00025.png" id="26_ktrjc"]
+[ext_resource type="Texture2D" uid="uid://bqprqkb488cm4" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00026.png" id="27_slg20"]
+[ext_resource type="Texture2D" uid="uid://i36uvjrw5kbf" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00027.png" id="28_q6akq"]
+[ext_resource type="Texture2D" uid="uid://dtwlxnyk4viqd" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00028.png" id="29_v1pvn"]
+[ext_resource type="Texture2D" uid="uid://d04j4b6hq38ly" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00029.png" id="30_ctl31"]
+[ext_resource type="Texture2D" uid="uid://cusqxerfkqkst" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00030.png" id="31_emd0v"]
+[ext_resource type="Texture2D" uid="uid://bvgfp7gqc8p8p" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00031.png" id="32_wbrm1"]
+[ext_resource type="Texture2D" uid="uid://b6qs57uk01b04" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00032.png" id="33_hwlyx"]
+[ext_resource type="Texture2D" uid="uid://c44vilhk0jl0e" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00033.png" id="34_ovk3n"]
+[ext_resource type="Texture2D" uid="uid://2lujwfty2qd6" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00034.png" id="35_75d4c"]
+[ext_resource type="Texture2D" uid="uid://cy3bur8er3ct0" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00035.png" id="36_vbofr"]
+[ext_resource type="Texture2D" uid="uid://dvj7xt7gimckx" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00036.png" id="37_qs0lu"]
+[ext_resource type="Texture2D" uid="uid://cgxlcy25s0ijy" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00037.png" id="38_ddcio"]
+[ext_resource type="Texture2D" uid="uid://dkojdo2l5ssgk" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00038.png" id="39_lmt4p"]
+[ext_resource type="Texture2D" uid="uid://cuerog87p4mpa" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00039.png" id="40_mejod"]
+[ext_resource type="Texture2D" uid="uid://cmulvvxhbu5o2" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00040.png" id="41_sch5n"]
+[ext_resource type="Texture2D" uid="uid://iy4vfpi3ubcp" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00041.png" id="42_t3war"]
+[ext_resource type="Texture2D" uid="uid://pjesj21jj761" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00042.png" id="43_17fa1"]
+[ext_resource type="Texture2D" uid="uid://ctdwkni6jiamq" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00043.png" id="44_oy4xe"]
+[ext_resource type="Texture2D" uid="uid://bm41vd7hu0aat" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00044.png" id="45_kqn7p"]
+[ext_resource type="Texture2D" uid="uid://8n6g8pv3gdav" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00045.png" id="46_ynq7b"]
+[ext_resource type="Texture2D" uid="uid://2m01bbv0pqw0" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00046.png" id="47_3bdeh"]
+[ext_resource type="Texture2D" uid="uid://cgg27ke45vn3h" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00047.png" id="48_msslu"]
+[ext_resource type="Texture2D" uid="uid://b503tk123yvhs" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00048.png" id="49_f68f6"]
+[ext_resource type="Texture2D" uid="uid://c2lulkvivyu0y" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00049.png" id="50_cd2ak"]
+[ext_resource type="Texture2D" uid="uid://lxgvtdhortsg" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00050.png" id="51_b6dx5"]
+[ext_resource type="Texture2D" uid="uid://cr4l1q6xjqiw7" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00051.png" id="52_bpoc3"]
+[ext_resource type="Texture2D" uid="uid://cwqfnkkp07wot" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00052.png" id="53_kl7qo"]
+[ext_resource type="Texture2D" uid="uid://b0oq2jhgx1uih" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00053.png" id="54_1jach"]
+[ext_resource type="Texture2D" uid="uid://ppmph4b7j8x1" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00054.png" id="55_sqsqm"]
+[ext_resource type="Texture2D" uid="uid://cesxq08584a5m" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00055.png" id="56_o3ypb"]
+[ext_resource type="Texture2D" uid="uid://co1vxn73h6m3g" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00056.png" id="57_13u54"]
+[ext_resource type="Texture2D" uid="uid://bu6nc6a2j1028" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00057.png" id="58_ms1yc"]
+[ext_resource type="Texture2D" uid="uid://b8gs4gbu2c08b" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00058.png" id="59_e8bba"]
+[ext_resource type="Texture2D" uid="uid://c50ils1vn4oop" path="res://assets/npcs/TF1/TF1_Telephone/TF1_Telephone/PhoneCall_00059.png" id="60_qv2wy"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_h21u3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_cf7sf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4a75h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_huu6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_bnw8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8vfgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_cwag0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_170lk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_hs1rq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ahb0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_q4ugw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_636yb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_fomde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_rbawt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_8c6ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_wa6h6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_7b4lp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_4bejt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_7htu7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4fk5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_6ojci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_p6wb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_3t71d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_yuhn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_5fcmy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ktrjc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_slg20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_q6akq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_v1pvn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ctl31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_emd0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_wbrm1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_hwlyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ovk3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_75d4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_vbofr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_qs0lu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ddcio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_lmt4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_mejod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_sch5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_t3war")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_17fa1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_oy4xe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_kqn7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_ynq7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_3bdeh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_msslu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_f68f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_cd2ak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_b6dx5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_bpoc3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_kl7qo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_1jach")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_sqsqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_o3ypb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_13u54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_ms1yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_e8bba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_qv2wy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]

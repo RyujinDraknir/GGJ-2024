@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgwl0v26pkl4x"]
+
+[ext_resource type="PackedScene" uid="uid://cffk7j1xnkok0" path="res://prefabScenes/npc/npc.tscn" id="1_ukyae"]
+[ext_resource type="SpriteFrames" uid="uid://ol21a1h55268" path="res://assets/npcs/TF1/TF1_GesteDeplace/TF1_Geste-déplacé/TF1_Geste-deplace.tres" id="2_p2wqg"]
+
+[node name="TF1_Geste-deplace" instance=ExtResource("1_ukyae")]
+sprite_frames = ExtResource("2_p2wqg")
+isBad = true
+
+[node name="CSGBox3D" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.221882, 1.0882, 2.98023e-08)

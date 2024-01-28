@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://btlonxnvqsxxt"]
+
+[ext_resource type="Texture2D" uid="uid://bajxf8yyk4hmo" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00000.png" id="1_erhlt"]
+[ext_resource type="Texture2D" uid="uid://cnfek73gqfas5" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00001.png" id="2_e1uu7"]
+[ext_resource type="Texture2D" uid="uid://fmy61ik5rfcf" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00002.png" id="3_7suhq"]
+[ext_resource type="Texture2D" uid="uid://dy1l3i3uqyo6" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00003.png" id="4_sps8m"]
+[ext_resource type="Texture2D" uid="uid://de2315ta5t8q7" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00004.png" id="5_kaowr"]
+[ext_resource type="Texture2D" uid="uid://c2hil8gwwab37" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00005.png" id="6_a4uv5"]
+[ext_resource type="Texture2D" uid="uid://udjmkmerbxuo" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00006.png" id="7_8gijl"]
+[ext_resource type="Texture2D" uid="uid://cdu5sh3hall4x" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00007.png" id="8_q051e"]
+[ext_resource type="Texture2D" uid="uid://chb04nwkrn0pk" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00008.png" id="9_fqmwb"]
+[ext_resource type="Texture2D" uid="uid://cibkr500owb3x" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00009.png" id="10_gvs6k"]
+[ext_resource type="Texture2D" uid="uid://mptiasaqdvyx" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00010.png" id="11_m4prp"]
+[ext_resource type="Texture2D" uid="uid://dfe0o1sk23c3c" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00011.png" id="12_hmd5v"]
+[ext_resource type="Texture2D" uid="uid://gjutq1vds7kq" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00012.png" id="13_t0747"]
+[ext_resource type="Texture2D" uid="uid://dauxjaoqyrgq6" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00013.png" id="14_lkp26"]
+[ext_resource type="Texture2D" uid="uid://dpiwxcjsaj1hf" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00014.png" id="15_d0h62"]
+[ext_resource type="Texture2D" uid="uid://ds1xl2p21k64l" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00015.png" id="16_jig1o"]
+[ext_resource type="Texture2D" uid="uid://8yywttqnmdti" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00016.png" id="17_mqesv"]
+[ext_resource type="Texture2D" uid="uid://cl6wmpq7m2wcc" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00017.png" id="18_ochm0"]
+[ext_resource type="Texture2D" uid="uid://dfb61mqr1s00q" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00018.png" id="19_uwnk4"]
+[ext_resource type="Texture2D" uid="uid://cbrulcxgkb0tc" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00019.png" id="20_t4len"]
+[ext_resource type="Texture2D" uid="uid://c3sl41q56wyd5" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00020.png" id="21_fsng3"]
+[ext_resource type="Texture2D" uid="uid://0p56lwvwbsfo" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00021.png" id="22_ykonw"]
+[ext_resource type="Texture2D" uid="uid://dkb470wpdi2ny" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00022.png" id="23_3g6ad"]
+[ext_resource type="Texture2D" uid="uid://bduhfhredxxbv" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00023.png" id="24_4bvv6"]
+[ext_resource type="Texture2D" uid="uid://brg4q25vsw1tu" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00024.png" id="25_ljjwp"]
+[ext_resource type="Texture2D" uid="uid://dg5xh66u84cas" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00025.png" id="26_sec2g"]
+[ext_resource type="Texture2D" uid="uid://bc737n22jrwh" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00026.png" id="27_k46o0"]
+[ext_resource type="Texture2D" uid="uid://bvw5c1da6piqe" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00027.png" id="28_pobs2"]
+[ext_resource type="Texture2D" uid="uid://b2hg3cpkxoc6c" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00028.png" id="29_2hcn8"]
+[ext_resource type="Texture2D" uid="uid://cidr8buue6pyt" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00029.png" id="30_dusf2"]
+[ext_resource type="Texture2D" uid="uid://bue8eocvfpr6b" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00030.png" id="31_501cq"]
+[ext_resource type="Texture2D" uid="uid://lsybm7gd76yy" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00031.png" id="32_qjux7"]
+[ext_resource type="Texture2D" uid="uid://bjl7k7f303bo0" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00032.png" id="33_aml6w"]
+[ext_resource type="Texture2D" uid="uid://d108kv6fxhg3t" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00033.png" id="34_ste5t"]
+[ext_resource type="Texture2D" uid="uid://dgxkhrhe2dfi2" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00034.png" id="35_dow5w"]
+[ext_resource type="Texture2D" uid="uid://3txe147gvynt" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00035.png" id="36_eedgw"]
+[ext_resource type="Texture2D" uid="uid://dj0hwfnw7o0ji" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00036.png" id="37_xlkyi"]
+[ext_resource type="Texture2D" uid="uid://dy0xp0vj4y4b3" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00037.png" id="38_ww6ve"]
+[ext_resource type="Texture2D" uid="uid://bskxhatvdoy31" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00038.png" id="39_so6ml"]
+[ext_resource type="Texture2D" uid="uid://c7wa3swxrxjjg" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00039.png" id="40_4yvf2"]
+[ext_resource type="Texture2D" uid="uid://dych0yp8cgva5" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00040.png" id="41_ixr83"]
+[ext_resource type="Texture2D" uid="uid://esyjier7dgxo" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00041.png" id="42_qupll"]
+[ext_resource type="Texture2D" uid="uid://ckodh57a84sdh" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00042.png" id="43_v83ul"]
+[ext_resource type="Texture2D" uid="uid://bu8asa3ppo407" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00043.png" id="44_yi8j6"]
+[ext_resource type="Texture2D" uid="uid://c87kp0y3stm2n" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00044.png" id="45_gurst"]
+[ext_resource type="Texture2D" uid="uid://7plpyuhecb8a" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00045.png" id="46_70u5c"]
+[ext_resource type="Texture2D" uid="uid://daf1a0nqlo4l8" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00046.png" id="47_6xnf8"]
+[ext_resource type="Texture2D" uid="uid://c0xwgdx8x71cx" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00047.png" id="48_d40lb"]
+[ext_resource type="Texture2D" uid="uid://dkv737t1q0t2n" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00048.png" id="49_jnlyk"]
+[ext_resource type="Texture2D" uid="uid://dry0ufj2c607k" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00049.png" id="50_qesm3"]
+[ext_resource type="Texture2D" uid="uid://dbw4j8ey4spr0" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00050.png" id="51_2gm6l"]
+[ext_resource type="Texture2D" uid="uid://bsjlul4n3n3nw" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00051.png" id="52_pvxdx"]
+[ext_resource type="Texture2D" uid="uid://ccxdxfx33y2f0" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00052.png" id="53_25amq"]
+[ext_resource type="Texture2D" uid="uid://b32u3xur32s0h" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00053.png" id="54_rn5lu"]
+[ext_resource type="Texture2D" uid="uid://dfhjjbima3mt1" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00054.png" id="55_8qda5"]
+[ext_resource type="Texture2D" uid="uid://hkymwuue0sam" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00055.png" id="56_yakqh"]
+[ext_resource type="Texture2D" uid="uid://d24uukhqxbndx" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00056.png" id="57_pkmyk"]
+[ext_resource type="Texture2D" uid="uid://c52dodqn67u61" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00057.png" id="58_k5a61"]
+[ext_resource type="Texture2D" uid="uid://cdqckuxd6v53a" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00058.png" id="59_7mprb"]
+[ext_resource type="Texture2D" uid="uid://simvj3yefma0" path="res://assets/npcs/TF1/TF1_Zombie/TF1_ZombieAlert1PA/TF1ZombieAlert1PA_00059.png" id="60_fesbn"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_erhlt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_e1uu7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7suhq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_sps8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_kaowr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_a4uv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_8gijl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_q051e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_fqmwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_gvs6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_m4prp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_hmd5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_t0747")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_lkp26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_d0h62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_jig1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_mqesv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ochm0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_uwnk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_t4len")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_fsng3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ykonw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_3g6ad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_4bvv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ljjwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_sec2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_k46o0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_pobs2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_2hcn8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_dusf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_501cq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_qjux7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_aml6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ste5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_dow5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_eedgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_xlkyi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ww6ve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_so6ml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_4yvf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ixr83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_qupll")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_v83ul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_yi8j6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_gurst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_70u5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_6xnf8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_d40lb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_jnlyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_qesm3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_2gm6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_pvxdx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_25amq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_rn5lu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_8qda5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_yakqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_pkmyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_k5a61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_7mprb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_fesbn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
